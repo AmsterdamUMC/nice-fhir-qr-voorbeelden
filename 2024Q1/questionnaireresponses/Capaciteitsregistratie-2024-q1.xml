@@ -1,0 +1,728 @@
+<Bundle xmlns="http://hl7.org/fhir">
+   <meta>
+      <profile value="https://fhir.stichting-nice.nl/fhir/R4/StructureDefinition/BundleAdmission-2024Q1"></profile>
+   </meta>
+   <identifier>
+      <system value="https://fhir.stichting-nice.nl/fhir/identifier/88/1/admission"></system>
+      <value value="24221"></value>
+   </identifier>
+   <type value="collection"></type>
+   <timestamp value="2024-03-07T08:02:24.304+01:00"></timestamp>
+   <entry>
+      <fullUrl value="urn:uuid:528973ae-dd7b-4e4a-a2e2-822bdf6cdcea"></fullUrl>
+      <resource>
+         <QuestionnaireResponse xmlns="http://hl7.org/fhir">
+            <text>
+               <status value="empty"></status>
+               <div xmlns="http://www.w3.org/1999/xhtml">QR ten behoeve van de NICE</div>
+            </text>
+            <questionnaire value="https://fhir.stichting-nice.nl/fhir/R4/Questionnaire/capaciteitsregistratie-2024Q1"></questionnaire>
+            <status value="completed"></status>
+            <item>
+               <linkId value="admno"></linkId>
+               <answer>
+                  <valueInteger value="24221"></valueInteger>
+               </answer>
+            </item>
+            <item>
+               <linkId value="hospno"></linkId>
+               <answer>
+                  <valueInteger value="88"></valueInteger>
+               </answer>
+            </item>
+            <item>
+               <linkId value="icno"></linkId>
+               <answer>
+                  <valueInteger value="1"></valueInteger>
+               </answer>
+            </item>
+            <item>
+               <linkId value="zz_dienst"></linkId>
+               <item>
+                  <linkId value="dienst"></linkId>
+                  <answer>
+                     <valueCoding>
+                        <system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/dienst"></system>
+                        <code value="1"></code>
+                     </valueCoding>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="isgevalideerd"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="scoredatum"></linkId>
+                  <answer>
+                     <valueDate value="2024-01-27"></valueDate>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_adm"></linkId>
+                  <answer>
+                     <valueInteger value="2"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_airway"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_antibiotic"></linkId>
+                  <answer>
+                     <valueInteger value="2"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_anticoag"></linkId>
+                  <answer>
+                     <valueInteger value="2"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_artaccess_med"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_artaccess_press"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_bedside"></linkId>
+                  <answer>
+                     <valueInteger value="2"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_blood_other"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="0.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="/{Entity}"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_bloodsamples"></linkId>
+                  <answer>
+                     <valueInteger value="1"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_broncho"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_cardassist"></linkId>
+                  <answer>
+                     <valueInteger value="0"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_centvenaccess_pulm"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_centvenaccess_ven"></linkId>
+                  <answer>
+                     <valueInteger value="2"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_co"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_dlv"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_drains"></linkId>
+                  <answer>
+                     <valueInteger value="0"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_ecmo"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_entnutr"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_epilepsy_eeg"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_epilepsy_ivmed"></linkId>
+                  <answer>
+                     <valueInteger value="0"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_esoballoon"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_family"></linkId>
+                  <answer>
+                     <valueInteger value="2"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_ffp"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="0.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="/{Entity}"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_gescopy"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_hygiene"></linkId>
+                  <answer>
+                     <valueInteger value="1"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_icp"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_inotropy"></linkId>
+                  <answer>
+                     <valueInteger value="1"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_isolation"></linkId>
+                  <answer>
+                     <valueInteger value="0"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_neurocheck"></linkId>
+                  <answer>
+                     <valueInteger value="2"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_no"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_ovam"></linkId>
+                  <answer>
+                     <valueInteger value="0"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_parentnutr"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_pm"></linkId>
+                  <answer>
+                     <valueInteger value="0"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_positioning"></linkId>
+                  <answer>
+                     <valueInteger value="3"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_prc"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="0.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="/{Entity}"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_prone"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_resp"></linkId>
+                  <answer>
+                     <valueInteger value="4"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_rhythm_aritmica"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_rhythm_cpr"></linkId>
+                  <answer>
+                     <valueInteger value="2"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_rhythm_ecg"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_rrt_dial"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_rrt_ic"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_thermo"></linkId>
+                  <answer>
+                     <valueInteger value="0"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_thrombo"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="0.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="/{Entity}"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_totiv"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="500.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="mL"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_trachsuct"></linkId>
+                  <answer>
+                     <valueInteger value="2"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_transport"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="0.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="/min"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_transport_acc"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="0.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="/min"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_urincath"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+            </item>
+            <item>
+               <linkId value="zz_dienst"></linkId>
+               <item>
+                  <linkId value="dienst"></linkId>
+                  <answer>
+                     <valueCoding>
+                        <system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/dienst"></system>
+                        <code value="2"></code>
+                     </valueCoding>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="isgevalideerd"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="scoredatum"></linkId>
+                  <answer>
+                     <valueDate value="2024-01-27"></valueDate>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_adm"></linkId>
+                  <answer>
+                     <valueInteger value="2"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_airway"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_antibiotic"></linkId>
+                  <answer>
+                     <valueInteger value="2"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_anticoag"></linkId>
+                  <answer>
+                     <valueInteger value="2"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_artaccess_med"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_artaccess_press"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_bedside"></linkId>
+                  <answer>
+                     <valueInteger value="3"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_blood_other"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="0.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="/{Entity}"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_bloodsamples"></linkId>
+                  <answer>
+                     <valueInteger value="2"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_broncho"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_cardassist"></linkId>
+                  <answer>
+                     <valueInteger value="0"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_centvenaccess_pulm"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_centvenaccess_ven"></linkId>
+                  <answer>
+                     <valueInteger value="2"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_co"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_dlv"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_drains"></linkId>
+                  <answer>
+                     <valueInteger value="0"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_ecmo"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_entnutr"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_epilepsy_eeg"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_epilepsy_ivmed"></linkId>
+                  <answer>
+                     <valueInteger value="0"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_esoballoon"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_family"></linkId>
+                  <answer>
+                     <valueInteger value="3"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_ffp"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="0.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="/{Entity}"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_gescopy"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_hygiene"></linkId>
+                  <answer>
+                     <valueInteger value="1"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_icp"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_inotropy"></linkId>
+                  <answer>
+                     <valueInteger value="1"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_isolation"></linkId>
+                  <answer>
+                     <valueInteger value="0"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_neurocheck"></linkId>
+                  <answer>
+                     <valueInteger value="2"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_no"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_ovam"></linkId>
+                  <answer>
+                     <valueInteger value="0"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_parentnutr"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_positioning"></linkId>
+                  <answer>
+                     <valueInteger value="3"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_prc"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="0.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="/{Entity}"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_prone"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_resp"></linkId>
+                  <answer>
+                     <valueInteger value="4"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_rhythm_aritmica"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_rhythm_cpr"></linkId>
+                  <answer>
+                     <valueInteger value="1"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_rhythm_ecg"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_rrt_dial"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_rrt_ic"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_thermo"></linkId>
+                  <answer>
+                     <valueInteger value="1"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_thrombo"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="0.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="/{Entity}"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_totiv"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="600.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="mL"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_trachsuct"></linkId>
+                  <answer>
+                     <valueInteger value="2"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_transport"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="0.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="/min"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_transport_acc"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="0.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="/min"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="zz_urincath"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+            </item>
+         </QuestionnaireResponse>
+      </resource>
+   </entry>
+</Bundle>
