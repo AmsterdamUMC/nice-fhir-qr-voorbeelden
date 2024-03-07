@@ -7,9 +7,9 @@
       <value value="24221"></value>
    </identifier>
    <type value="collection"></type>
-   <timestamp value="2024-03-07T08:02:25.219+01:00"></timestamp>
+   <timestamp value="2024-03-07T11:45:26.370+01:00"></timestamp>
    <entry>
-      <fullUrl value="urn:uuid:e8c8c512-345b-4575-8422-361bb0f5409f"></fullUrl>
+      <fullUrl value="urn:uuid:536f5b94-5a9f-41f3-acea-f3a782b2aafd"></fullUrl>
       <resource>
          <QuestionnaireResponse xmlns="http://hl7.org/fhir">
             <text>
@@ -52,6 +52,12 @@
                   <linkId value="ac_ren_fail"></linkId>
                   <answer>
                      <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="adm_date_hosp"></linkId>
+                  <answer>
+                     <valueDateTime value="2024-01-26T00:00:00+01:00"></valueDateTime>
                   </answer>
                </item>
                <item>
@@ -245,6 +251,12 @@
                   </answer>
                </item>
                <item>
+                  <linkId value="dis_date_hosp"></linkId>
+                  <answer>
+                     <valueDateTime value="2024-02-02T00:00:00+01:00"></valueDateTime>
+                  </answer>
+               </item>
+               <item>
                   <linkId value="dis_icu"></linkId>
                   <answer>
                      <valueDateTime value="2024-01-30T15:22:00+01:00"></valueDateTime>
@@ -257,6 +269,16 @@
                         <system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/discharged_to"></system>
                         <code value="1"></code>
                      </valueCoding>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="ejfract"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="10.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="%"></code>
+                     </valueQuantity>
                   </answer>
                </item>
                <item>

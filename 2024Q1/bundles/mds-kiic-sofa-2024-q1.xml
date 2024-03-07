@@ -7,9 +7,9 @@
       <value value="24221"></value>
    </identifier>
    <type value="collection"></type>
-   <timestamp value="2024-03-06T09:31:24.388+01:00"></timestamp>
+   <timestamp value="2024-03-07T11:45:26.311+01:00"></timestamp>
    <entry>
-      <fullUrl value="urn:uuid:8b4fc86f-a206-484e-9fff-ab778c314d46"></fullUrl>
+      <fullUrl value="urn:uuid:877de4d9-aedf-40fe-9c76-20d3790a54b9"></fullUrl>
       <resource>
          <QuestionnaireResponse xmlns="http://hl7.org/fhir">
             <text>
@@ -52,6 +52,12 @@
                   <linkId value="ac_ren_fail"></linkId>
                   <answer>
                      <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="adm_date_hosp"></linkId>
+                  <answer>
+                     <valueDateTime value="2024-01-26T00:00:00+01:00"></valueDateTime>
                   </answer>
                </item>
                <item>
@@ -245,6 +251,12 @@
                   </answer>
                </item>
                <item>
+                  <linkId value="dis_date_hosp"></linkId>
+                  <answer>
+                     <valueDateTime value="2024-02-02T00:00:00+01:00"></valueDateTime>
+                  </answer>
+               </item>
+               <item>
                   <linkId value="dis_icu"></linkId>
                   <answer>
                      <valueDateTime value="2024-01-30T15:22:00+01:00"></valueDateTime>
@@ -257,6 +269,16 @@
                         <system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/discharged_to"></system>
                         <code value="1"></code>
                      </valueCoding>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="ejfract"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="10.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="%"></code>
+                     </valueQuantity>
                   </answer>
                </item>
                <item>
@@ -765,7 +787,7 @@
       </resource>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:1fb78371-6678-49f5-9479-83f4d4201093"></fullUrl>
+      <fullUrl value="urn:uuid:fdd3a7ac-01a0-4066-a2f4-72e1f86fdc77"></fullUrl>
       <resource>
          <QuestionnaireResponse xmlns="http://hl7.org/fhir">
             <text>
@@ -817,7 +839,7 @@
       </resource>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:3c76b079-9703-455c-aae1-bd845c41237d"></fullUrl>
+      <fullUrl value="urn:uuid:00b5813f-9c5b-419d-9533-743431976153"></fullUrl>
       <resource>
          <QuestionnaireResponse xmlns="http://hl7.org/fhir">
             <text>
