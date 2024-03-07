@@ -1,0 +1,789 @@
+<Bundle xmlns="http://hl7.org/fhir">
+   <meta>
+      <profile value="https://fhir.stichting-nice.nl/fhir/R4/StructureDefinition/BundleAdmission-2024Q1"></profile>
+   </meta>
+   <identifier>
+      <system value="https://fhir.stichting-nice.nl/fhir/identifier/88/1/admission"></system>
+      <value value="24221"></value>
+   </identifier>
+   <type value="collection"></type>
+   <timestamp value="2024-03-07T11:45:26.370+01:00"></timestamp>
+   <entry>
+      <fullUrl value="urn:uuid:536f5b94-5a9f-41f3-acea-f3a782b2aafd"></fullUrl>
+      <resource>
+         <QuestionnaireResponse xmlns="http://hl7.org/fhir">
+            <text>
+               <status value="empty"></status>
+               <div xmlns="http://www.w3.org/1999/xhtml">QR ten behoeve van de NICE</div>
+            </text>
+            <questionnaire value="https://fhir.stichting-nice.nl/fhir/R4/Questionnaire/mds-2024Q1"></questionnaire>
+            <status value="completed"></status>
+            <item>
+               <linkId value="admno"></linkId>
+               <answer>
+                  <valueInteger value="24221"></valueInteger>
+               </answer>
+            </item>
+            <item>
+               <linkId value="hospno"></linkId>
+               <answer>
+                  <valueInteger value="88"></valueInteger>
+               </answer>
+            </item>
+            <item>
+               <linkId value="icno"></linkId>
+               <answer>
+                  <valueInteger value="1"></valueInteger>
+               </answer>
+            </item>
+            <item>
+               <linkId value="mds"></linkId>
+               <item>
+                  <linkId value="a_ado2"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="495.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="mm[Hg]"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="ac_ren_fail"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="adm_date_hosp"></linkId>
+                  <answer>
+                     <valueDateTime value="2024-01-26T00:00:00+01:00"></valueDateTime>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="adm_icu"></linkId>
+                  <answer>
+                     <valueDateTime value="2024-01-27T00:13:00+01:00"></valueDateTime>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="adm_source"></linkId>
+                  <answer>
+                     <valueCoding>
+                        <system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/adm_source"></system>
+                        <code value="4"></code>
+                     </valueCoding>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="adm_type"></linkId>
+                  <answer>
+                     <valueCoding>
+                        <system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/adm_type"></system>
+                        <code value="1"></code>
+                     </valueCoding>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="aids"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="album_max"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="15.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="g/L"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="album_min"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="14.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="g/L"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="ap4diag1"></linkId>
+                  <answer>
+                     <valueCoding>
+                        <system value="https://fhir.stichting-nice.nl/fhir/R4/CodeSystem/ap4diag1-2023Q3"></system>
+                        <code value="168"></code>
+                     </valueCoding>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="ap4diag2"></linkId>
+                  <answer>
+                     <valueCoding>
+                        <system value="https://fhir.stichting-nice.nl/fhir/R4/CodeSystem/ap4diag2-2023Q3"></system>
+                        <code value="38"></code>
+                     </valueCoding>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="bicarb_max"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="30.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="mmol/L"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="bicarb_min"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="24.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="mmol/L"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="bili"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="3.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="umol/L"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="burns"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="cardio_vasc_insuf"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="chr_renal_insuf"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="chron_dialysis"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="cirrhosis"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="confirm_infection"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="copd"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="cpr"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="creat_max"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="130.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="umol/L"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="creat_min"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="125.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="umol/L"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="date_of_birth"></linkId>
+                  <answer>
+                     <valueDate value="1973-08-27"></valueDate>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="decubitus"></linkId>
+                  <answer>
+                     <valueInteger value="0"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="diabetes"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="died"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="dis_date_hosp"></linkId>
+                  <answer>
+                     <valueDateTime value="2024-02-02T00:00:00+01:00"></valueDateTime>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="dis_icu"></linkId>
+                  <answer>
+                     <valueDateTime value="2024-01-30T15:22:00+01:00"></valueDateTime>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="discharged_to"></linkId>
+                  <answer>
+                     <valueCoding>
+                        <system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/discharged_to"></system>
+                        <code value="1"></code>
+                     </valueCoding>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="ejfract"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="10.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="%"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="eol_beadem_24"></linkId>
+                  <answer>
+                     <valueInteger value="0"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="eol_beadem_dis"></linkId>
+                  <answer>
+                     <valueInteger value="0"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="eol_cpr_24"></linkId>
+                  <answer>
+                     <valueInteger value="0"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="eol_cpr_dis"></linkId>
+                  <answer>
+                     <valueInteger value="0"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="eol_readm_dis"></linkId>
+                  <answer>
+                     <valueInteger value="0"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="eol_rrt_24"></linkId>
+                  <answer>
+                     <valueInteger value="0"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="eol_rrt_dis"></linkId>
+                  <answer>
+                     <valueInteger value="0"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="eye_low"></linkId>
+                  <answer>
+                     <valueCoding>
+                        <system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/eye_low"></system>
+                        <code value="3"></code>
+                     </valueCoding>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="fio2"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="90.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="%"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="frailty"></linkId>
+                  <answer>
+                     <valueCoding>
+                        <system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/frailty"></system>
+                        <code value="2"></code>
+                     </valueCoding>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="gastro_bleed"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="gender"></linkId>
+                  <answer>
+                     <valueCoding>
+                        <system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/gender"></system>
+                        <code value="M"></code>
+                     </valueCoding>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="gluc_max"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="10.8"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="mmol/L"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="gluc_min"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="8.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="mmol/L"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="heartrate_max"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="128.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="{beats}/min"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="heartrate_min"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="71.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="{beats}/min"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="hem_malign"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="ht_max"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="0.33"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="{ratio}"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="ht_min"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="0.32"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="{ratio}"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="ima"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="imm_insuf"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="isgevalideerd"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="length"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="193.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="cm"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="meanbl_max"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="105.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="mm[Hg]"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="meanbl_min"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="70.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="mm[Hg]"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="mech_ventil_0"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="mech_ventil_24"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="mivoorcabg"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="motor_low"></linkId>
+                  <answer>
+                     <valueCoding>
+                        <system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/motor_low"></system>
+                        <code value="5"></code>
+                     </valueCoding>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="neoplasm"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="paco2"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="69.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="mm[Hg]"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="pao2"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="78.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="mm[Hg]"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="pao2_fio2"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="86.67"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="mm[Hg]/{ratio}"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="pat_type"></linkId>
+                  <answer>
+                     <valueCoding>
+                        <system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/pat_type"></system>
+                        <code value="1"></code>
+                     </valueCoding>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="patno"></linkId>
+                  <answer>
+                     <valueString value="JCWGEXGBKYR"></valueString>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="ph_min"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="7.18"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="[pH]"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="plan_adm"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="postcode"></linkId>
+                  <answer>
+                     <valueString value="1105 AZ"></valueString>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="potas_max"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="4.2"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="mmol/L"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="potas_min"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="3.7"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="mmol/L"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="ref_spec"></linkId>
+                  <answer>
+                     <valueCoding>
+                        <system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/ref_spec"></system>
+                        <code value="4"></code>
+                     </valueCoding>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="resp_insuf"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="resprate_max"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="24.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="{Breaths}/min"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="resprate_min"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="17.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="{Breaths}/min"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="sars_cov2"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="sodium_max"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="142.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="mmol/L"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="sodium_min"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="134.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="mmol/L"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="syst_max"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="148.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="mm[Hg]"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="syst_min"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="98.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="mm[Hg]"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="temp_max"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="37.3"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="Cel"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="temp_min"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="36.2"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="Cel"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="throm_min"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="224.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="10*9/L"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="thrombotherap"></linkId>
+                  <answer>
+                     <valueBoolean value="false"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="urea"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="17.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="mmol/L"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="urine_24"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="1.68"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="L/d"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="vasdrug"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="verbal_low"></linkId>
+                  <answer>
+                     <valueCoding>
+                        <system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/verbal_low"></system>
+                        <code value="5"></code>
+                     </valueCoding>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="wbc_max"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="15.1"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="10*9/L"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="wbc_min"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="13.2"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="10*9/L"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="weight"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="90.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="kg"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+            </item>
+         </QuestionnaireResponse>
+      </resource>
+   </entry>
+</Bundle>

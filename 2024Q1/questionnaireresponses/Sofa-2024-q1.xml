@@ -1,0 +1,728 @@
+<QuestionnaireResponse xmlns="http://hl7.org/fhir">
+	<text>
+		<status value="empty"/>
+		<div xmlns="http://www.w3.org/1999/xhtml">QR ten behoeve van de NICE</div>
+	</text>
+	<questionnaire value="https://fhir.stichting-nice.nl/fhir/R4/Questionnaire/sofa-2024Q1"/>
+	<status value="completed"/>
+	<item>
+		<linkId value="admno"/>
+		<answer>
+			<valueInteger value="24221"/>
+		</answer>
+	</item>
+	<item>
+		<linkId value="hospno"/>
+		<answer>
+			<valueInteger value="88"/>
+		</answer>
+	</item>
+	<item>
+		<linkId value="icno"/>
+		<answer>
+			<valueInteger value="1"/>
+		</answer>
+	</item>
+	<item>
+		<linkId value="sofa"/>
+		<item>
+			<linkId value="assist"/>
+			<answer>
+				<valueBoolean value="false"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="dobu"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="icp"/>
+			<answer>
+				<valueBoolean value="false"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="isgevalideerd"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="mars"/>
+			<answer>
+				<valueBoolean value="false"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="niveau"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="nora"/>
+			<answer>
+				<valueQuantity>
+					<value value="0.13"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="ug/kg/min"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pdi"/>
+			<answer>
+				<valueBoolean value="false"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="resp_support"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="rrt"/>
+			<answer>
+				<valueBoolean value="false"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_bili"/>
+			<answer>
+				<valueQuantity>
+					<value value="3.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="umol/L"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_date"/>
+			<answer>
+				<valueDate value="2024-01-28"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_day"/>
+			<answer>
+				<valueInteger value="1"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_eye"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/sofa_eye"/>
+					<code value="3"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_fio2"/>
+			<answer>
+				<valueQuantity>
+					<value value="90.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="%"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_kreat"/>
+			<answer>
+				<valueQuantity>
+					<value value="130.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="umol/L"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_mean_bl"/>
+			<answer>
+				<valueQuantity>
+					<value value="70.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="mm[Hg]"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_motor"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/sofa_motor"/>
+					<code value="5"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_pao2"/>
+			<answer>
+				<valueInteger value="87"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_thromb"/>
+			<answer>
+				<valueQuantity>
+					<value value="224.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="10*9/L"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_urine"/>
+			<answer>
+				<valueQuantity>
+					<value value="1680.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="mL"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_verbal"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/sofa_verbal"/>
+					<code value="5"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="spec_bead"/>
+			<answer>
+				<valueBoolean value="false"/>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="sofa"/>
+		<item>
+			<linkId value="assist"/>
+			<answer>
+				<valueBoolean value="false"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="dobu"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="icp"/>
+			<answer>
+				<valueBoolean value="false"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="isgevalideerd"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="mars"/>
+			<answer>
+				<valueBoolean value="false"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="niveau"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="nora"/>
+			<answer>
+				<valueQuantity>
+					<value value="0.13"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="ug/kg/min"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pdi"/>
+			<answer>
+				<valueBoolean value="false"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="resp_support"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="rrt"/>
+			<answer>
+				<valueBoolean value="false"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_bili"/>
+			<answer>
+				<valueQuantity>
+					<value value="3.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="umol/L"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_date"/>
+			<answer>
+				<valueDate value="2024-01-28"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_day"/>
+			<answer>
+				<valueInteger value="2"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_eye"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/sofa_eye"/>
+					<code value="4"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_fio2"/>
+			<answer>
+				<valueQuantity>
+					<value value="50.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="%"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_kreat"/>
+			<answer>
+				<valueQuantity>
+					<value value="100.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="umol/L"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_mean_bl"/>
+			<answer>
+				<valueQuantity>
+					<value value="73.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="mm[Hg]"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_motor"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/sofa_motor"/>
+					<code value="5"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_pao2"/>
+			<answer>
+				<valueInteger value="160"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_thromb"/>
+			<answer>
+				<valueQuantity>
+					<value value="230.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="10*9/L"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_urine"/>
+			<answer>
+				<valueQuantity>
+					<value value="1500.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="mL"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_verbal"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/sofa_verbal"/>
+					<code value="5"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="spec_bead"/>
+			<answer>
+				<valueBoolean value="false"/>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="sofa"/>
+		<item>
+			<linkId value="assist"/>
+			<answer>
+				<valueBoolean value="false"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="dobu"/>
+			<answer>
+				<valueBoolean value="false"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="icp"/>
+			<answer>
+				<valueBoolean value="false"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="isgevalideerd"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="mars"/>
+			<answer>
+				<valueBoolean value="false"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="niveau"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="nora"/>
+			<answer>
+				<valueQuantity>
+					<value value="0.05"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="ug/kg/min"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pdi"/>
+			<answer>
+				<valueBoolean value="false"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="resp_support"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="rrt"/>
+			<answer>
+				<valueBoolean value="false"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_bili"/>
+			<answer>
+				<valueQuantity>
+					<value value="4.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="umol/L"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_date"/>
+			<answer>
+				<valueDate value="2024-01-29"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_day"/>
+			<answer>
+				<valueInteger value="3"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_eye"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/sofa_eye"/>
+					<code value="4"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_fio2"/>
+			<answer>
+				<valueQuantity>
+					<value value="35.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="%"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_kreat"/>
+			<answer>
+				<valueQuantity>
+					<value value="80.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="umol/L"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_mean_bl"/>
+			<answer>
+				<valueQuantity>
+					<value value="75.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="mm[Hg]"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_motor"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/sofa_motor"/>
+					<code value="5"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_pao2"/>
+			<answer>
+				<valueInteger value="286"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_thromb"/>
+			<answer>
+				<valueQuantity>
+					<value value="220.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="10*9/L"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_urine"/>
+			<answer>
+				<valueQuantity>
+					<value value="2200.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="mL"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_verbal"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/sofa_verbal"/>
+					<code value="5"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="spec_bead"/>
+			<answer>
+				<valueBoolean value="false"/>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="sofa"/>
+		<item>
+			<linkId value="assist"/>
+			<answer>
+				<valueBoolean value="false"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="dobu"/>
+			<answer>
+				<valueBoolean value="false"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="icp"/>
+			<answer>
+				<valueBoolean value="false"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="isgevalideerd"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="mars"/>
+			<answer>
+				<valueBoolean value="false"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="niveau"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pdi"/>
+			<answer>
+				<valueBoolean value="false"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="resp_support"/>
+			<answer>
+				<valueBoolean value="false"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="rrt"/>
+			<answer>
+				<valueBoolean value="false"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_bili"/>
+			<answer>
+				<valueQuantity>
+					<value value="4.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="umol/L"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_date"/>
+			<answer>
+				<valueDate value="2024-01-30"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_day"/>
+			<answer>
+				<valueInteger value="4"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_eye"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/sofa_eye"/>
+					<code value="4"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_fio2"/>
+			<answer>
+				<valueQuantity>
+					<value value="21.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="%"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_kreat"/>
+			<answer>
+				<valueQuantity>
+					<value value="80.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="umol/L"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_mean_bl"/>
+			<answer>
+				<valueQuantity>
+					<value value="72.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="mm[Hg]"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_motor"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/sofa_motor"/>
+					<code value="5"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_pao2"/>
+			<answer>
+				<valueInteger value="357"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_thromb"/>
+			<answer>
+				<valueQuantity>
+					<value value="215.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="10*9/L"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_urine"/>
+			<answer>
+				<valueQuantity>
+					<value value="2400.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="mL"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sofa_verbal"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/sofa_verbal"/>
+					<code value="5"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="spec_bead"/>
+			<answer>
+				<valueBoolean value="false"/>
+			</answer>
+		</item>
+	</item>
+</QuestionnaireResponse>

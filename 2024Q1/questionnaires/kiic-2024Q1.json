@@ -1,0 +1,46 @@
+{
+    "resourceType": "Questionnaire",
+    "id": "kiic-2024Q1",
+    "url": "https://fhir.stichting-nice.nl/fhir/R4/Questionnaire/kiic-2024Q1",
+    "name": "KIIC",
+    "status": "active",
+    "item": [
+        {
+            "linkId": "admno",
+            "type": "integer",
+            "required": true
+        },
+        {
+            "linkId": "hospno",
+            "type": "integer",
+            "required": true
+        },
+        {
+            "linkId": "icno",
+            "type": "integer",
+            "required": true
+        },
+        {
+            "linkId": "kiic_beademd",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "beadem_eind",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "beadem_start",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "isgevalideerd",
+                    "type": "boolean",
+                    "required": false
+                }
+            ]
+        }
+    ]
+}

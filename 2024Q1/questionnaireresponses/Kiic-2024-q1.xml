@@ -1,0 +1,47 @@
+<QuestionnaireResponse xmlns="http://hl7.org/fhir">
+	<text>
+		<status value="empty"/>
+		<div xmlns="http://www.w3.org/1999/xhtml">QR ten behoeve van de NICE</div>
+	</text>
+	<questionnaire value="https://fhir.stichting-nice.nl/fhir/R4/Questionnaire/kiic-2024Q1"/>
+	<status value="completed"/>
+	<item>
+		<linkId value="admno"/>
+		<answer>
+			<valueInteger value="24221"/>
+		</answer>
+	</item>
+	<item>
+		<linkId value="hospno"/>
+		<answer>
+			<valueInteger value="88"/>
+		</answer>
+	</item>
+	<item>
+		<linkId value="icno"/>
+		<answer>
+			<valueInteger value="1"/>
+		</answer>
+	</item>
+	<item>
+		<linkId value="kiic_beademd"/>
+		<item>
+			<linkId value="beadem_eind"/>
+			<answer>
+				<valueDateTime value="2024-01-29T09:28:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="beadem_start"/>
+			<answer>
+				<valueDateTime value="2024-01-27T00:13:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="isgevalideerd"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+	</item>
+</QuestionnaireResponse>

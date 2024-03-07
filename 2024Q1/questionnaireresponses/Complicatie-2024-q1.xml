@@ -1,0 +1,600 @@
+<QuestionnaireResponse xmlns="http://hl7.org/fhir">
+	<text>
+		<status value="empty"/>
+		<div xmlns="http://www.w3.org/1999/xhtml">QR ten behoeve van de NICE</div>
+	</text>
+	<questionnaire value="https://fhir.stichting-nice.nl/fhir/R4/Questionnaire/complicatie-2024Q1"/>
+	<status value="completed"/>
+	<item>
+		<linkId value="admno"/>
+		<answer>
+			<valueInteger value="24221"/>
+		</answer>
+	</item>
+	<item>
+		<linkId value="hospno"/>
+		<answer>
+			<valueInteger value="88"/>
+		</answer>
+	</item>
+	<item>
+		<linkId value="icno"/>
+		<answer>
+			<valueInteger value="1"/>
+		</answer>
+	</item>
+	<item>
+		<linkId value="complicatie_day"/>
+		<item>
+			<linkId value="complicatie"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/complicatie"/>
+					<code value="0"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="complicatie_date"/>
+			<answer>
+				<valueDate value="2024-01-27"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="complicatie_day"/>
+			<answer>
+				<valueInteger value="1"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="isgevalideerd"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="katheter"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="lijnsepsis"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pneumo"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="reintubatie"/>
+			<answer>
+				<valueQuantity>
+					<value value="0.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="{number}"/>
+				</valueQuantity>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="complicatie_day"/>
+		<item>
+			<linkId value="complicatie"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/complicatie"/>
+					<code value="1"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="complicatie_date"/>
+			<answer>
+				<valueDate value="2024-01-28"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="complicatie_day"/>
+			<answer>
+				<valueInteger value="2"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="isgevalideerd"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="katheter"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="lijnsepsis"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pneumo"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="reintubatie"/>
+			<answer>
+				<valueQuantity>
+					<value value="1.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="{number}"/>
+				</valueQuantity>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="complicatie_day"/>
+		<item>
+			<linkId value="complicatie"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/complicatie"/>
+					<code value="0"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="complicatie_date"/>
+			<answer>
+				<valueDate value="2024-01-29"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="complicatie_day"/>
+			<answer>
+				<valueInteger value="3"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="isgevalideerd"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="katheter"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="lijnsepsis"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pneumo"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="reintubatie"/>
+			<answer>
+				<valueQuantity>
+					<value value="0.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="{number}"/>
+				</valueQuantity>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="complicatie_day"/>
+		<item>
+			<linkId value="complicatie"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/complicatie"/>
+					<code value="0"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="complicatie_date"/>
+			<answer>
+				<valueDate value="2024-01-30"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="complicatie_day"/>
+			<answer>
+				<valueInteger value="4"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="isgevalideerd"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="katheter"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="lijnsepsis"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pneumo"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="reintubatie"/>
+			<answer>
+				<valueQuantity>
+					<value value="0.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="{number}"/>
+				</valueQuantity>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="complicatie_dienst"/>
+		<item>
+			<linkId value="delier"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/delier"/>
+					<code value="0"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="dienst"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/dienst"/>
+					<code value="1"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="isgevalideerd"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="kalenderdag"/>
+			<answer>
+				<valueDate value="2024-01-27"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="screen_cam"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="screen_dcs"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="screen_doss"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="screen_overig"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="complicatie_dienst"/>
+		<item>
+			<linkId value="delier"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/delier"/>
+					<code value="0"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="dienst"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/dienst"/>
+					<code value="2"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="isgevalideerd"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="kalenderdag"/>
+			<answer>
+				<valueDate value="2024-01-27"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="screen_cam"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="screen_dcs"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="screen_doss"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="screen_overig"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="complicatie_dienst"/>
+		<item>
+			<linkId value="delier"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/delier"/>
+					<code value="0"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="dienst"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/dienst"/>
+					<code value="3"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="isgevalideerd"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="kalenderdag"/>
+			<answer>
+				<valueDate value="2024-01-27"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="screen_cam"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="screen_dcs"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="screen_doss"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="screen_overig"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="complicatie_dienst"/>
+		<item>
+			<linkId value="delier"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/delier"/>
+					<code value="1"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="dienst"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/dienst"/>
+					<code value="1"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="isgevalideerd"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="kalenderdag"/>
+			<answer>
+				<valueDate value="2024-01-28"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="screen_cam"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="screen_dcs"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="screen_doss"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="screen_overig"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="complicatie_dienst"/>
+		<item>
+			<linkId value="delier"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/delier"/>
+					<code value="1"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="dienst"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/dienst"/>
+					<code value="2"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="isgevalideerd"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="kalenderdag"/>
+			<answer>
+				<valueDate value="2024-01-28"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="screen_cam"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="screen_dcs"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="screen_doss"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="screen_overig"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="complicatie_dienst"/>
+		<item>
+			<linkId value="delier"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/delier"/>
+					<code value="0"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="dienst"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/dienst"/>
+					<code value="3"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="isgevalideerd"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="kalenderdag"/>
+			<answer>
+				<valueDate value="2024-01-28"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="screen_cam"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="screen_dcs"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="screen_doss"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="screen_overig"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+	</item>
+</QuestionnaireResponse>
