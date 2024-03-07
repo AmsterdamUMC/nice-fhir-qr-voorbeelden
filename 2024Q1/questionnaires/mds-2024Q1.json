@@ -1,0 +1,747 @@
+{
+    "resourceType": "Questionnaire",
+    "id": "mds-2024Q1",
+    "url": "https://fhir.stichting-nice.nl/fhir/R4/Questionnaire/mds-2024Q1",
+    "name": "MDS",
+    "status": "active",
+    "item": [
+        {
+            "linkId": "admno",
+            "type": "integer",
+            "required": true
+        },
+        {
+            "linkId": "hospno",
+            "type": "integer",
+            "required": true
+        },
+        {
+            "linkId": "icno",
+            "type": "integer",
+            "required": true
+        },
+        {
+            "linkId": "mds",
+            "type": "group",
+            "repeats": false,
+            "item": [
+                {
+                    "linkId": "a_ado2",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mm[Hg]"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "ac_ren_fail",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "adm_date_hosp",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "adm_icu",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "adm_source",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/adm_source"
+                },
+                {
+                    "linkId": "adm_type",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/adm_type"
+                },
+                {
+                    "linkId": "aids",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "album_max",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "g/L"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "album_min",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "g/L"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "ap4diag1",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/CodeSystem/ap4diag1-2023Q3"
+                },
+                {
+                    "linkId": "ap4diag2",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/CodeSystem/ap4diag2-2023Q3"
+                },
+                {
+                    "linkId": "bicarb_max",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mmol/L"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "bicarb_min",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mmol/L"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "bili",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "umol/L"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "burns",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "cardio_vasc_insuf",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "chr_renal_insuf",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "chron_dialysis",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "cirrhosis",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "confirm_infection",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "copd",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "cpr",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "creat_max",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "umol/L"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "creat_min",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "umol/L"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "date_of_birth",
+                    "type": "date",
+                    "required": false
+                },
+                {
+                    "linkId": "decubitus",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "diabetes",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "diag_cat_weight",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "died",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "dis_date_hosp",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "dis_icu",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "discharged_to",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/discharged_to"
+                },
+                {
+                    "linkId": "ejfract",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "%"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "eol_beadem_24",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "eol_beadem_dis",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "eol_cpr_24",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "eol_cpr_dis",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "eol_readm_dis",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "eol_rrt_24",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "eol_rrt_dis",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "eye_low",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/eye_low"
+                },
+                {
+                    "linkId": "fio2",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "%"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "frailty",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/frailty"
+                },
+                {
+                    "linkId": "gastro_bleed",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "gender",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/gender"
+                },
+                {
+                    "linkId": "gluc_max",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mmol/L"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "gluc_min",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mmol/L"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "heartrate_max",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{beats}/min"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "heartrate_min",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{beats}/min"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "hem_malign",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "ht_max",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{ratio}"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "ht_min",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{ratio}"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "ima",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "imm_insuf",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "isgevalideerd",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "length",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "cm"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "meanbl_max",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mm[Hg]"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "meanbl_min",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mm[Hg]"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "mech_ventil_0",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "mech_ventil_24",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "mivoorcabg",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "motor_low",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/motor_low"
+                },
+                {
+                    "linkId": "neoplasm",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "numgraft",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "paco2",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mm[Hg]"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "pao2",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mm[Hg]"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "pao2_fio2",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mm[Hg]/{ratio}"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "pat_type",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/pat_type"
+                },
+                {
+                    "linkId": "patno",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "ph_min",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "[pH]"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "plan_adm",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "postcode",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "potas_max",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mmol/L"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "potas_min",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mmol/L"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "ref_spec",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/ref_spec"
+                },
+                {
+                    "linkId": "resp_insuf",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "resprate_max",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{Breaths}/min"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "resprate_min",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{Breaths}/min"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "sars_cov2",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "sodium_max",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mmol/L"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "sodium_min",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mmol/L"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "syst_max",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mm[Hg]"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "syst_min",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mm[Hg]"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "temp_max",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "Cel"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "temp_min",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "Cel"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "throm_min",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "10*9/L"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "thrombotherap",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "urea",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mmol/L"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "urine_24",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "L/d"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "vasdrug",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "verbal_low",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/verbal_low"
+                },
+                {
+                    "linkId": "wbc_max",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "10*9/L"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "wbc_min",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "10*9/L"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "weight",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "kg"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                }
+            ]
+        }
+    ]
+}

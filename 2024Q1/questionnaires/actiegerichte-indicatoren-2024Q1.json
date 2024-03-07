@@ -1,0 +1,489 @@
+{
+    "resourceType": "Questionnaire",
+    "id": "actiegerichte-indicatoren-2024Q1",
+    "url": "https://fhir.stichting-nice.nl/fhir/R4/Questionnaire/actiegerichte-indicatoren-2024Q1",
+    "name": "ACTIEGERICHTE-INDICATOREN",
+    "status": "active",
+    "item": [
+        {
+            "linkId": "admno",
+            "type": "integer",
+            "required": true
+        },
+        {
+            "linkId": "hospno",
+            "type": "integer",
+            "required": true
+        },
+        {
+            "linkId": "icno",
+            "type": "integer",
+            "required": true
+        },
+        {
+            "linkId": "ai_pijn",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "isgevalideerd",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "meetinstr_pijn",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/meetinstr_pijn"
+                },
+                {
+                    "linkId": "pijn_no",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "pijn_tijd",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "pijnscore",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{score}"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "linkId": "ai_erytrocyten",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "ery_id",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "ery_toed_tijd",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "isgevalideerd",
+                    "type": "boolean",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "linkId": "ai_hemoglobine",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "hb",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mmol/L"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "hb_no",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "hb_tijd",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "isgevalideerd",
+                    "type": "boolean",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "linkId": "ai_plasma",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "isgevalideerd",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "plasma_ein",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "plasma_soort",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "plasma_toed_tijd",
+                    "type": "dateTime",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "linkId": "ai_trombocyten",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "isgevalideerd",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "trombo_ein",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "trombo_status",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "trombo_uit_tijd",
+                    "type": "dateTime",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "linkId": "ai_transfusietrigger",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "isgevalideerd",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "trans_trig",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mmol/L"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "trans_trig_no",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "trans_trig_tijd",
+                    "type": "dateTime",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "linkId": "ai_beademingsinstellingen",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "bead_iv_niv",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/bead_iv_niv"
+                },
+                {
+                    "linkId": "bead_modus",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "fio2_bead",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "%"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "isgevalideerd",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "mt_bead_inst",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "peep",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "cm[H2O]"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "resp_spont",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{Breaths}/min"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "resp_totaal",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{Breaths}/min"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "teugvolume",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mL"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "linkId": "ai_bloedgas",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "bg_type",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/bg_type"
+                },
+                {
+                    "linkId": "isgevalideerd",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "mt_pao2",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "pao2_bead",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mm[Hg]"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "pao2_id",
+                    "type": "integer",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "linkId": "ai_sedatie",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "isgevalideerd",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "sedatie",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "sedatie_kalenderdag",
+                    "type": "date",
+                    "required": false
+                },
+                {
+                    "linkId": "sedatiemiddel",
+                    "type": "text",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "linkId": "ai_antibiotica",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "ab_kalenderdag",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "antibiotica_code",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "antibiotica_dosis",
+                    "code": [
+                        {
+                            "system": "http://www.whocc.no/atc_ddd_index/?code=J01"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "antibiotica_route",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/antibiotica_route"
+                },
+                {
+                    "linkId": "antibiotica_unit",
+                    "code": [
+                        {
+                            "system": "http://www.whocc.no/atc_ddd_index/?code=J01"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "isgevalideerd",
+                    "type": "boolean",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "linkId": "AI_spiegel",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "isgevalideerd",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "spiegel_code",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "spiegel_datumtijd",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "spiegel_eenheid",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "spiegel_volgnr",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "spiegel_waarde",
+                    "type": "decimal",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "linkId": "ai_sdd_sod",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "isgevalideerd",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "sdd_sod",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/sdd_sod"
+                },
+                {
+                    "linkId": "sdd_sod_kalenderdag",
+                    "type": "dateTime",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "linkId": "AI_kweek",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "isgevalideerd",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "kweek_code",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "kweek_datumtijd",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "kweek_id",
+                    "type": "text",
+                    "required": false
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,364 @@
+{
+    "resourceType": "Questionnaire",
+    "id": "capaciteitsregistratie-2024Q1",
+    "url": "https://fhir.stichting-nice.nl/fhir/R4/Questionnaire/capaciteitsregistratie-2024Q1",
+    "name": "CAPACITEITSREGISTRATIE",
+    "status": "active",
+    "item": [
+        {
+            "linkId": "admno",
+            "type": "integer",
+            "required": true
+        },
+        {
+            "linkId": "hospno",
+            "type": "integer",
+            "required": true
+        },
+        {
+            "linkId": "icno",
+            "type": "integer",
+            "required": true
+        },
+        {
+            "linkId": "zz_dienst",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "dienst",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/dienst"
+                },
+                {
+                    "linkId": "isgevalideerd",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "scoredatum",
+                    "type": "date",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_adm",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_airway",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_antibiotic",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_anticoag",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_artaccess",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_artaccess_med",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_artaccess_press",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_bedside",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_blood_other",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "/{Entity}"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_bloodsamples",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_broncho",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_cardassist",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_centvenaccess",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_centvenaccess_pulm",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_centvenaccess_ven",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_co",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_dlv",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_drains",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_ecmo",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_entnutr",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_epilepsy",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_epilepsy_eeg",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_epilepsy_ivmed",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_esoballoon",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_family",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_ffp",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "/{Entity}"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_gescopy",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_hygiene",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_icp",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_inotropy",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_isolation",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_mars",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_neurocheck",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_no",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_ovam",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_parentnutr",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_pm",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_positioning",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_prc",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "/{Entity}"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_prone",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_resp",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_rhythm",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_rhythm_aritmica",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_rhythm_cpr",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_rhythm_ecg",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_rrt_dial",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_rrt_ic",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_rrt_prep",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_thermo",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_thrombo",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "/{Entity}"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_totiv",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mL"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_trachsuct",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_transport",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "/min"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_transport_acc",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "/min"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "zz_urincath",
+                    "type": "boolean",
+                    "required": false
+                }
+            ]
+        }
+    ]
+}
