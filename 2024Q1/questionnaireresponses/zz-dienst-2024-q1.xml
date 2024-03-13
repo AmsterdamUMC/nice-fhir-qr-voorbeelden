@@ -3,7 +3,7 @@
 		<status value="empty"/>
 		<div xmlns="http://www.w3.org/1999/xhtml">QR ten behoeve van de NICE</div>
 	</text>
-	<questionnaire value="https://fhir.stichting-nice.nl/fhir/R4/Questionnaire/capaciteitsregistratie-2024Q1"/>
+	<questionnaire value="https://fhir.stichting-nice.nl/fhir/R4/Questionnaire/zz-dienst-2024Q1"/>
 	<status value="completed"/>
 	<item>
 		<linkId value="admno"/>

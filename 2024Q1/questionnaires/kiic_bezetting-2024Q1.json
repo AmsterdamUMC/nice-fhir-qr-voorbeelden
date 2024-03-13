@@ -1,0 +1,63 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "kiic-bezetting-2024Q1",
+  "url": "https://fhir.stichting-nice.nl/fhir/R4/Questionnaire/kiic-bezetting-2024Q1",
+  "name": "KIIC-BEZETTING",
+  "status": "active",
+  "item": [
+    {
+      "linkId": "hospno",
+      "type": "integer",
+      "required": true
+    },
+    {
+      "linkId": "icno",
+      "type": "integer",
+      "required": true
+    },
+    {
+      "linkId": "datum",
+      "type": "date",
+      "required": true
+    },
+    {
+      "linkId": "kiic_bezetting",
+      "type": "group",
+      "repeats": true,
+      "item": [
+        {
+          "linkId": "groep",
+          "type": "integer",
+          "required": true
+        },
+        {
+          "linkId": "dienst",
+          "type": "choice",
+          "required": true,
+          "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/dienst"
+        },
+        {
+          "linkId": "fte_verpleegk",
+          "type": "decimal",
+          "required": false
+        },
+        {
+          "linkId": "oper_bedden",
+          "code": [
+            {
+              "system": "http://unitsofmeasure.org",
+              "code": "{number}"
+            }
+          ],
+          "type": "quantity",
+          "required": false
+        },
+        {
+          "linkId": "isgevalideerd",
+          "type": "boolean",
+          "required": false
+        }
+      ]
+    }
+  ]
+}

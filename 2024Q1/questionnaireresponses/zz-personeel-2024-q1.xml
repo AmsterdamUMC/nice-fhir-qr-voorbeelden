@@ -1,0 +1,170 @@
+<QuestionnaireResponse xmlns="http://hl7.org/fhir">
+	<text>
+		<status value="empty"/>
+		<div xmlns="http://www.w3.org/1999/xhtml">QR ten behoeve van de NICE</div>
+	</text>
+	<questionnaire value="https://fhir.stichting-nice.nl/fhir/R4/Questionnaire/zz-personeel-2024Q1"/>
+	<status value="completed"/>
+	<item>
+		<linkId value="hospno"/>
+		<answer>
+			<valueInteger value="88"/>
+		</answer>
+	</item>
+	<item>
+		<linkId value="icno"/>
+		<answer>
+			<valueInteger value="1"/>
+		</answer>
+	</item>
+	<item>
+		<linkId value="scoredatum"/>
+		<answer>
+			<valueDate value="2024-01-28"/>
+		</answer>
+	</item>
+	<item>
+		<linkId value="zz_personeel"/>
+		<item>
+			<linkId value="groep"/>
+			<answer>
+				<valueInteger value="1"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="dienst"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/dienst"/>
+					<code value="1"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="cardiac_vpk"/>
+			<answer>
+				<valueDecimal value="3"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="eindleerling_vpk"/>
+			<answer>
+				<valueDecimal value="7"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="ic_vpk"/>
+			<answer>
+				<valueDecimal value="2"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="leerling_vpk"/>
+			<answer>
+				<valueDecimal value="3"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="mc_vpk"/>
+			<answer>
+				<valueDecimal value="2"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="ondersteunend_vpk"/>
+			<answer>
+				<valueDecimal value="1"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="overige_vpk"/>
+			<answer>
+				<valueDecimal value="1"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="recovery_vpk"/>
+			<answer>
+				<valueDecimal value="2"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="isgevalideerd"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="zz_personeel"/>
+		<item>
+			<linkId value="groep"/>
+			<answer>
+				<valueInteger value="1"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="dienst"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/dienst"/>
+					<code value="2"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="cardiac_vpk"/>
+			<answer>
+				<valueDecimal value="3"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="eindleerling_vpk"/>
+			<answer>
+				<valueDecimal value="7"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="ic_vpk"/>
+			<answer>
+				<valueDecimal value="2"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="leerling_vpk"/>
+			<answer>
+				<valueDecimal value="3"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="mc_vpk"/>
+			<answer>
+				<valueDecimal value="2"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="ondersteunend_vpk"/>
+			<answer>
+				<valueDecimal value="1"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="overige_vpk"/>
+			<answer>
+				<valueDecimal value="1"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="recovery_vpk"/>
+			<answer>
+				<valueDecimal value="2"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="isgevalideerd"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+	</item>
+</QuestionnaireResponse>

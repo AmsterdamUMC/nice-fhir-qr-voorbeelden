@@ -1,0 +1,106 @@
+<QuestionnaireResponse xmlns="http://hl7.org/fhir">
+	<text>
+		<status value="empty"/>
+		<div xmlns="http://www.w3.org/1999/xhtml">QR ten behoeve van de NICE</div>
+	</text>
+	<questionnaire value="https://fhir.stichting-nice.nl/fhir/R4/Questionnaire/kiic-bezetting-2024Q1"/>
+	<status value="completed"/>
+	<item>
+		<linkId value="hospno"/>
+		<answer>
+			<valueInteger value="88"/>
+		</answer>
+	</item>
+	<item>
+		<linkId value="icno"/>
+		<answer>
+			<valueInteger value="1"/>
+		</answer>
+	</item>
+	<item>
+		<linkId value="datum"/>
+		<answer>
+			<valueDate value="2024-01-28"/>
+		</answer>
+	</item>
+	<item>
+		<linkId value="kiic_bezetting"/>
+		<item>
+			<linkId value="groep"/>
+			<answer>
+				<valueInteger value="1"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="dienst"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/dienst"/>
+					<code value="1"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="fte_verpleegk"/>
+			<answer>
+				<valueDecimal value="3"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="oper_bedden"/>
+			<answer>
+				<valueQuantity>
+					<value value="9.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="{number}"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="isgevalideerd"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="kiic_bezetting"/>
+		<item>
+			<linkId value="groep"/>
+			<answer>
+				<valueInteger value="1"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="dienst"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/dienst"/>
+					<code value="2"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="fte_verpleegk"/>
+			<answer>
+				<valueDecimal value="4"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="oper_bedden"/>
+			<answer>
+				<valueQuantity>
+					<value value="10.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="{number}"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="isgevalideerd"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+	</item>
+</QuestionnaireResponse>
