@@ -1,7 +1,7 @@
 {
     "resourceType": "Questionnaire",
     "id": "capaciteitsregistratie-2024Q1",
-    "url": "https://fhir.stichting-nice.nl/fhir/R4/Questionnaire/zz-dienst-2024Q1",
+    "url": "https://fhir.stichting-nice.nl/fhir/R4/Questionnaire/capaciteitsregistratie-2024Q1",
     "name": "CAPACITEITSREGISTRATIE",
     "status": "active",
     "item": [
