@@ -3,7 +3,7 @@
 		<status value="empty"/>
 		<div xmlns="http://www.w3.org/1999/xhtml">QR ten behoeve van de NICE</div>
 	</text>
-	<questionnaire value="https://fhir.stichting-nice.nl/fhir/R4/Questionnaire/sofa-2024Q1"/>
+	<questionnaire value="https://fhir.stichting-nice.nl/R4/Questionnaire/sofa-2024Q1"/>
 	<status value="completed"/>
 	<item>
 		<linkId value="admno"/>
@@ -115,7 +115,7 @@
 			<linkId value="sofa_eye"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/sofa_eye"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/eye-2023Q3"/>
 					<code value="3"/>
 				</valueCoding>
 			</answer>
@@ -154,7 +154,7 @@
 			<linkId value="sofa_motor"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/sofa_motor"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/motor-2023Q3"/>
 					<code value="5"/>
 				</valueCoding>
 			</answer>
@@ -189,7 +189,7 @@
 			<linkId value="sofa_verbal"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/sofa_verbal"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/verbal-2023Q3"/>
 					<code value="5"/>
 				</valueCoding>
 			</answer>
@@ -293,7 +293,7 @@
 			<linkId value="sofa_eye"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/sofa_eye"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/eye-2023Q3"/>
 					<code value="4"/>
 				</valueCoding>
 			</answer>
@@ -332,7 +332,7 @@
 			<linkId value="sofa_motor"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/sofa_motor"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/motor-2023Q3"/>
 					<code value="5"/>
 				</valueCoding>
 			</answer>
@@ -367,7 +367,7 @@
 			<linkId value="sofa_verbal"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/sofa_verbal"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/verbal-2023Q3"/>
 					<code value="5"/>
 				</valueCoding>
 			</answer>
@@ -471,7 +471,7 @@
 			<linkId value="sofa_eye"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/sofa_eye"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/eye-2023Q3"/>
 					<code value="4"/>
 				</valueCoding>
 			</answer>
@@ -510,7 +510,7 @@
 			<linkId value="sofa_motor"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/sofa_motor"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/motor-2023Q3"/>
 					<code value="5"/>
 				</valueCoding>
 			</answer>
@@ -545,7 +545,7 @@
 			<linkId value="sofa_verbal"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/sofa_verbal"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/verbal-2023Q3"/>
 					<code value="5"/>
 				</valueCoding>
 			</answer>
@@ -639,7 +639,7 @@
 			<linkId value="sofa_eye"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/sofa_eye"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/eye-2023Q3"/>
 					<code value="4"/>
 				</valueCoding>
 			</answer>
@@ -678,7 +678,7 @@
 			<linkId value="sofa_motor"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/sofa_motor"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/motor-2023Q3"/>
 					<code value="5"/>
 				</valueCoding>
 			</answer>
@@ -713,7 +713,7 @@
 			<linkId value="sofa_verbal"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/sofa_verbal"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/verbal-2023Q3"/>
 					<code value="5"/>
 				</valueCoding>
 			</answer>

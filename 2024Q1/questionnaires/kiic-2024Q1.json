@@ -1,7 +1,7 @@
 {
     "resourceType": "Questionnaire",
     "id": "kiic-2024Q1",
-    "url": "https://fhir.stichting-nice.nl/fhir/R4/Questionnaire/kiic-2024Q1",
+    "url": "https://fhir.stichting-nice.nl/R4/Questionnaire/kiic-2024Q1",
     "name": "KIIC",
     "status": "active",
     "item": [

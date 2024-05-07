@@ -3,7 +3,7 @@
 		<status value="empty"/>
 		<div xmlns="http://www.w3.org/1999/xhtml">QR ten behoeve van de NICE</div>
 	</text>
-	<questionnaire value="https://fhir.stichting-nice.nl/fhir/R4/Questionnaire/kiic-bezetting-2024Q1"/>
+	<questionnaire value="https://fhir.stichting-nice.nl/R4/Questionnaire/kiic-bezetting-2024Q1"/>
 	<status value="completed"/>
 	<item>
 		<linkId value="hospno"/>
@@ -35,7 +35,7 @@
 			<linkId value="dienst"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/dienst"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/dienst-2023Q3"/>
 					<code value="1"/>
 				</valueCoding>
 			</answer>
@@ -75,7 +75,7 @@
 			<linkId value="dienst"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/dienst"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/dienst-2023Q3"/>
 					<code value="2"/>
 				</valueCoding>
 			</answer>

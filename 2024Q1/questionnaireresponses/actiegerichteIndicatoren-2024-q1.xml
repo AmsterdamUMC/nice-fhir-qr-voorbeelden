@@ -3,7 +3,7 @@
 		<status value="empty"/>
 		<div xmlns="http://www.w3.org/1999/xhtml">QR ten behoeve van de NICE</div>
 	</text>
-	<questionnaire value="https://fhir.stichting-nice.nl/fhir/R4/Questionnaire/actiegerichte-indicatoren-2024Q1"/>
+	<questionnaire value="https://fhir.stichting-nice.nl/R4/Questionnaire/actiegerichte-indicatoren-2024Q1"/>
 	<status value="completed"/>
 	<item>
 		<linkId value="admno"/>
@@ -35,7 +35,7 @@
 			<linkId value="meetinstr_pijn"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/meetinstr_pijn"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/meetinstr-pijn-2023Q3"/>
 					<code value="3"/>
 				</valueCoding>
 			</answer>
@@ -75,7 +75,7 @@
 			<linkId value="meetinstr_pijn"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/meetinstr_pijn"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/meetinstr-pijn-2023Q3"/>
 					<code value="3"/>
 				</valueCoding>
 			</answer>
@@ -115,7 +115,7 @@
 			<linkId value="meetinstr_pijn"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/meetinstr_pijn"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/meetinstr-pijn-2023Q3"/>
 					<code value="3"/>
 				</valueCoding>
 			</answer>
@@ -155,7 +155,7 @@
 			<linkId value="meetinstr_pijn"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/meetinstr_pijn"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/meetinstr-pijn-2023Q3"/>
 					<code value="3"/>
 				</valueCoding>
 			</answer>
@@ -195,7 +195,7 @@
 			<linkId value="meetinstr_pijn"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/meetinstr_pijn"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/meetinstr-pijn-2023Q3"/>
 					<code value="3"/>
 				</valueCoding>
 			</answer>
@@ -229,7 +229,7 @@
 			<linkId value="bead_iv_niv"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/bead_iv_niv"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/bead-iv-niv-2023Q3"/>
 					<code value="1"/>
 				</valueCoding>
 			</answer>
@@ -309,7 +309,7 @@
 			<linkId value="bead_iv_niv"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/bead_iv_niv"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/bead-iv-niv-2023Q3"/>
 					<code value="1"/>
 				</valueCoding>
 			</answer>
@@ -389,7 +389,7 @@
 			<linkId value="bead_iv_niv"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/bead_iv_niv"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/bead-iv-niv-2023Q3"/>
 					<code value="1"/>
 				</valueCoding>
 			</answer>
@@ -469,7 +469,7 @@
 			<linkId value="bg_type"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/bg_type"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/bg-type-2023Q3"/>
 					<code value="1"/>
 				</valueCoding>
 			</answer>
@@ -509,7 +509,7 @@
 			<linkId value="bg_type"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/bg_type"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/bg-type-2023Q3"/>
 					<code value="1"/>
 				</valueCoding>
 			</answer>
@@ -549,7 +549,7 @@
 			<linkId value="bg_type"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/bg_type"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/bg-type-2023Q3"/>
 					<code value="1"/>
 				</valueCoding>
 			</answer>
@@ -589,7 +589,7 @@
 			<linkId value="bg_type"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/bg_type"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/bg-type-2023Q3"/>
 					<code value="1"/>
 				</valueCoding>
 			</answer>
@@ -629,7 +629,7 @@
 			<linkId value="bg_type"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/bg_type"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/bg-type-2023Q3"/>
 					<code value="1"/>
 				</valueCoding>
 			</answer>
@@ -669,7 +669,7 @@
 			<linkId value="bg_type"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/bg_type"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/bg-type-2023Q3"/>
 					<code value="1"/>
 				</valueCoding>
 			</answer>
@@ -709,7 +709,7 @@
 			<linkId value="bg_type"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/bg_type"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/bg-type-2023Q3"/>
 					<code value="1"/>
 				</valueCoding>
 			</answer>

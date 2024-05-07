@@ -1,7 +1,7 @@
 {
     "resourceType": "Questionnaire",
     "id": "complicatie-2024Q1",
-    "url": "https://fhir.stichting-nice.nl/fhir/R4/Questionnaire/complicatie-2024Q1",
+    "url": "https://fhir.stichting-nice.nl/R4/Questionnaire/complicatie-2024Q1",
     "name": "COMPLICATIE",
     "status": "active",
     "item": [
@@ -39,7 +39,7 @@
                     "linkId": "complicatie",
                     "type": "choice",
                     "required": false,
-                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/complicatie"
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/complicatie-2023Q3"
                 },
                 {
                     "linkId": "complicatie_date",
@@ -113,13 +113,13 @@
                     "linkId": "delier",
                     "type": "choice",
                     "required": false,
-                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/delier"
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/delier-2023Q3"
                 },
                 {
                     "linkId": "dienst",
                     "type": "choice",
                     "required": false,
-                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/dienst"
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/dienst-2023Q3"
                 },
                 {
                     "linkId": "isgevalideerd",

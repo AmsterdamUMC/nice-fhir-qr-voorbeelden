@@ -1,7 +1,7 @@
 {
     "resourceType": "Questionnaire",
     "id": "actiegerichte-indicatoren-2024Q1",
-    "url": "https://fhir.stichting-nice.nl/fhir/R4/Questionnaire/actiegerichte-indicatoren-2024Q1",
+    "url": "https://fhir.stichting-nice.nl/R4/Questionnaire/actiegerichte-indicatoren-2024Q1",
     "name": "ACTIEGERICHTE-INDICATOREN",
     "status": "active",
     "item": [
@@ -34,7 +34,7 @@
                     "linkId": "meetinstr_pijn",
                     "type": "choice",
                     "required": false,
-                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/meetinstr_pijn"
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/meetinstr-pijn-2023Q3"
                 },
                 {
                     "linkId": "pijn_no",
@@ -210,7 +210,7 @@
                     "linkId": "bead_iv_niv",
                     "type": "choice",
                     "required": false,
-                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/bead_iv_niv"
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/bead-iv-niv-2023Q3"
                 },
                 {
                     "linkId": "bead_modus",
@@ -293,7 +293,7 @@
                     "linkId": "bg_type",
                     "type": "choice",
                     "required": false,
-                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/bg_type"
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/bg-type-2023Q3"
                 },
                 {
                     "linkId": "isgevalideerd",
@@ -379,7 +379,7 @@
                     "linkId": "antibiotica_route",
                     "type": "choice",
                     "required": false,
-                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/antibiotica_route"
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/antibiotica-route-2023Q3"
                 },
                 {
                     "linkId": "antibiotica_unit",
@@ -449,7 +449,7 @@
                     "linkId": "sdd_sod",
                     "type": "choice",
                     "required": false,
-                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/sdd_sod"
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/sdd-sod-2023Q3"
                 },
                 {
                     "linkId": "sdd_sod_kalenderdag",

@@ -1,7 +1,7 @@
 {
     "resourceType": "Questionnaire",
     "id": "mds-2024Q1",
-    "url": "https://fhir.stichting-nice.nl/fhir/R4/Questionnaire/mds-2024Q1",
+    "url": "https://fhir.stichting-nice.nl/R4/Questionnaire/mds-2024Q1",
     "name": "MDS",
     "status": "active",
     "item": [
@@ -55,13 +55,13 @@
                     "linkId": "adm_source",
                     "type": "choice",
                     "required": false,
-                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/adm_source"
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/adm-source-2023Q3"
                 },
                 {
                     "linkId": "adm_type",
                     "type": "choice",
                     "required": false,
-                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/adm_type"
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/adm-type-2023Q3"
                 },
                 {
                     "linkId": "aids",
@@ -94,13 +94,13 @@
                     "linkId": "ap4diag1",
                     "type": "choice",
                     "required": false,
-                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/CodeSystem/ap4diag1-2023Q3"
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/ap4diag-2023Q3"
                 },
                 {
                     "linkId": "ap4diag2",
                     "type": "choice",
                     "required": false,
-                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/CodeSystem/ap4diag2-2023Q3"
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/ap4diag-2023Q3"
                 },
                 {
                     "linkId": "bicarb_max",
@@ -236,7 +236,7 @@
                     "linkId": "discharged_to",
                     "type": "choice",
                     "required": false,
-                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/discharged_to"
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/discharged-to-2023Q3"
                 },
                 {
                     "linkId": "ejfract",
@@ -288,7 +288,7 @@
                     "linkId": "eye_low",
                     "type": "choice",
                     "required": false,
-                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/eye_low"
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/eye-2023Q3"
                 },
                 {
                     "linkId": "fio2",
@@ -305,7 +305,7 @@
                     "linkId": "frailty",
                     "type": "choice",
                     "required": false,
-                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/frailty"
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/frailty-2023Q3"
                 },
                 {
                     "linkId": "gastro_bleed",
@@ -316,7 +316,7 @@
                     "linkId": "gender",
                     "type": "choice",
                     "required": false,
-                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/gender"
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/gender-2023Q3"
                 },
                 {
                     "linkId": "gluc_max",
@@ -456,7 +456,7 @@
                     "linkId": "motor_low",
                     "type": "choice",
                     "required": false,
-                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/motor_low"
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/motor-2023Q3"
                 },
                 {
                     "linkId": "neoplasm",
@@ -505,7 +505,7 @@
                     "linkId": "pat_type",
                     "type": "choice",
                     "required": false,
-                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/pat_type"
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/pat-type-2023Q3"
                 },
                 {
                     "linkId": "patno",
@@ -559,7 +559,7 @@
                     "linkId": "ref_spec",
                     "type": "choice",
                     "required": false,
-                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/ref_spec"
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/ref-spec-2023Q3"
                 },
                 {
                     "linkId": "resp_insuf",
@@ -706,7 +706,7 @@
                     "linkId": "verbal_low",
                     "type": "choice",
                     "required": false,
-                    "answerValueSet": "https://fhir.stichting-nice.nl/fhir/R4/ValueSet/verbal_low"
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/verbal-2023Q3"
                 },
                 {
                     "linkId": "wbc_max",

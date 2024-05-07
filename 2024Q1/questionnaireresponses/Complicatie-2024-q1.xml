@@ -3,7 +3,7 @@
 		<status value="empty"/>
 		<div xmlns="http://www.w3.org/1999/xhtml">QR ten behoeve van de NICE</div>
 	</text>
-	<questionnaire value="https://fhir.stichting-nice.nl/fhir/R4/Questionnaire/complicatie-2024Q1"/>
+	<questionnaire value="https://fhir.stichting-nice.nl/R4/Questionnaire/complicatie-2024Q1"/>
 	<status value="completed"/>
 	<item>
 		<linkId value="admno"/>
@@ -29,7 +29,7 @@
 			<linkId value="complicatie"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/complicatie"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/complicatie-2023Q3"/>
 					<code value="0"/>
 				</valueCoding>
 			</answer>
@@ -87,7 +87,7 @@
 			<linkId value="complicatie"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/complicatie"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/complicatie-2023Q3"/>
 					<code value="1"/>
 				</valueCoding>
 			</answer>
@@ -145,7 +145,7 @@
 			<linkId value="complicatie"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/complicatie"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/complicatie-2023Q3"/>
 					<code value="0"/>
 				</valueCoding>
 			</answer>
@@ -203,7 +203,7 @@
 			<linkId value="complicatie"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/complicatie"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/complicatie-2023Q3"/>
 					<code value="0"/>
 				</valueCoding>
 			</answer>
@@ -261,7 +261,7 @@
 			<linkId value="delier"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/delier"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/delier-2023Q3"/>
 					<code value="0"/>
 				</valueCoding>
 			</answer>
@@ -270,7 +270,7 @@
 			<linkId value="dienst"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/dienst"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/dienst-2023Q3"/>
 					<code value="1"/>
 				</valueCoding>
 			</answer>
@@ -318,7 +318,7 @@
 			<linkId value="delier"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/delier"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/delier-2023Q3"/>
 					<code value="0"/>
 				</valueCoding>
 			</answer>
@@ -327,7 +327,7 @@
 			<linkId value="dienst"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/dienst"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/dienst-2023Q3"/>
 					<code value="2"/>
 				</valueCoding>
 			</answer>
@@ -375,7 +375,7 @@
 			<linkId value="delier"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/delier"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/delier-2023Q3"/>
 					<code value="0"/>
 				</valueCoding>
 			</answer>
@@ -384,7 +384,7 @@
 			<linkId value="dienst"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/dienst"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/dienst-2023Q3"/>
 					<code value="3"/>
 				</valueCoding>
 			</answer>
@@ -432,7 +432,7 @@
 			<linkId value="delier"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/delier"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/delier-2023Q3"/>
 					<code value="1"/>
 				</valueCoding>
 			</answer>
@@ -441,7 +441,7 @@
 			<linkId value="dienst"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/dienst"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/dienst-2023Q3"/>
 					<code value="1"/>
 				</valueCoding>
 			</answer>
@@ -489,7 +489,7 @@
 			<linkId value="delier"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/delier"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/delier-2023Q3"/>
 					<code value="1"/>
 				</valueCoding>
 			</answer>
@@ -498,7 +498,7 @@
 			<linkId value="dienst"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/dienst"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/dienst-2023Q3"/>
 					<code value="2"/>
 				</valueCoding>
 			</answer>
@@ -546,7 +546,7 @@
 			<linkId value="delier"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/delier"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/delier-2023Q3"/>
 					<code value="0"/>
 				</valueCoding>
 			</answer>
@@ -555,7 +555,7 @@
 			<linkId value="dienst"/>
 			<answer>
 				<valueCoding>
-					<system value="https://fhir.stichting-nice.nl/fhir/R4/ValueSet/dienst"/>
+					<system value="https://fhir.stichting-nice.nl/R4/ValueSet/dienst-2023Q3"/>
 					<code value="3"/>
 				</valueCoding>
 			</answer>
