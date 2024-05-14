@@ -79,7 +79,7 @@
         {
           "linkId": "isgevalideerd",
           "type": "boolean",
-          "required": false
+          "required": true
         }
       ]
     }

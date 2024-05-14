@@ -28,7 +28,7 @@
                 {
                     "linkId": "isgevalideerd",
                     "type": "boolean",
-                    "required": false
+                    "required": true
                 },
                 {
                     "linkId": "meetinstr_pijn",
