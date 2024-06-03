@@ -21,182 +21,49 @@
             "required": true
         },
         {
-            "linkId": "ai_pijn",
+            "linkId": "ai_antibiotica",
             "type": "group",
             "repeats": true,
             "item": [
                 {
-                    "linkId": "isgevalideerd",
-                    "type": "boolean",
-                    "required": true
+                    "linkId": "ab_kalenderdag",
+                    "type": "dateTime",
+                    "required": false
                 },
                 {
-                    "linkId": "meetinstr_pijn",
+                    "linkId": "antibiotica_code",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "antibiotica_dosis",
+                    "code": [
+                        {
+                            "system": "http://www.whocc.no/atc_ddd_index/?code=J01"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "antibiotica_route",
                     "type": "choice",
                     "required": false,
-                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/meetinstr-pijn-2023Q3"
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/antibiotica-route-2023Q3"
                 },
                 {
-                    "linkId": "pijn_no",
-                    "type": "integer",
-                    "required": false
-                },
-                {
-                    "linkId": "pijn_tijd",
-                    "type": "dateTime",
-                    "required": false
-                },
-                {
-                    "linkId": "pijnscore",
+                    "linkId": "antibiotica_unit",
                     "code": [
                         {
-                            "system": "http://unitsofmeasure.org",
-                            "code": "{score}"
-                        }
-                    ],
-                    "type": "quantity",
-                    "required": false
-                }
-            ]
-        },
-        {
-            "linkId": "ai_erytrocyten",
-            "type": "group",
-            "repeats": true,
-            "item": [
-                {
-                    "linkId": "ery_id",
-                    "type": "text",
-                    "required": false
-                },
-                {
-                    "linkId": "ery_toed_tijd",
-                    "type": "dateTime",
-                    "required": false
-                },
-                {
-                    "linkId": "isgevalideerd",
-                    "type": "boolean",
-                    "required": false
-                }
-            ]
-        },
-        {
-            "linkId": "ai_hemoglobine",
-            "type": "group",
-            "repeats": true,
-            "item": [
-                {
-                    "linkId": "hb",
-                    "code": [
-                        {
-                            "system": "http://unitsofmeasure.org",
-                            "code": "mmol/L"
+                            "system": "http://www.whocc.no/atc_ddd_index/?code=J01"
                         }
                     ],
                     "type": "quantity",
                     "required": false
                 },
                 {
-                    "linkId": "hb_no",
-                    "type": "integer",
-                    "required": false
-                },
-                {
-                    "linkId": "hb_tijd",
-                    "type": "dateTime",
-                    "required": false
-                },
-                {
                     "linkId": "isgevalideerd",
                     "type": "boolean",
-                    "required": false
-                }
-            ]
-        },
-        {
-            "linkId": "ai_plasma",
-            "type": "group",
-            "repeats": true,
-            "item": [
-                {
-                    "linkId": "isgevalideerd",
-                    "type": "boolean",
-                    "required": false
-                },
-                {
-                    "linkId": "plasma_ein",
-                    "type": "text",
-                    "required": false
-                },
-                {
-                    "linkId": "plasma_soort",
-                    "type": "integer",
-                    "required": false
-                },
-                {
-                    "linkId": "plasma_toed_tijd",
-                    "type": "dateTime",
-                    "required": false
-                }
-            ]
-        },
-        {
-            "linkId": "ai_trombocyten",
-            "type": "group",
-            "repeats": true,
-            "item": [
-                {
-                    "linkId": "isgevalideerd",
-                    "type": "boolean",
-                    "required": false
-                },
-                {
-                    "linkId": "trombo_ein",
-                    "type": "text",
-                    "required": false
-                },
-                {
-                    "linkId": "trombo_status",
-                    "type": "integer",
-                    "required": false
-                },
-                {
-                    "linkId": "trombo_uit_tijd",
-                    "type": "dateTime",
-                    "required": false
-                }
-            ]
-        },
-        {
-            "linkId": "ai_transfusietrigger",
-            "type": "group",
-            "repeats": true,
-            "item": [
-                {
-                    "linkId": "isgevalideerd",
-                    "type": "boolean",
-                    "required": false
-                },
-                {
-                    "linkId": "trans_trig",
-                    "code": [
-                        {
-                            "system": "http://unitsofmeasure.org",
-                            "code": "mmol/L"
-                        }
-                    ],
-                    "type": "quantity",
-                    "required": false
-                },
-                {
-                    "linkId": "trans_trig_no",
-                    "type": "integer",
-                    "required": false
-                },
-                {
-                    "linkId": "trans_trig_tijd",
-                    "type": "dateTime",
                     "required": false
                 }
             ]
@@ -324,6 +191,177 @@
             ]
         },
         {
+            "linkId": "ai_erytrocyten",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "ery_id",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "ery_toed_tijd",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "isgevalideerd",
+                    "type": "boolean",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "linkId": "ai_hemoglobine",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "hb",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mmol/L"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "hb_no",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "hb_tijd",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "isgevalideerd",
+                    "type": "boolean",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "linkId": "ai_kweek",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "isgevalideerd",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "kweek_code",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "kweek_datumtijd",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "kweek_id",
+                    "type": "text",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "linkId": "ai_pijn",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "isgevalideerd",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "meetinstr_pijn",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/meetinstr-pijn-2023Q3"
+                },
+                {
+                    "linkId": "pijn_no",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "pijn_tijd",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "pijnscore",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{score}"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "linkId": "ai_plasma",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "isgevalideerd",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "plasma_ein",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "plasma_soort",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "plasma_toed_tijd",
+                    "type": "dateTime",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "linkId": "ai_sdd_sod",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "isgevalideerd",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "sdd_sod",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/sdd-sod-2023Q3"
+                },
+                {
+                    "linkId": "sdd_sod_kalenderdag",
+                    "type": "dateTime",
+                    "required": false
+                }
+            ]
+        },
+        {
             "linkId": "ai_sedatie",
             "type": "group",
             "repeats": true,
@@ -351,55 +389,7 @@
             ]
         },
         {
-            "linkId": "ai_antibiotica",
-            "type": "group",
-            "repeats": true,
-            "item": [
-                {
-                    "linkId": "ab_kalenderdag",
-                    "type": "dateTime",
-                    "required": false
-                },
-                {
-                    "linkId": "antibiotica_code",
-                    "type": "text",
-                    "required": false
-                },
-                {
-                    "linkId": "antibiotica_dosis",
-                    "code": [
-                        {
-                            "system": "http://www.whocc.no/atc_ddd_index/?code=J01"
-                        }
-                    ],
-                    "type": "quantity",
-                    "required": false
-                },
-                {
-                    "linkId": "antibiotica_route",
-                    "type": "choice",
-                    "required": false,
-                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/antibiotica-route-2023Q3"
-                },
-                {
-                    "linkId": "antibiotica_unit",
-                    "code": [
-                        {
-                            "system": "http://www.whocc.no/atc_ddd_index/?code=J01"
-                        }
-                    ],
-                    "type": "quantity",
-                    "required": false
-                },
-                {
-                    "linkId": "isgevalideerd",
-                    "type": "boolean",
-                    "required": false
-                }
-            ]
-        },
-        {
-            "linkId": "AI_spiegel",
+            "linkId": "ai_spiegel",
             "type": "group",
             "repeats": true,
             "item": [
@@ -436,7 +426,7 @@
             ]
         },
         {
-            "linkId": "ai_sdd_sod",
+            "linkId": "ai_transfusietrigger",
             "type": "group",
             "repeats": true,
             "item": [
@@ -446,20 +436,30 @@
                     "required": false
                 },
                 {
-                    "linkId": "sdd_sod",
-                    "type": "choice",
-                    "required": false,
-                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/sdd-sod-2023Q3"
+                    "linkId": "trans_trig",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mmol/L"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
                 },
                 {
-                    "linkId": "sdd_sod_kalenderdag",
+                    "linkId": "trans_trig_no",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "trans_trig_tijd",
                     "type": "dateTime",
                     "required": false
                 }
             ]
         },
         {
-            "linkId": "AI_kweek",
+            "linkId": "ai_trombocyten",
             "type": "group",
             "repeats": true,
             "item": [
@@ -469,18 +469,18 @@
                     "required": false
                 },
                 {
-                    "linkId": "kweek_code",
+                    "linkId": "trombo_ein",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "trombo_status",
                     "type": "integer",
                     "required": false
                 },
                 {
-                    "linkId": "kweek_datumtijd",
+                    "linkId": "trombo_uit_tijd",
                     "type": "dateTime",
-                    "required": false
-                },
-                {
-                    "linkId": "kweek_id",
-                    "type": "text",
                     "required": false
                 }
             ]
