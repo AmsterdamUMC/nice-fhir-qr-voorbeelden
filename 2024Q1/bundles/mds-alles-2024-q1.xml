@@ -7,9 +7,9 @@
       <value value="24221"></value>
    </identifier>
    <type value="collection"></type>
-   <timestamp value="2024-06-03T11:20:45.618+02:00"></timestamp>
+   <timestamp value="2024-07-25T09:13:37.676+02:00"></timestamp>
    <entry>
-      <fullUrl value="urn:uuid:c8c24c6c-2dd5-43c6-8cdd-542cca3815cf"></fullUrl>
+      <fullUrl value="urn:uuid:927b21d0-af64-47c7-b679-73ba25319edb"></fullUrl>
       <resource>
          <QuestionnaireResponse xmlns="http://hl7.org/fhir">
             <text>
@@ -638,7 +638,7 @@
                <item>
                   <linkId value="sars_cov2"></linkId>
                   <answer>
-                     <valueBoolean value="true"></valueBoolean>
+                     <valueBoolean value="false"></valueBoolean>
                   </answer>
                </item>
                <item>
@@ -787,7 +787,7 @@
       </resource>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:4ab52096-2302-465b-9d64-0218af7bb7c6"></fullUrl>
+      <fullUrl value="urn:uuid:7ecd5398-2d75-475c-beeb-03182f25b490"></fullUrl>
       <resource>
          <QuestionnaireResponse xmlns="http://hl7.org/fhir">
             <text>
@@ -839,7 +839,7 @@
       </resource>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:fba54816-cd3b-483b-92fa-217ec6014f7a"></fullUrl>
+      <fullUrl value="urn:uuid:3dfd2900-7f6c-442f-9e90-766ab526b085"></fullUrl>
       <resource>
          <QuestionnaireResponse xmlns="http://hl7.org/fhir">
             <text>
@@ -1572,7 +1572,7 @@
       </resource>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:e611a235-6297-4ef3-ace8-2206f368e102"></fullUrl>
+      <fullUrl value="urn:uuid:b713da00-81d8-4674-9b58-5b93ee8a2c5c"></fullUrl>
       <resource>
          <QuestionnaireResponse xmlns="http://hl7.org/fhir">
             <text>
@@ -2174,6 +2174,120 @@
                </item>
             </item>
             <item>
+               <linkId value="ai_medicatietoediening"></linkId>
+               <item>
+                  <linkId value="isgevalideerd"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="stopdatumtijd"></linkId>
+                  <answer>
+                     <valueDateTime value="2024-01-30T00:53:00+01:00"></valueDateTime>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="toediening_datumtijd"></linkId>
+                  <answer>
+                     <valueDateTime value="2024-01-27T21:04:00+01:00"></valueDateTime>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="toediening_eenheid"></linkId>
+                  <answer>
+                     <valueString value="mg"></valueString>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="toediening_volgnr"></linkId>
+                  <answer>
+                     <valueInteger value="30001"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="toegediendehoeveelheid"></linkId>
+                  <answer>
+                     <valueDecimal value="200"></valueDecimal>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="toedieningsproduct"></linkId>
+                  <answer>
+                     <valueString value="J01GB03"></valueString>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="toedieningsproduct_naam"></linkId>
+                  <answer>
+                     <valueString value="gentamycine"></valueString>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="toedieningsweg"></linkId>
+                  <answer>
+                     <valueInteger value="75"></valueInteger>
+                  </answer>
+               </item>
+            </item>
+            <item>
+               <linkId value="ai_medicatietoediening"></linkId>
+               <item>
+                  <linkId value="isgevalideerd"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="stopdatumtijd"></linkId>
+                  <answer>
+                     <valueDateTime value="2024-01-30T00:53:00+01:00"></valueDateTime>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="toediening_datumtijd"></linkId>
+                  <answer>
+                     <valueDateTime value="2024-01-28T03:00:00+01:00"></valueDateTime>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="toediening_eenheid"></linkId>
+                  <answer>
+                     <valueString value="mg"></valueString>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="toediening_volgnr"></linkId>
+                  <answer>
+                     <valueInteger value="30002"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="toegediendehoeveelheid"></linkId>
+                  <answer>
+                     <valueDecimal value="150"></valueDecimal>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="toedieningsproduct"></linkId>
+                  <answer>
+                     <valueString value="J01GB03"></valueString>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="toedieningsproduct_naam"></linkId>
+                  <answer>
+                     <valueString value="gentamycine"></valueString>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="toedieningsweg"></linkId>
+                  <answer>
+                     <valueInteger value="75"></valueInteger>
+                  </answer>
+               </item>
+            </item>
+            <item>
                <linkId value="ai_pijn"></linkId>
                <item>
                   <linkId value="isgevalideerd"></linkId>
@@ -2374,6 +2488,33 @@
                </item>
             </item>
             <item>
+               <linkId value="ai_sedatie"></linkId>
+               <item>
+                  <linkId value="isgevalideerd"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="sedatie"></linkId>
+                  <answer>
+                     <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="sedatie_kalenderdag"></linkId>
+                  <answer>
+                     <valueDate value="2024-01-28"></valueDate>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="sedatiemiddel"></linkId>
+                  <answer>
+                     <valueString value="N01AX10"></valueString>
+                  </answer>
+               </item>
+            </item>
+            <item>
                <linkId value="ai_spiegel"></linkId>
                <item>
                   <linkId value="isgevalideerd"></linkId>
@@ -2416,7 +2557,7 @@
       </resource>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:2d920222-6332-4c5e-8533-a4f37cc91020"></fullUrl>
+      <fullUrl value="urn:uuid:4d61bcab-c4e8-4913-9eb7-0a0e5f42f2d3"></fullUrl>
       <resource>
          <QuestionnaireResponse xmlns="http://hl7.org/fhir">
             <text>
@@ -3133,7 +3274,7 @@
       </resource>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:2846a970-d459-40f6-87d6-f17c23d17539"></fullUrl>
+      <fullUrl value="urn:uuid:00be46d2-e38b-4131-8137-0bab92612253"></fullUrl>
       <resource>
          <QuestionnaireResponse xmlns="http://hl7.org/fhir">
             <text>

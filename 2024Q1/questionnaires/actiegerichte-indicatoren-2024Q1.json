@@ -21,54 +21,6 @@
             "required": true
         },
         {
-            "linkId": "ai_antibiotica",
-            "type": "group",
-            "repeats": true,
-            "item": [
-                {
-                    "linkId": "ab_kalenderdag",
-                    "type": "dateTime",
-                    "required": false
-                },
-                {
-                    "linkId": "antibiotica_code",
-                    "type": "text",
-                    "required": false
-                },
-                {
-                    "linkId": "antibiotica_dosis",
-                    "code": [
-                        {
-                            "system": "http://www.whocc.no/atc_ddd_index/?code=J01"
-                        }
-                    ],
-                    "type": "quantity",
-                    "required": false
-                },
-                {
-                    "linkId": "antibiotica_route",
-                    "type": "choice",
-                    "required": false,
-                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/antibiotica-route-2023Q3"
-                },
-                {
-                    "linkId": "antibiotica_unit",
-                    "code": [
-                        {
-                            "system": "http://www.whocc.no/atc_ddd_index/?code=J01"
-                        }
-                    ],
-                    "type": "quantity",
-                    "required": false
-                },
-                {
-                    "linkId": "isgevalideerd",
-                    "type": "boolean",
-                    "required": false
-                }
-            ]
-        },
-        {
             "linkId": "ai_beademingsinstellingen",
             "type": "group",
             "repeats": true,
@@ -268,6 +220,58 @@
                 {
                     "linkId": "kweek_id",
                     "type": "text",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "linkId": "ai_medicatietoediening",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "isgevalideerd",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "toediening_volgnr",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "stopdatumtijd",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "toediening_datumtijd",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "toediening_eenheid",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "toedieningsproduct",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "toedieningsproduct_naam",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "toedieningsweg",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "toegediendehoeveelheid",
+                    "type": "decimal",
                     "required": false
                 }
             ]

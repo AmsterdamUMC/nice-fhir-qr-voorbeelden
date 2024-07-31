@@ -598,6 +598,120 @@
 		</item>
 	</item>
 	<item>
+		<linkId value="ai_medicatietoediening"/>
+		<item>
+			<linkId value="isgevalideerd"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="stopdatumtijd"/>
+			<answer>
+				<valueDateTime value="2024-01-30T00:53:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toediening_datumtijd"/>
+			<answer>
+				<valueDateTime value="2024-01-27T21:04:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toediening_eenheid"/>
+			<answer>
+				<valueString value="mg"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toediening_volgnr"/>
+			<answer>
+				<valueInteger value="30001"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toegediendehoeveelheid"/>
+			<answer>
+				<valueDecimal value="200"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toedieningsproduct"/>
+			<answer>
+				<valueString value="J01GB03"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toedieningsproduct_naam"/>
+			<answer>
+				<valueString value="gentamycine"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toedieningsweg"/>
+			<answer>
+				<valueInteger value="75"/>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="ai_medicatietoediening"/>
+		<item>
+			<linkId value="isgevalideerd"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="stopdatumtijd"/>
+			<answer>
+				<valueDateTime value="2024-01-30T00:53:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toediening_datumtijd"/>
+			<answer>
+				<valueDateTime value="2024-01-28T03:00:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toediening_eenheid"/>
+			<answer>
+				<valueString value="mg"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toediening_volgnr"/>
+			<answer>
+				<valueInteger value="30002"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toegediendehoeveelheid"/>
+			<answer>
+				<valueDecimal value="150"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toedieningsproduct"/>
+			<answer>
+				<valueString value="J01GB03"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toedieningsproduct_naam"/>
+			<answer>
+				<valueString value="gentamycine"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toedieningsweg"/>
+			<answer>
+				<valueInteger value="75"/>
+			</answer>
+		</item>
+	</item>
+	<item>
 		<linkId value="ai_pijn"/>
 		<item>
 			<linkId value="isgevalideerd"/>
@@ -794,6 +908,33 @@
 					<system value="http://unitsofmeasure.org"/>
 					<code value="{score}"/>
 				</valueQuantity>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="ai_sedatie"/>
+		<item>
+			<linkId value="isgevalideerd"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sedatie"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sedatie_kalenderdag"/>
+			<answer>
+				<valueDate value="2024-01-28"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sedatiemiddel"/>
+			<answer>
+				<valueString value="N01AX10"/>
 			</answer>
 		</item>
 	</item>
