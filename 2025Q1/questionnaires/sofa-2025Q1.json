@@ -1,0 +1,224 @@
+{
+    "resourceType": "Questionnaire",
+    "id": "sofa-2025Q1",
+    "url": "https://fhir.stichting-nice.nl/R4/Questionnaire/sofa-2025Q1",
+    "name": "SOFA",
+    "status": "active",
+    "item": [
+        {
+            "linkId": "admno",
+            "type": "integer",
+            "required": true
+        },
+        {
+            "linkId": "hospno",
+            "type": "integer",
+            "required": true
+        },
+        {
+            "linkId": "icno",
+            "type": "integer",
+            "required": true
+        },
+        {
+            "linkId": "isgevalideerd",
+            "type": "boolean",
+            "required": true
+        },
+        {
+            "linkId": "sofa",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "adre",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "ug/kg/min"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "assist",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "dobu",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "dopa",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "ug/kg/min"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "icp",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "mars",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "niveau",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "nora",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "ug/kg/min"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "pdi",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "resp_support",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "rrt",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "sofa_bili",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "umol/L"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "sofa_date",
+                    "type": "date",
+                    "required": false
+                },
+                {
+                    "linkId": "sofa_day",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "sofa_eye",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/eye-2023Q3"
+                },
+                {
+                    "linkId": "sofa_fio2",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "%"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "sofa_kreat",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "umol/L"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "sofa_mean_bl",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mm[Hg]"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "sofa_motor",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/motor-2023Q3"
+                },
+                {
+                    "linkId": "sofa_pao2",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "sofa_thromb",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "10*9/L"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "sofa_urine",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mL"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "sofa_verbal",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/verbal-2023Q3"
+                },
+                {
+                    "linkId": "spec_bead",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "vasopressine",
+                    "code": [
+                        {
+                            "system": "https://ucum.org/",
+                            "code": "iU/min"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                }
+            ]
+        }
+    ]
+}

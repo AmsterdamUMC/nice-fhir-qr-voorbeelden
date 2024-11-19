@@ -1,0 +1,860 @@
+<QuestionnaireResponse xmlns="http://hl7.org/fhir">
+	<text>
+		<status value="empty"/>
+		<div xmlns="http://www.w3.org/1999/xhtml">QR ten behoeve van de NICE</div>
+	</text>
+	<questionnaire value="https://fhir.stichting-nice.nl/R4/Questionnaire/actiegerichte-indicatoren-2025Q1"/>
+	<status value="completed"/>
+	<item>
+		<linkId value="admno"/>
+		<answer>
+			<valueInteger value="24221"/>
+		</answer>
+	</item>
+	<item>
+		<linkId value="hospno"/>
+		<answer>
+			<valueInteger value="88"/>
+		</answer>
+	</item>
+	<item>
+		<linkId value="icno"/>
+		<answer>
+			<valueInteger value="1"/>
+		</answer>
+	</item>
+	<item>
+		<linkId value="isgevalideerd"/>
+		<answer>
+			<valueBoolean value="true"/>
+		</answer>
+	</item>
+	<item>
+		<linkId value="ai_beademingsinstellingen"/>
+		<item>
+			<linkId value="bead_iv_niv"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/R4/CodeSystem/bead-iv-niv-2023Q3"/>
+					<code value="1"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="bead_modus"/>
+			<answer>
+				<valueInteger value="1"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="fio2_bead"/>
+			<answer>
+				<valueQuantity>
+					<value value="90.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="%"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="mt_bead_inst"/>
+			<answer>
+				<valueDateTime value="2024-01-27T15:03:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="peep"/>
+			<answer>
+				<valueQuantity>
+					<value value="4.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="cm[H2O]"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="resp_spont"/>
+			<answer>
+				<valueQuantity>
+					<value value="20.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="{Breaths}/min"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="resp_totaal"/>
+			<answer>
+				<valueQuantity>
+					<value value="20.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="{Breaths}/min"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="teugvolume"/>
+			<answer>
+				<valueQuantity>
+					<value value="685.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="mL"/>
+				</valueQuantity>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="ai_beademingsinstellingen"/>
+		<item>
+			<linkId value="bead_iv_niv"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/R4/CodeSystem/bead-iv-niv-2023Q3"/>
+					<code value="1"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="bead_modus"/>
+			<answer>
+				<valueInteger value="1"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="fio2_bead"/>
+			<answer>
+				<valueQuantity>
+					<value value="70.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="%"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="mt_bead_inst"/>
+			<answer>
+				<valueDateTime value="2024-01-27T15:24:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="peep"/>
+			<answer>
+				<valueQuantity>
+					<value value="1.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="cm[H2O]"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="resp_spont"/>
+			<answer>
+				<valueQuantity>
+					<value value="27.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="{Breaths}/min"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="resp_totaal"/>
+			<answer>
+				<valueQuantity>
+					<value value="31.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="{Breaths}/min"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="teugvolume"/>
+			<answer>
+				<valueQuantity>
+					<value value="696.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="mL"/>
+				</valueQuantity>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="ai_beademingsinstellingen"/>
+		<item>
+			<linkId value="bead_iv_niv"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/R4/CodeSystem/bead-iv-niv-2023Q3"/>
+					<code value="1"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="bead_modus"/>
+			<answer>
+				<valueInteger value="1"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="fio2_bead"/>
+			<answer>
+				<valueQuantity>
+					<value value="75.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="%"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="mt_bead_inst"/>
+			<answer>
+				<valueDateTime value="2024-01-27T16:11:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="peep"/>
+			<answer>
+				<valueQuantity>
+					<value value="2.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="cm[H2O]"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="resp_spont"/>
+			<answer>
+				<valueQuantity>
+					<value value="21.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="{Breaths}/min"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="resp_totaal"/>
+			<answer>
+				<valueQuantity>
+					<value value="19.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="{Breaths}/min"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="teugvolume"/>
+			<answer>
+				<valueQuantity>
+					<value value="1105.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="mL"/>
+				</valueQuantity>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="ai_bloedgas"/>
+		<item>
+			<linkId value="bg_type"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/R4/CodeSystem/bg-type-2023Q3"/>
+					<code value="1"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="mt_pao2"/>
+			<answer>
+				<valueDateTime value="2023-01-27T13:02:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pao2_bead"/>
+			<answer>
+				<valueQuantity>
+					<value value="89.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="mm[Hg]"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pao2_id"/>
+			<answer>
+				<valueInteger value="1"/>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="ai_bloedgas"/>
+		<item>
+			<linkId value="bg_type"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/R4/CodeSystem/bg-type-2023Q3"/>
+					<code value="1"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="mt_pao2"/>
+			<answer>
+				<valueDateTime value="2024-01-27T14:03:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pao2_bead"/>
+			<answer>
+				<valueQuantity>
+					<value value="80.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="mm[Hg]"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pao2_id"/>
+			<answer>
+				<valueInteger value="2"/>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="ai_bloedgas"/>
+		<item>
+			<linkId value="bg_type"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/R4/CodeSystem/bg-type-2023Q3"/>
+					<code value="1"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="mt_pao2"/>
+			<answer>
+				<valueDateTime value="2024-01-27T15:18:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pao2_bead"/>
+			<answer>
+				<valueQuantity>
+					<value value="64.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="mm[Hg]"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pao2_id"/>
+			<answer>
+				<valueInteger value="3"/>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="ai_bloedgas"/>
+		<item>
+			<linkId value="bg_type"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/R4/CodeSystem/bg-type-2023Q3"/>
+					<code value="1"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="mt_pao2"/>
+			<answer>
+				<valueDateTime value="2024-01-27T16:22:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pao2_bead"/>
+			<answer>
+				<valueQuantity>
+					<value value="75.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="mm[Hg]"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pao2_id"/>
+			<answer>
+				<valueInteger value="4"/>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="ai_bloedgas"/>
+		<item>
+			<linkId value="bg_type"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/R4/CodeSystem/bg-type-2023Q3"/>
+					<code value="1"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="mt_pao2"/>
+			<answer>
+				<valueDateTime value="2024-01-27T16:58:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pao2_bead"/>
+			<answer>
+				<valueQuantity>
+					<value value="72.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="mm[Hg]"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pao2_id"/>
+			<answer>
+				<valueInteger value="5"/>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="ai_bloedgas"/>
+		<item>
+			<linkId value="bg_type"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/R4/CodeSystem/bg-type-2023Q3"/>
+					<code value="1"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="mt_pao2"/>
+			<answer>
+				<valueDateTime value="2024-01-27T19:30:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pao2_bead"/>
+			<answer>
+				<valueQuantity>
+					<value value="66.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="mm[Hg]"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pao2_id"/>
+			<answer>
+				<valueInteger value="6"/>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="ai_bloedgas"/>
+		<item>
+			<linkId value="bg_type"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/R4/CodeSystem/bg-type-2023Q3"/>
+					<code value="1"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="mt_pao2"/>
+			<answer>
+				<valueDateTime value="2024-01-27T22:30:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pao2_bead"/>
+			<answer>
+				<valueQuantity>
+					<value value="88.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="mm[Hg]"/>
+				</valueQuantity>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pao2_id"/>
+			<answer>
+				<valueInteger value="7"/>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="ai_kweek"/>
+		<item>
+			<linkId value="kweek_code"/>
+			<answer>
+				<valueInteger value="446131002"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="kweek_datumtijd"/>
+			<answer>
+				<valueDateTime value="2024-01-28T14:15:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="kweek_id"/>
+			<answer>
+				<valueString value="100001"/>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="ai_kweek"/>
+		<item>
+			<linkId value="kweek_code"/>
+			<answer>
+				<valueInteger value="42729000"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="kweek_datumtijd"/>
+			<answer>
+				<valueDateTime value="2024-01-28T15:27:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="kweek_id"/>
+			<answer>
+				<valueString value="100002"/>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="ai_medicatietoediening"/>
+		<item>
+			<linkId value="stopdatumtijd"/>
+			<answer>
+				<valueDateTime value="2024-01-30T00:53:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toediening_datumtijd"/>
+			<answer>
+				<valueDateTime value="2024-01-27T21:04:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toediening_eenheid"/>
+			<answer>
+				<valueString value="mg"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toediening_volgnr"/>
+			<answer>
+				<valueInteger value="30001"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toedieningsproduct"/>
+			<answer>
+				<valueString value="J01GB03"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toedieningsproduct_naam"/>
+			<answer>
+				<valueString value="gentamycine"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toedieningsweg"/>
+			<answer>
+				<valueInteger value="75"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toegediendehoeveelheid"/>
+			<answer>
+				<valueDecimal value="200"/>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="ai_medicatietoediening"/>
+		<item>
+			<linkId value="stopdatumtijd"/>
+			<answer>
+				<valueDateTime value="2024-01-30T00:53:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toediening_datumtijd"/>
+			<answer>
+				<valueDateTime value="2024-01-28T03:00:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toediening_eenheid"/>
+			<answer>
+				<valueString value="mg"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toediening_volgnr"/>
+			<answer>
+				<valueInteger value="30002"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toedieningsproduct"/>
+			<answer>
+				<valueString value="J01GB03"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toedieningsproduct_naam"/>
+			<answer>
+				<valueString value="gentamycine"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toedieningsweg"/>
+			<answer>
+				<valueInteger value="75"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="toegediendehoeveelheid"/>
+			<answer>
+				<valueDecimal value="150"/>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="ai_pijn"/>
+		<item>
+			<linkId value="meetinstr_pijn"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/R4/CodeSystem/meetinstr-pijn-2023Q3"/>
+					<code value="3"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pijn_no"/>
+			<answer>
+				<valueInteger value="1"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pijn_tijd"/>
+			<answer>
+				<valueDateTime value="2024-01-27T15:00:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pijnscore"/>
+			<answer>
+				<valueQuantity>
+					<value value="5.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="{score}"/>
+				</valueQuantity>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="ai_pijn"/>
+		<item>
+			<linkId value="meetinstr_pijn"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/R4/CodeSystem/meetinstr-pijn-2023Q3"/>
+					<code value="3"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pijn_no"/>
+			<answer>
+				<valueInteger value="2"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pijn_tijd"/>
+			<answer>
+				<valueDateTime value="2024-01-27T18:02:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pijnscore"/>
+			<answer>
+				<valueQuantity>
+					<value value="4.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="{score}"/>
+				</valueQuantity>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="ai_pijn"/>
+		<item>
+			<linkId value="meetinstr_pijn"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/R4/CodeSystem/meetinstr-pijn-2023Q3"/>
+					<code value="3"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pijn_no"/>
+			<answer>
+				<valueInteger value="3"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pijn_tijd"/>
+			<answer>
+				<valueDateTime value="2024-01-27T19:54:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pijnscore"/>
+			<answer>
+				<valueQuantity>
+					<value value="6.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="{score}"/>
+				</valueQuantity>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="ai_pijn"/>
+		<item>
+			<linkId value="meetinstr_pijn"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/R4/CodeSystem/meetinstr-pijn-2023Q3"/>
+					<code value="3"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pijn_no"/>
+			<answer>
+				<valueInteger value="4"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pijn_tijd"/>
+			<answer>
+				<valueDateTime value="2024-01-27T21:48:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pijnscore"/>
+			<answer>
+				<valueQuantity>
+					<value value="4.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="{score}"/>
+				</valueQuantity>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="ai_pijn"/>
+		<item>
+			<linkId value="meetinstr_pijn"/>
+			<answer>
+				<valueCoding>
+					<system value="https://fhir.stichting-nice.nl/R4/CodeSystem/meetinstr-pijn-2023Q3"/>
+					<code value="3"/>
+				</valueCoding>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pijn_no"/>
+			<answer>
+				<valueInteger value="5"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pijn_tijd"/>
+			<answer>
+				<valueDateTime value="2024-01-27T23:58:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="pijnscore"/>
+			<answer>
+				<valueQuantity>
+					<value value="4.0"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="{score}"/>
+				</valueQuantity>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="ai_sedatie"/>
+		<item>
+			<linkId value="sedatie"/>
+			<answer>
+				<valueBoolean value="true"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sedatie_kalenderdag"/>
+			<answer>
+				<valueDate value="2024-01-28"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="sedatiemiddel"/>
+			<answer>
+				<valueString value="N01AX10"/>
+			</answer>
+		</item>
+	</item>
+	<item>
+		<linkId value="ai_spiegel"/>
+		<item>
+			<linkId value="spiegel_code"/>
+			<answer>
+				<valueString value="4092-3"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="spiegel_datumtijd"/>
+			<answer>
+				<valueDateTime value="2024-01-27T17:32:00+01:00"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="spiegel_eenheid"/>
+			<answer>
+				<valueString value="mg/ml"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="spiegel_volgnr"/>
+			<answer>
+				<valueString value="200001"/>
+			</answer>
+		</item>
+		<item>
+			<linkId value="spiegel_waarde"/>
+			<answer>
+				<valueDecimal value="15"/>
+			</answer>
+		</item>
+	</item>
+</QuestionnaireResponse>
