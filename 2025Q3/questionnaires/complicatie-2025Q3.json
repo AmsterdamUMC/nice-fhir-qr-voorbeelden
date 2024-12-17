@@ -1,0 +1,127 @@
+{
+    "resourceType": "Questionnaire",
+    "id": "complicatie-2025Q3",
+    "url": "https://fhir.stichting-nice.nl/R4/Questionnaire/complicatie-2025Q3",
+    "name": "COMPLICATIE",
+    "status": "active",
+    "item": [
+        {
+            "linkId": "admno",
+            "type": "integer",
+            "required": true
+        },
+        {
+            "linkId": "hospno",
+            "type": "integer",
+            "required": true
+        },
+        {
+            "linkId": "icno",
+            "type": "integer",
+            "required": true
+        },
+        {
+            "linkId": "isgevalideerd",
+            "type": "boolean",
+            "required": true
+        },
+        {
+            "linkId": "complicatie_kalenderdag",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "complicatie",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/complicatie-2023Q3"
+                },
+                {
+                    "linkId": "complicatie_date",
+                    "type": "date",
+                    "required": false
+                },
+                {
+                    "linkId": "complicatie_day",
+                    "type": "integer",
+                    "required": true
+                },
+                {
+                    "linkId": "intubatie",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "katheter",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "lijnsepsis",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "pneumo",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "reintubatie",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{number}"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "linkId": "complicatie_dienst",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "delier",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/delier-2023Q3"
+                },
+                {
+                    "linkId": "dienst",
+                    "type": "choice",
+                    "required": true,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/dienst-2023Q3"
+                },
+                {
+                    "linkId": "kalenderdag",
+                    "type": "date",
+                    "required": false
+                },
+                {
+                    "linkId": "screen_cam",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "screen_dcs",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "screen_doss",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "screen_overig",
+                    "type": "boolean",
+                    "required": false
+                }
+            ]
+        }
+    ]
+}

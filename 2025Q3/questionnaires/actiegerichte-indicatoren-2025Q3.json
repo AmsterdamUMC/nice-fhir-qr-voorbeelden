@@ -1,0 +1,394 @@
+{
+    "resourceType": "Questionnaire",
+    "id": "actiegerichte-indicatoren-2025Q3",
+    "url": "https://fhir.stichting-nice.nl/R4/Questionnaire/actiegerichte-indicatoren-2025Q3",
+    "name": "ACTIEGERICHTE-INDICATOREN",
+    "status": "active",
+    "item": [
+        {
+            "linkId": "admno",
+            "type": "integer",
+            "required": true
+        },
+        {
+            "linkId": "hospno",
+            "type": "integer",
+            "required": true
+        },
+        {
+            "linkId": "icno",
+            "type": "integer",
+            "required": true
+        },
+        {
+            "linkId": "isgevalideerd",
+            "type": "boolean",
+            "required": true
+        },
+        {
+            "linkId": "ai_beademingsinstellingen",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "bead_iv_niv",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/bead-iv-niv-2023Q3"
+                },
+                {
+                    "linkId": "bead_modus",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/bead-modus-2023Q3"
+                },
+                {
+                    "linkId": "fio2_bead",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "%"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "mt_bead_inst",
+                    "type": "dateTime",
+                    "required": true
+                },
+                {
+                    "linkId": "peep",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "cm[H2O]"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "resp_spont",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{Breaths}/min"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "resp_totaal",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{Breaths}/min"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "teugvolume",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mL"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "linkId": "ai_bloedgas",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "bg_type",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/bg-type-2023Q3"
+                },
+                {
+                    "linkId": "mt_pao2",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "pao2_bead",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mm[Hg]"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "pao2_id",
+                    "type": "integer",
+                    "required": true
+                }
+            ]
+        },
+        {
+            "linkId": "ai_erytrocyten",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "ery_id",
+                    "type": "text",
+                    "required": true
+                },
+                {
+                    "linkId": "ery_toed_tijd",
+                    "type": "dateTime",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "linkId": "ai_hemoglobine",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "hb",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mmol/L"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "hb_no",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "hb_tijd",
+                    "type": "dateTime",
+                    "required": true
+                }
+            ]
+        },
+        {
+            "linkId": "ai_kweek",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "kweek_code",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "kweek_datumtijd",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "kweek_id",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        {
+            "linkId": "ai_medicatietoediening",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "stopdatumtijd",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "toediening_datumtijd",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "toediening_eenheid",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "toediening_volgnr",
+                    "type": "integer",
+                    "required": true
+                },
+                {
+                    "linkId": "toedieningsproduct",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "toedieningsproduct_naam",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "toedieningsweg",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "toegediendehoeveelheid",
+                    "type": "decimal",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "linkId": "ai_pijn",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "meetinstr_pijn",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/meetinstr-pijn-2023Q3"
+                },
+                {
+                    "linkId": "pijn_no",
+                    "type": "integer",
+                    "required": true
+                },
+                {
+                    "linkId": "pijn_tijd",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "pijnscore",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{score}"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "linkId": "ai_plasma",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "plasma_ein",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "plasma_soort",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "plasma_toed_tijd",
+                    "type": "dateTime",
+                    "required": true
+                }
+            ]
+        },
+        {
+            "linkId": "ai_spiegel",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "spiegel_code",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "spiegel_datumtijd",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "spiegel_eenheid",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "spiegel_volgnr",
+                    "type": "text",
+                    "required": true
+                },
+                {
+                    "linkId": "spiegel_waarde",
+                    "type": "decimal",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "linkId": "ai_transfusietrigger",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "trans_trig",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mmol/L"
+                        }
+                    ],
+                    "type": "quantity",
+                    "required": false
+                },
+                {
+                    "linkId": "trans_trig_no",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "trans_trig_tijd",
+                    "type": "dateTime",
+                    "required": true
+                }
+            ]
+        },
+        {
+            "linkId": "ai_trombocyten",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "trombo_ein",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "trombo_status",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "trombo_uit_tijd",
+                    "type": "dateTime",
+                    "required": true
+                }
+            ]
+        }
+    ]
+}

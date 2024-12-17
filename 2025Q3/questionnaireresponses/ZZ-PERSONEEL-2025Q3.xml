@@ -1,0 +1,164 @@
+<QuestionnaireResponse xmlns="http://hl7.org/fhir">
+   <text>
+      <status value="empty"></status>
+      <div xmlns="http://www.w3.org/1999/xhtml">QR ten behoeve van de NICE</div>
+   </text>
+   <questionnaire value="https://fhir.stichting-nice.nl/R4/Questionnaire/zz-personeel-2025Q3"></questionnaire>
+   <status value="completed"></status>
+   <item>
+      <linkId value="hospno"></linkId>
+      <answer>
+         <valueInteger value="88"></valueInteger>
+      </answer>
+   </item>
+   <item>
+      <linkId value="icno"></linkId>
+      <answer>
+         <valueInteger value="1"></valueInteger>
+      </answer>
+   </item>
+   <item>
+      <linkId value="isgevalideerd"></linkId>
+      <answer>
+         <valueBoolean value="true"></valueBoolean>
+      </answer>
+   </item>
+   <item>
+      <linkId value="scoredatum"></linkId>
+      <answer>
+         <valueDate value="2024-01-28"></valueDate>
+      </answer>
+   </item>
+   <item>
+      <linkId value="zz_personeel"></linkId>
+      <item>
+         <linkId value="groep"></linkId>
+         <answer>
+            <valueInteger value="1"></valueInteger>
+         </answer>
+      </item>
+      <item>
+         <linkId value="dienst"></linkId>
+         <answer>
+            <valueCoding>
+               <system value="https://fhir.stichting-nice.nl/R4/CodeSystem/dienst-2023Q3"></system>
+               <code value="1"></code>
+            </valueCoding>
+         </answer>
+      </item>
+      <item>
+         <linkId value="cardiac_vpk"></linkId>
+         <answer>
+            <valueDecimal value="3"></valueDecimal>
+         </answer>
+      </item>
+      <item>
+         <linkId value="eindleerling_vpk"></linkId>
+         <answer>
+            <valueDecimal value="7"></valueDecimal>
+         </answer>
+      </item>
+      <item>
+         <linkId value="ic_vpk"></linkId>
+         <answer>
+            <valueDecimal value="2"></valueDecimal>
+         </answer>
+      </item>
+      <item>
+         <linkId value="leerling_vpk"></linkId>
+         <answer>
+            <valueDecimal value="3"></valueDecimal>
+         </answer>
+      </item>
+      <item>
+         <linkId value="mc_vpk"></linkId>
+         <answer>
+            <valueDecimal value="2"></valueDecimal>
+         </answer>
+      </item>
+      <item>
+         <linkId value="ondersteunend_vpk"></linkId>
+         <answer>
+            <valueDecimal value="1"></valueDecimal>
+         </answer>
+      </item>
+      <item>
+         <linkId value="overige_vpk"></linkId>
+         <answer>
+            <valueDecimal value="1"></valueDecimal>
+         </answer>
+      </item>
+      <item>
+         <linkId value="recovery_vpk"></linkId>
+         <answer>
+            <valueDecimal value="2"></valueDecimal>
+         </answer>
+      </item>
+   </item>
+   <item>
+      <linkId value="zz_personeel"></linkId>
+      <item>
+         <linkId value="groep"></linkId>
+         <answer>
+            <valueInteger value="1"></valueInteger>
+         </answer>
+      </item>
+      <item>
+         <linkId value="dienst"></linkId>
+         <answer>
+            <valueCoding>
+               <system value="https://fhir.stichting-nice.nl/R4/CodeSystem/dienst-2023Q3"></system>
+               <code value="2"></code>
+            </valueCoding>
+         </answer>
+      </item>
+      <item>
+         <linkId value="cardiac_vpk"></linkId>
+         <answer>
+            <valueDecimal value="3"></valueDecimal>
+         </answer>
+      </item>
+      <item>
+         <linkId value="eindleerling_vpk"></linkId>
+         <answer>
+            <valueDecimal value="7"></valueDecimal>
+         </answer>
+      </item>
+      <item>
+         <linkId value="ic_vpk"></linkId>
+         <answer>
+            <valueDecimal value="2"></valueDecimal>
+         </answer>
+      </item>
+      <item>
+         <linkId value="leerling_vpk"></linkId>
+         <answer>
+            <valueDecimal value="3"></valueDecimal>
+         </answer>
+      </item>
+      <item>
+         <linkId value="mc_vpk"></linkId>
+         <answer>
+            <valueDecimal value="2"></valueDecimal>
+         </answer>
+      </item>
+      <item>
+         <linkId value="ondersteunend_vpk"></linkId>
+         <answer>
+            <valueDecimal value="1"></valueDecimal>
+         </answer>
+      </item>
+      <item>
+         <linkId value="overige_vpk"></linkId>
+         <answer>
+            <valueDecimal value="1"></valueDecimal>
+         </answer>
+      </item>
+      <item>
+         <linkId value="recovery_vpk"></linkId>
+         <answer>
+            <valueDecimal value="2"></valueDecimal>
+         </answer>
+      </item>
+   </item>
+</QuestionnaireResponse>
