@@ -47,7 +47,7 @@
                     "required": false
                 },
                 {
-                    "linkId": "adm_date_hosp",
+                    "linkId": "adm_hosp",
                     "type": "dateTime",
                     "required": false
                 },
@@ -228,7 +228,7 @@
                     "required": false
                 },
                 {
-                    "linkId": "dis_date_hosp",
+                    "linkId": "dis_hosp",
                     "type": "dateTime",
                     "required": false
                 },
