@@ -31,9 +31,9 @@
       "repeats": true,
       "item": [
         {
-          "linkId": "groep",
-          "type": "integer",
-          "required": true
+          "linkId": "cardiac_vpk",
+          "type": "decimal",
+          "required": false
         },
         {
           "linkId": "dienst",
@@ -42,14 +42,14 @@
           "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/dienst-2023Q3"
         },
         {
-          "linkId": "cardiac_vpk",
-          "type": "decimal",
-          "required": false
-        },
-        {
           "linkId": "eindleerling_vpk",
           "type": "decimal",
           "required": false
+        }, 
+        {
+          "linkId": "groep",
+          "type": "integer",
+          "required": true
         },
         {
           "linkId": "ic_vpk",
