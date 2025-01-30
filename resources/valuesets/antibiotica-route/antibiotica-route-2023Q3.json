@@ -1,0 +1,34 @@
+{
+    "resourceType": "ValueSet",
+    "id": "antibiotica-route-2023Q3",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2024-05-03T13:15:13.824+00:00",
+        "source": "#cece5c63-531a-47"
+    },
+    "url": "https://fhir.stichting-nice.nl/R4/ValueSet/antibiotica-route-2023Q3",
+    "version": "2023Q3",
+    "status": "active",
+    "compose": {
+        "include": [
+            {
+                "system": "https://fhir.stichting-nice.nl/R4/CodeSystem/antibiotica-route-2023Q3",
+                "version": "2023Q3",
+                "concept": [
+                    {
+                        "code": "1",
+                        "display": "Intravenous"
+                    },
+                    {
+                        "code": "2",
+                        "display": "Enteral"
+                    },
+                    {
+                        "code": "3",
+                        "display": "Other"
+                    }
+                ]
+            }
+        ]
+    }
+}
