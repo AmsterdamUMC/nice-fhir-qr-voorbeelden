@@ -1,0 +1,1815 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "ap4diag-2023Q3",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2024-05-03T13:15:12.872+00:00",
+        "source": "#bf0fde51-abfa-46"
+    },
+    "url": "https://fhir.stichting-nice.nl/R4/CodeSystem/ap4diag-2023Q3",
+    "version": "2023Q3",
+    "status": "active",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "1",
+            "display": "Anaphylaxis"
+        },
+        {
+            "code": "2",
+            "display": "Aneurysm, dissecting aortic"
+        },
+        {
+            "code": "3",
+            "display": "Aneurysm/pseudoaneurysm, other"
+        },
+        {
+            "code": "4",
+            "display": "Angina, stable (asymp or stable pattern of symptoms w/meds)"
+        },
+        {
+            "code": "5",
+            "display": "Angina, unstable (angina interferes w/quality of life or meds are tolerated poorly)"
+        },
+        {
+            "code": "6",
+            "display": "Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System)"
+        },
+        {
+            "code": "7",
+            "display": "Cardiomyopathy"
+        },
+        {
+            "code": "8",
+            "display": "Cardiovascular medical, other"
+        },
+        {
+            "code": "9",
+            "display": "Chest pain, atypical (noncardiac chest pain)"
+        },
+        {
+            "code": "10",
+            "display": "Chest pain, epigastric"
+        },
+        {
+            "code": "11",
+            "display": "Chest pain, musculoskeletal"
+        },
+        {
+            "code": "12",
+            "display": "Chest pain, respiratory"
+        },
+        {
+            "code": "13",
+            "display": "Chest pain, unknown origin"
+        },
+        {
+            "code": "14",
+            "display": "CHF, congestive heart failure"
+        },
+        {
+            "code": "15",
+            "display": "Complications of previous open heart surgery (i.e. bleeding, infection etc.)"
+        },
+        {
+            "code": "16",
+            "display": "Contusion, myocardial (include R/O)"
+        },
+        {
+            "code": "17",
+            "display": "Efffusion, pericardial"
+        },
+        {
+            "code": "18",
+            "display": "Endocarditis"
+        },
+        {
+            "code": "19",
+            "display": "Hematomas"
+        },
+        {
+            "code": "20",
+            "display": "Hemorrhage (for gastrointestinal bleeding GI-see GI system) (for trauma see Trauma)"
+        },
+        {
+            "code": "21",
+            "display": "Hypertension, uncontrolled (for cerebrovascular accident-see Neurological System)"
+        },
+        {
+            "code": "22",
+            "display": "Hypovolemia (including dehydration. Do NOT include shock"
+        },
+        {
+            "code": "23",
+            "display": "Infarction, acute myocardial (MI), ANTERIOR"
+        },
+        {
+            "code": "24",
+            "display": "Infarction, acute myocardial (MI), INFEROLATERAL"
+        },
+        {
+            "code": "25",
+            "display": "Infarction, acute myocardial (MI), NON Q Wave"
+        },
+        {
+            "code": "26",
+            "display": "Infarction, acute myocardial (MI), none of the above"
+        },
+        {
+            "code": "27",
+            "display": "MI admitted > 24hrs after onset of ischemia"
+        },
+        {
+            "code": "28",
+            "display": "Monitoring, hemodynamic (pre-operative evaluation)"
+        },
+        {
+            "code": "29",
+            "display": "Papillary muscle rupture"
+        },
+        {
+            "code": "30",
+            "display": "Pericarditis"
+        },
+        {
+            "code": "31",
+            "display": "Rhythm disturbance (atrial, supraventricular)"
+        },
+        {
+            "code": "32",
+            "display": "Rhythm disturbance (conduction defect)"
+        },
+        {
+            "code": "33",
+            "display": "Rhythm disturbance (ventricular)"
+        },
+        {
+            "code": "34",
+            "display": "Sepsis, cutaneous/soft tissue"
+        },
+        {
+            "code": "35",
+            "display": "Sepsis, GI"
+        },
+        {
+            "code": "36",
+            "display": "Sepsis, gynecologic"
+        },
+        {
+            "code": "37",
+            "display": "Sepsis, other"
+        },
+        {
+            "code": "38",
+            "display": "Sepsis, pulmonary"
+        },
+        {
+            "code": "39",
+            "display": "Sepsis, renal/UTI (including bladder)"
+        },
+        {
+            "code": "40",
+            "display": "Sepsis, unknown"
+        },
+        {
+            "code": "41",
+            "display": "Shock, cardiogenic"
+        },
+        {
+            "code": "42",
+            "display": "Tamponade, pericardial"
+        },
+        {
+            "code": "43",
+            "display": "Thrombosis, vascular (deep vein)"
+        },
+        {
+            "code": "44",
+            "display": "Thrombus,arterial"
+        },
+        {
+            "code": "45",
+            "display": "Toxicity, drug (i.e., beta blockers, calcium channel blockers, etc)"
+        },
+        {
+            "code": "46",
+            "display": "Vascular medical, other"
+        },
+        {
+            "code": "47",
+            "display": "Alcohol withdrawal"
+        },
+        {
+            "code": "48",
+            "display": "Bleeding, GI from esophageal varices/portal hpertension"
+        },
+        {
+            "code": "49",
+            "display": "Bleeding, GI-location unknown"
+        },
+        {
+            "code": "50",
+            "display": "Bleeding, lower GI"
+        },
+        {
+            "code": "51",
+            "display": "Bleeding, upper GI"
+        },
+        {
+            "code": "52",
+            "display": "Cancer, colon/rectal"
+        },
+        {
+            "code": "53",
+            "display": "Cancer, esophageal"
+        },
+        {
+            "code": "54",
+            "display": "Cancer, other GI"
+        },
+        {
+            "code": "55",
+            "display": "Cancer, pancreatic"
+        },
+        {
+            "code": "56",
+            "display": "Cancer, stomach"
+        },
+        {
+            "code": "57",
+            "display": "Cholangitis"
+        },
+        {
+            "code": "58",
+            "display": "Diverticular disease"
+        },
+        {
+            "code": "59",
+            "display": "Encephalopathy, hepatic"
+        },
+        {
+            "code": "60",
+            "display": "GI Abscess/cyst"
+        },
+        {
+            "code": "61",
+            "display": "GI medical, other"
+        },
+        {
+            "code": "62",
+            "display": "GI Obstruction"
+        },
+        {
+            "code": "63",
+            "display": "GI Perforation/rupture"
+        },
+        {
+            "code": "64",
+            "display": "GI Vascular insufficiency"
+        },
+        {
+            "code": "65",
+            "display": "Hepatic failure, acute"
+        },
+        {
+            "code": "66",
+            "display": "Inflammatory bowel disease"
+        },
+        {
+            "code": "67",
+            "display": "Pancreatitis"
+        },
+        {
+            "code": "68",
+            "display": "Peritonitis"
+        },
+        {
+            "code": "69",
+            "display": "Ulcer disease, peptic"
+        },
+        {
+            "code": "70",
+            "display": "Genitourinary medical, other"
+        },
+        {
+            "code": "71",
+            "display": "Hemorrhage, postpartum (female"
+        },
+        {
+            "code": "72",
+            "display": "Hepato-renal syndrome"
+        },
+        {
+            "code": "73",
+            "display": "Pre-eclampsia/eclampsia (female"
+        },
+        {
+            "code": "74",
+            "display": "Renal bleeding"
+        },
+        {
+            "code": "75",
+            "display": "Renal failure, acute"
+        },
+        {
+            "code": "76",
+            "display": "Renal infection/abscess"
+        },
+        {
+            "code": "77",
+            "display": "Renal neoplasm, cancer"
+        },
+        {
+            "code": "78",
+            "display": "Renal obstruction"
+        },
+        {
+            "code": "79",
+            "display": "Anemia"
+        },
+        {
+            "code": "80",
+            "display": "Blood transfusion reaction"
+        },
+        {
+            "code": "81",
+            "display": "Coagulopathy"
+        },
+        {
+            "code": "82",
+            "display": "Hematologic medical, other"
+        },
+        {
+            "code": "83",
+            "display": "Leukemia, acute lymphocytic"
+        },
+        {
+            "code": "84",
+            "display": "Leukemia, acute myelocytic"
+        },
+        {
+            "code": "85",
+            "display": "Leukemia, chronic lymphocytic"
+        },
+        {
+            "code": "86",
+            "display": "Leukemia, chronic myelocytic"
+        },
+        {
+            "code": "87",
+            "display": "Leukemia, other"
+        },
+        {
+            "code": "88",
+            "display": "Lymphoma, Hodgkins"
+        },
+        {
+            "code": "89",
+            "display": "Lymphoma, non-Hodgkins"
+        },
+        {
+            "code": "90",
+            "display": "Neutropenia"
+        },
+        {
+            "code": "91",
+            "display": "Pancytopenia"
+        },
+        {
+            "code": "92",
+            "display": "Sickle cell crisis"
+        },
+        {
+            "code": "93",
+            "display": "Thrombocytopenia"
+        },
+        {
+            "code": "94",
+            "display": "Acid-base electrolyte disturbance"
+        },
+        {
+            "code": "95",
+            "display": "Addisons disease"
+        },
+        {
+            "code": "96",
+            "display": "Adrenal neoplasm (including pheochromocytoma)"
+        },
+        {
+            "code": "97",
+            "display": "Diabetic hyperglycemic hyperosmolar nonketotic coma (HHNC)"
+        },
+        {
+            "code": "98",
+            "display": "Diabetic ketoacidosis"
+        },
+        {
+            "code": "99",
+            "display": "Heat exhaustion/stroke"
+        },
+        {
+            "code": "100",
+            "display": "Hyperthermia"
+        },
+        {
+            "code": "101",
+            "display": "Hyperthyroid storm/crisis"
+        },
+        {
+            "code": "102",
+            "display": "Hypoglycemia"
+        },
+        {
+            "code": "103",
+            "display": "Hypothermia"
+        },
+        {
+            "code": "104",
+            "display": "Hypothyroid/myxedema"
+        },
+        {
+            "code": "105",
+            "display": "Metabolic/endocrine medical, other"
+        },
+        {
+            "code": "106",
+            "display": "Metabolic/endocrine surgery, other"
+        },
+        {
+            "code": "107",
+            "display": "Parathyroidectomy"
+        },
+        {
+            "code": "108",
+            "display": "Thyroid neoplasm"
+        },
+        {
+            "code": "109",
+            "display": "Thyroidectomy"
+        },
+        {
+            "code": "110",
+            "display": "Thyroidectomy and parathyroidectomy"
+        },
+        {
+            "code": "111",
+            "display": "Arthritis, rheumatoid"
+        },
+        {
+            "code": "112",
+            "display": "Arthritis, septic"
+        },
+        {
+            "code": "113",
+            "display": "Burn"
+        },
+        {
+            "code": "114",
+            "display": "Cellulitis and localized soft tissue infections"
+        },
+        {
+            "code": "115",
+            "display": "Connective tissue disease (mixed)"
+        },
+        {
+            "code": "116",
+            "display": "Lupus, systemic"
+        },
+        {
+            "code": "117",
+            "display": "Musculoskeletal medical, other"
+        },
+        {
+            "code": "118",
+            "display": "Myositis, viral"
+        },
+        {
+            "code": "119",
+            "display": "Rhabdomyolysis"
+        },
+        {
+            "code": "120",
+            "display": "Scleroderma"
+        },
+        {
+            "code": "121",
+            "display": "Vasculitis"
+        },
+        {
+            "code": "122",
+            "display": "Abscess, neurologic"
+        },
+        {
+            "code": "123",
+            "display": "Amyotrophic lateral sclerosis"
+        },
+        {
+            "code": "124",
+            "display": "Coma/change in level of consciousness (for hepatic see GI, for diabetic see Endocrine, if related to cardiac arrest, see CV)"
+        },
+        {
+            "code": "125",
+            "display": "CVA, cerebrovascular accident/stroke"
+        },
+        {
+            "code": "126",
+            "display": "Drug withdrawal"
+        },
+        {
+            "code": "127",
+            "display": "Encephalitis"
+        },
+        {
+            "code": "128",
+            "display": "Encephalopathies (excluding hepatic)"
+        },
+        {
+            "code": "129",
+            "display": "Guillian-Barre syndrome"
+        },
+        {
+            "code": "130",
+            "display": "Hematoma, epidural"
+        },
+        {
+            "code": "131",
+            "display": "Hematoma, subdural"
+        },
+        {
+            "code": "132",
+            "display": "Hemorrhage/hematoma, intracranial"
+        },
+        {
+            "code": "133",
+            "display": "Hydrocephalus, obstructive"
+        },
+        {
+            "code": "134",
+            "display": "Meningitis"
+        },
+        {
+            "code": "135",
+            "display": "Myasthenia gravis"
+        },
+        {
+            "code": "136",
+            "display": "Neoplasm, neurologic"
+        },
+        {
+            "code": "137",
+            "display": "Neurologic medical, other"
+        },
+        {
+            "code": "138",
+            "display": "Neuromuscular medical, other"
+        },
+        {
+            "code": "139",
+            "display": "Nontraumatic coma due to anoxia/ischemia"
+        },
+        {
+            "code": "140",
+            "display": "Overdose, alcohols (ethanol, methanol, ethylene glycol)"
+        },
+        {
+            "code": "141",
+            "display": "Overdose, analgesic (aspirin, cetaminophen)"
+        },
+        {
+            "code": "142",
+            "display": "Overdose, antidepressants (cyclic, lithium)"
+        },
+        {
+            "code": "143",
+            "display": "Overdose, other toxin, poison or drug"
+        },
+        {
+            "code": "144",
+            "display": "Overdose, sedatives, hypnotics, antipsychotics, benzodiazepines"
+        },
+        {
+            "code": "145",
+            "display": "Overdose, street drugs (opiates, cocaine, amphetamine)"
+        },
+        {
+            "code": "146",
+            "display": "Poisoning, carbon monoxide, arsenic, cyanide"
+        },
+        {
+            "code": "147",
+            "display": "Seizures (primary-no structural brain disease)"
+        },
+        {
+            "code": "148",
+            "display": "Subarachnoid hemorrhage/arteriovenous malformation"
+        },
+        {
+            "code": "149",
+            "display": "Subarachnoid hemorrhage/intracranial aneurysm"
+        },
+        {
+            "code": "150",
+            "display": "Apnea, sleep"
+        },
+        {
+            "code": "151",
+            "display": "ARDS-adult respiratory distress syndrome, non-cardiogenic pulmonary edema"
+        },
+        {
+            "code": "152",
+            "display": "Arrest, respiratory (without cardiac arrest)"
+        },
+        {
+            "code": "153",
+            "display": "Asthma"
+        },
+        {
+            "code": "154",
+            "display": "Atelectasis"
+        },
+        {
+            "code": "155",
+            "display": "Cancer, laryngeal"
+        },
+        {
+            "code": "156",
+            "display": "Cancer, lung"
+        },
+        {
+            "code": "157",
+            "display": "Cancer, oral"
+        },
+        {
+            "code": "158",
+            "display": "Cancer, tracheal"
+        },
+        {
+            "code": "159",
+            "display": "Effusions, pleural"
+        },
+        {
+            "code": "160",
+            "display": "Embolus, pulmonary"
+        },
+        {
+            "code": "161",
+            "display": "Emphysema/bronchitis"
+        },
+        {
+            "code": "162",
+            "display": "Hemorrhage/hemoptysis, pulmonary"
+        },
+        {
+            "code": "163",
+            "display": "Hemothorax"
+        },
+        {
+            "code": "164",
+            "display": "Hypertension-pulmonary, primary/idiopathic"
+        },
+        {
+            "code": "165",
+            "display": "Near drowning accident"
+        },
+        {
+            "code": "166",
+            "display": "Obstruction-airway (i.e. acute epiglottitis, post-extubation edema, foreign body, etc.)"
+        },
+        {
+            "code": "167",
+            "display": "Pneumonia, aspiration"
+        },
+        {
+            "code": "168",
+            "display": "Pneumonia, bacterial"
+        },
+        {
+            "code": "169",
+            "display": "Pneumonia, fungal"
+        },
+        {
+            "code": "170",
+            "display": "Pneumonia, other"
+        },
+        {
+            "code": "171",
+            "display": "Pneumonia, parasitic (i.e. Pneumocystis pneumonia)"
+        },
+        {
+            "code": "172",
+            "display": "Pneumonia, viral"
+        },
+        {
+            "code": "173",
+            "display": "Pneumothorax"
+        },
+        {
+            "code": "174",
+            "display": "Respiratory- medical, other"
+        },
+        {
+            "code": "175",
+            "display": "Restrictive lung disease (i.e. sarcoidosis, pulmonary fibrosis)"
+        },
+        {
+            "code": "176",
+            "display": "Smoke inhalation"
+        },
+        {
+            "code": "177",
+            "display": "Weaning from mechanical ventilation (transfer from other unit or hospital only)"
+        },
+        {
+            "code": "178",
+            "display": "Bone marrow transplant, non operative admission"
+        },
+        {
+            "code": "179",
+            "display": "Heart transplant, non operative admission"
+        },
+        {
+            "code": "180",
+            "display": "Heart-lung transplant, non operative admission"
+        },
+        {
+            "code": "181",
+            "display": "Kidney transplant, non operative admission"
+        },
+        {
+            "code": "182",
+            "display": "Kidney-pancreas transplant, non operative admission"
+        },
+        {
+            "code": "183",
+            "display": "Liver transplant, non operative admission"
+        },
+        {
+            "code": "184",
+            "display": "Liver-small bowel transplant, non operative admission"
+        },
+        {
+            "code": "185",
+            "display": "Lung transplant, bilateral, non operative admission"
+        },
+        {
+            "code": "186",
+            "display": "Lung transplant, single, non operative admission"
+        },
+        {
+            "code": "187",
+            "display": "Pancreas transplant, non operative admission"
+        },
+        {
+            "code": "188",
+            "display": "Small bowel transplant, non operative admission"
+        },
+        {
+            "code": "189",
+            "display": "Transplant, other, non operative admission"
+        },
+        {
+            "code": "190",
+            "display": "Abdomen only trauma"
+        },
+        {
+            "code": "191",
+            "display": "Abdomen/extremity trauma"
+        },
+        {
+            "code": "192",
+            "display": "Abdomen/face trauma"
+        },
+        {
+            "code": "193",
+            "display": "Abdomen/multiple trauma"
+        },
+        {
+            "code": "194",
+            "display": "Abdomen/pelvis trauma"
+        },
+        {
+            "code": "195",
+            "display": "Abdomen/spinal trauma"
+        },
+        {
+            "code": "196",
+            "display": "Chest/abdomen trauma"
+        },
+        {
+            "code": "197",
+            "display": "Chest/extremity trauma"
+        },
+        {
+            "code": "198",
+            "display": "Chest/face trauma"
+        },
+        {
+            "code": "199",
+            "display": "Chest/multiple trauma"
+        },
+        {
+            "code": "200",
+            "display": "Chest/pelvis trauma"
+        },
+        {
+            "code": "201",
+            "display": "Chest/spinal trauma"
+        },
+        {
+            "code": "202",
+            "display": "Chest/thorax only trauma"
+        },
+        {
+            "code": "203",
+            "display": "Extremity only trauma"
+        },
+        {
+            "code": "204",
+            "display": "Extremity/face trauma"
+        },
+        {
+            "code": "205",
+            "display": "Extremity/multiple trauma"
+        },
+        {
+            "code": "206",
+            "display": "Face only trauma"
+        },
+        {
+            "code": "207",
+            "display": "Face/multiple trauma"
+        },
+        {
+            "code": "208",
+            "display": "Head (CNS) only trauma"
+        },
+        {
+            "code": "209",
+            "display": "Head/abdomen trauma"
+        },
+        {
+            "code": "210",
+            "display": "Head/chest trauma"
+        },
+        {
+            "code": "211",
+            "display": "Head/extremity trauma"
+        },
+        {
+            "code": "212",
+            "display": "Head/face trauma"
+        },
+        {
+            "code": "213",
+            "display": "Head/multiple trauma"
+        },
+        {
+            "code": "214",
+            "display": "Head/pelvis trauma"
+        },
+        {
+            "code": "215",
+            "display": "Head/spinal trauma"
+        },
+        {
+            "code": "216",
+            "display": "Pelvis/extremity trauma"
+        },
+        {
+            "code": "217",
+            "display": "Pelvis/face trauma"
+        },
+        {
+            "code": "218",
+            "display": "Pelvis/hip only trauma"
+        },
+        {
+            "code": "219",
+            "display": "Pelvis/multiple trauma"
+        },
+        {
+            "code": "220",
+            "display": "Pelvis/spinal trauma"
+        },
+        {
+            "code": "221",
+            "display": "Spinal cord only trauma"
+        },
+        {
+            "code": "222",
+            "display": "Spinal/extremity trauma"
+        },
+        {
+            "code": "223",
+            "display": "Spinal/face trauma"
+        },
+        {
+            "code": "224",
+            "display": "Spinal/multiple trauma"
+        },
+        {
+            "code": "225",
+            "display": "Trauma medical, other"
+        },
+        {
+            "code": "226",
+            "display": "Ablation or mapping of cardiac conduction pathway"
+        },
+        {
+            "code": "227",
+            "display": "Aneurysm repair, ventricular"
+        },
+        {
+            "code": "228",
+            "display": "Aneurysm, abdominal aortic"
+        },
+        {
+            "code": "229",
+            "display": "Aneurysm, abdominal aortic; with dissection"
+        },
+        {
+            "code": "230",
+            "display": "Aneurysm, abdominal aortic; with rupture"
+        },
+        {
+            "code": "231",
+            "display": "Aneurysm, thoracic aortic"
+        },
+        {
+            "code": "232",
+            "display": "Aneurysm, thoracic aortic; with dissection"
+        },
+        {
+            "code": "233",
+            "display": "Aneurysm, thoracic aortic; with rupture"
+        },
+        {
+            "code": "234",
+            "display": "Aneurysms, repair of other (except ventricular)"
+        },
+        {
+            "code": "235",
+            "display": "Aortic and Mitral valve replacement"
+        },
+        {
+            "code": "236",
+            "display": "Aortic valve replacement (isolated)"
+        },
+        {
+            "code": "237",
+            "display": "Atrial Septal Defect (ASD) Repair"
+        },
+        {
+            "code": "238",
+            "display": "CABG alone, coronary artery bypass grafting"
+        },
+        {
+            "code": "239",
+            "display": "CABG alone, redo"
+        },
+        {
+            "code": "240",
+            "display": "CABG redo with other operation"
+        },
+        {
+            "code": "241",
+            "display": "CABG redo with valve repair/replacement"
+        },
+        {
+            "code": "242",
+            "display": "CABG with aortic valve replacement"
+        },
+        {
+            "code": "243",
+            "display": "CABG with double valve repair/replacement"
+        },
+        {
+            "code": "244",
+            "display": "CABG with mitral valve repair"
+        },
+        {
+            "code": "245",
+            "display": "CABG with mitral valve replacement"
+        },
+        {
+            "code": "246",
+            "display": "CABG with other operation"
+        },
+        {
+            "code": "247",
+            "display": "CABG with pulmonic or tricuspid valve repair or replacement ONLY. For mitral, use S-CABGMIV or S-CABGMVR. For aortic, use S-CABGAOV."
+        },
+        {
+            "code": "248",
+            "display": "CABG, Minimally invasive; Mid-CABG"
+        },
+        {
+            "code": "249",
+            "display": "Cardiovascular surgery, other"
+        },
+        {
+            "code": "250",
+            "display": "Complications of prev. peripheral vasc. surgery,surgery for (i.e.ligation of bleeder, exploration and evacuation of hematoma, debridement, pseudoaneurysms, clots, fistula, etc.)"
+        },
+        {
+            "code": "251",
+            "display": "Complications of previous open-heart surgery, surgery for (i.e. bleeding, infection, mediastinal rewiring,leaking aortic graft etc.)"
+        },
+        {
+            "code": "252",
+            "display": "Congenital Defect Repair (Other)"
+        },
+        {
+            "code": "253",
+            "display": "Defibrillator, automatic implantable cardiac; insertion of"
+        },
+        {
+            "code": "254",
+            "display": "Dilatation (with general anesthesia)"
+        },
+        {
+            "code": "255",
+            "display": "Dilatation (without general anesthesia)"
+        },
+        {
+            "code": "256",
+            "display": "Embolectomy (with general anesthesia)"
+        },
+        {
+            "code": "257",
+            "display": "Embolectomy (without general anesthesia)"
+        },
+        {
+            "code": "258",
+            "display": "Endarterectomy (other vessels)"
+        },
+        {
+            "code": "259",
+            "display": "Endarterectomy, carotid"
+        },
+        {
+            "code": "260",
+            "display": "Graft for dialysis, insertion of"
+        },
+        {
+            "code": "261",
+            "display": "Graft, aorto-femoral bypass"
+        },
+        {
+            "code": "262",
+            "display": "Graft, aorto-iliac bypass"
+        },
+        {
+            "code": "263",
+            "display": "Graft, femoral-femoral bypass"
+        },
+        {
+            "code": "264",
+            "display": "Graft, femoral-popliteal bypass"
+        },
+        {
+            "code": "265",
+            "display": "Grafts, all other bypass (except renal)"
+        },
+        {
+            "code": "266",
+            "display": "Grafts, all renal bypass"
+        },
+        {
+            "code": "267",
+            "display": "Grafts, removal of infected vascular"
+        },
+        {
+            "code": "268",
+            "display": "Mitral valve repair"
+        },
+        {
+            "code": "269",
+            "display": "Mitral valve replacement"
+        },
+        {
+            "code": "270",
+            "display": "Pericardial effusion/tamponade"
+        },
+        {
+            "code": "271",
+            "display": "Pericardiectomy (total/subtotal)"
+        },
+        {
+            "code": "272",
+            "display": "Pulmonary valve surgery"
+        },
+        {
+            "code": "273",
+            "display": "Thrombectomy (with general anesthesia)"
+        },
+        {
+            "code": "274",
+            "display": "Thrombectomy (without general anesthesia)"
+        },
+        {
+            "code": "275",
+            "display": "Tricuspid valve surgery"
+        },
+        {
+            "code": "276",
+            "display": "Tumor removal, intracardiac"
+        },
+        {
+            "code": "277",
+            "display": "Vascular surgery, other"
+        },
+        {
+            "code": "278",
+            "display": "Vena cava clipping"
+        },
+        {
+            "code": "279",
+            "display": "Vena cava filter insertion"
+        },
+        {
+            "code": "280",
+            "display": "Ventricular Septal Defect (VSD) Repair"
+        },
+        {
+            "code": "281",
+            "display": "Appendectomy"
+        },
+        {
+            "code": "282",
+            "display": "Bleeding-lower GI, surgery for"
+        },
+        {
+            "code": "283",
+            "display": "Bleeding-other GI, surgery for"
+        },
+        {
+            "code": "284",
+            "display": "Bleeding-upper GI, surgery for"
+        },
+        {
+            "code": "285",
+            "display": "Bleeding-variceal, surgery for (excluding vascular shuntingsee surgery for portosystemic shunt)"
+        },
+        {
+            "code": "286",
+            "display": "Cancer-colon/rectal, surgery for (including abdominoperineal resections)"
+        },
+        {
+            "code": "287",
+            "display": "Cancer-esophageal, surgery for (abdominal approach)"
+        },
+        {
+            "code": "288",
+            "display": "Cancer-other GI tract, surgery for (i.e. hepatoma, gallbladder etc.)"
+        },
+        {
+            "code": "289",
+            "display": "Cancer-small intestinal, surgery for"
+        },
+        {
+            "code": "290",
+            "display": "Cancer-stomach, surgery for"
+        },
+        {
+            "code": "291",
+            "display": "CAPD catheter insertion"
+        },
+        {
+            "code": "292",
+            "display": "Cholecystectomy/cholangitis, surgery for (gallbladder removal)"
+        },
+        {
+            "code": "293",
+            "display": "Complications of previous GI surgery; surgery for (anastomotic leak, bleeding, abscess, infection, dehiscence, etc.)"
+        },
+        {
+            "code": "294",
+            "display": "Diverticular disease, surgery for"
+        },
+        {
+            "code": "295",
+            "display": "Esophageal surgery, other"
+        },
+        {
+            "code": "296",
+            "display": "Fistula/abscess, surgery for (not inflammatory bowel disease)"
+        },
+        {
+            "code": "297",
+            "display": "Gastrostomy"
+        },
+        {
+            "code": "298",
+            "display": "GI Abscess/cyst-primary, surgery for (for complications of GI surgery see below)"
+        },
+        {
+            "code": "299",
+            "display": "GI Obstruction, surgery for (including lysis of adhesions)"
+        },
+        {
+            "code": "300",
+            "display": "GI Perforation/rupture, surgery for"
+        },
+        {
+            "code": "301",
+            "display": "GI surgery, other"
+        },
+        {
+            "code": "302",
+            "display": "GI Vascular ischemia, surgery for (resection)"
+        },
+        {
+            "code": "303",
+            "display": "Hemorrhage, intra/retroperitoneal"
+        },
+        {
+            "code": "304",
+            "display": "Hernia-hiatal, esophageal surgery for"
+        },
+        {
+            "code": "305",
+            "display": "Herniorrhaphy"
+        },
+        {
+            "code": "306",
+            "display": "Inflammatory bowel disease, surgery for"
+        },
+        {
+            "code": "307",
+            "display": "Obesity-morbid, surgery for"
+        },
+        {
+            "code": "308",
+            "display": "Pancreatitis, surgery for"
+        },
+        {
+            "code": "309",
+            "display": "Peritoneal lavage"
+        },
+        {
+            "code": "310",
+            "display": "Peritonitis, surgery for"
+        },
+        {
+            "code": "311",
+            "display": "Shunt, peritoneal-venous;surgery for"
+        },
+        {
+            "code": "312",
+            "display": "Shunt-portosystemic, surgery for"
+        },
+        {
+            "code": "313",
+            "display": "Splenectomy"
+        },
+        {
+            "code": "314",
+            "display": "Whipple-surgery for pancreatic cancer"
+        },
+        {
+            "code": "315",
+            "display": "Bladder repair for perforation/rupture"
+        },
+        {
+            "code": "316",
+            "display": "Cesarean section"
+        },
+        {
+            "code": "317",
+            "display": "Cyst, ruptured ovarian"
+        },
+        {
+            "code": "318",
+            "display": "Cystectomy (other reasons)"
+        },
+        {
+            "code": "319",
+            "display": "Cystectomy for neoplasm"
+        },
+        {
+            "code": "320",
+            "display": "Ectopic pregnancy (all)"
+        },
+        {
+            "code": "321",
+            "display": "Exenteration, pelvic -male"
+        },
+        {
+            "code": "322",
+            "display": "Exenteration, pelvic-female"
+        },
+        {
+            "code": "323",
+            "display": "Genitourinary surgery, other"
+        },
+        {
+            "code": "324",
+            "display": "Hysterectomy for cancer with or without lymph node dissection"
+        },
+        {
+            "code": "325",
+            "display": "Hysterectomy for other benign neoplasm/fibroids"
+        },
+        {
+            "code": "326",
+            "display": "Lymph node dissection, pelvic or retroperitoneal(female)"
+        },
+        {
+            "code": "327",
+            "display": "Lymph node dissection, pelvic or retroperitoneal(male)"
+        },
+        {
+            "code": "328",
+            "display": "Mastectomy (all)"
+        },
+        {
+            "code": "329",
+            "display": "Nephrectomy (other reasons)"
+        },
+        {
+            "code": "330",
+            "display": "Nephrectomy for neoplasm"
+        },
+        {
+            "code": "331",
+            "display": "Obstruction due to neoplasm ,surgery for; (with or without ilealconduit)"
+        },
+        {
+            "code": "332",
+            "display": "Obstruction due to nephrolithiasis, surgery for (with or without ileal-conduit)"
+        },
+        {
+            "code": "333",
+            "display": "Obstruction/other, surgery for (with or without ileal-conduit)"
+        },
+        {
+            "code": "334",
+            "display": "Oophorectomy with/without salpingectomy with/without lymph node dissection"
+        },
+        {
+            "code": "335",
+            "display": "Orchiectomy with/without pelvic lymph node dissection"
+        },
+        {
+            "code": "336",
+            "display": "Pelvic relaxation (cystocele, rectocele, etc.)"
+        },
+        {
+            "code": "337",
+            "display": "Prostatectomy, suprapubic; for benign prostatic hypertrophy"
+        },
+        {
+            "code": "338",
+            "display": "Prostatectomy, suprapubic; for cancer"
+        },
+        {
+            "code": "339",
+            "display": "TURP, transurethral prostate resection for benign prostatic hypertrophy"
+        },
+        {
+            "code": "340",
+            "display": "TURP, transurethral prostate resection for cancer"
+        },
+        {
+            "code": "341",
+            "display": "Hematologic surgery, other"
+        },
+        {
+            "code": "342",
+            "display": "Lymphoma Hodgkins, surgery for (including staging)"
+        },
+        {
+            "code": "343",
+            "display": "Lymphoma, non-Hodgkins; surgery for (including staging)"
+        },
+        {
+            "code": "344",
+            "display": "Adrenalectomy"
+        },
+        {
+            "code": "345",
+            "display": "Amputation (non-traumatic)"
+        },
+        {
+            "code": "346",
+            "display": "Cellulitis and localized soft tissue infections, surgery for"
+        },
+        {
+            "code": "347",
+            "display": "Cosmetic surgery (all)"
+        },
+        {
+            "code": "348",
+            "display": "Fracture-pathological, non-union, non-traumatic, for fractures due to trauma see Trauma"
+        },
+        {
+            "code": "349",
+            "display": "Grafting, skin (all)"
+        },
+        {
+            "code": "350",
+            "display": "Hip replacement, total (non-traumatic)"
+        },
+        {
+            "code": "351",
+            "display": "Knee replacement, total (non-traumatic)"
+        },
+        {
+            "code": "352",
+            "display": "Orthopedic surgery, other"
+        },
+        {
+            "code": "353",
+            "display": "Skin surgery, other"
+        },
+        {
+            "code": "354",
+            "display": "Abscess/infection-cranial, surgery for"
+        },
+        {
+            "code": "355",
+            "display": "Anastomosis, vascular"
+        },
+        {
+            "code": "356",
+            "display": "Arteriovenous malformation, surgery for"
+        },
+        {
+            "code": "357",
+            "display": "Biopsy, brain"
+        },
+        {
+            "code": "358",
+            "display": "Burr hole placement"
+        },
+        {
+            "code": "359",
+            "display": "Cerebrospinal fluid leak, surgery for"
+        },
+        {
+            "code": "360",
+            "display": "Complications of previous spinal cord surgery, surgery for"
+        },
+        {
+            "code": "361",
+            "display": "Cranial nerve, decompression/ligation"
+        },
+        {
+            "code": "362",
+            "display": "Cranioplasty and complications from previous craniotomies"
+        },
+        {
+            "code": "363",
+            "display": "Devices for spine fracture/dislocation"
+        },
+        {
+            "code": "364",
+            "display": "Fusion-spinal/Harrington rods"
+        },
+        {
+            "code": "365",
+            "display": "Hematoma, epidural, surgery for"
+        },
+        {
+            "code": "366",
+            "display": "Hematoma, subdural, surgery for"
+        },
+        {
+            "code": "367",
+            "display": "Hemorrhage/hematoma-intracranial, surgery for"
+        },
+        {
+            "code": "368",
+            "display": "Laminectomy/spinal cord decompression (excluding malignancies)"
+        },
+        {
+            "code": "369",
+            "display": "Neoplasm-cranial, surgery for (excluding transphenoidal)"
+        },
+        {
+            "code": "370",
+            "display": "Neoplasm-spinal cord surgery or other related procedures"
+        },
+        {
+            "code": "371",
+            "display": "Neurologic surgery, other"
+        },
+        {
+            "code": "372",
+            "display": "Seizures-intractable, surgery for"
+        },
+        {
+            "code": "373",
+            "display": "Shunts and revisions"
+        },
+        {
+            "code": "374",
+            "display": "Spinal cord sugery, other"
+        },
+        {
+            "code": "375",
+            "display": "Stereotactic procedure"
+        },
+        {
+            "code": "376",
+            "display": "Subarachnoid hemorrhage/intracranial aneurysm, surgery for"
+        },
+        {
+            "code": "377",
+            "display": "Sympathectomy"
+        },
+        {
+            "code": "378",
+            "display": "Transphenoidal surgery"
+        },
+        {
+            "code": "379",
+            "display": "Ventriculostomy"
+        },
+        {
+            "code": "380",
+            "display": "Apnea-sleep; surgery for (i.e. UPPP-uvulopalatopharyngoplasty)"
+        },
+        {
+            "code": "381",
+            "display": "Biopsy, open lung"
+        },
+        {
+            "code": "382",
+            "display": "Bullectomy"
+        },
+        {
+            "code": "383",
+            "display": "Cancer oral/sinus, surgery for"
+        },
+        {
+            "code": "384",
+            "display": "Cancer-laryngeal/tracheal, surgery for"
+        },
+        {
+            "code": "385",
+            "display": "Facial surgery (if related to trauma, see Trauma)"
+        },
+        {
+            "code": "386",
+            "display": "Infection/abscess, other surgery for"
+        },
+        {
+            "code": "387",
+            "display": "Respiratory surgery, other"
+        },
+        {
+            "code": "388",
+            "display": "Thoracotomy for benign tumor (i.e. mediastinal chest wall mass, thymectomy)"
+        },
+        {
+            "code": "389",
+            "display": "Thoracotomy for bronchopleural fistula"
+        },
+        {
+            "code": "390",
+            "display": "Thoracotomy for esophageal cancer"
+        },
+        {
+            "code": "391",
+            "display": "Thoracotomy for lung cancer"
+        },
+        {
+            "code": "392",
+            "display": "Thoracotomy for lung reduction"
+        },
+        {
+            "code": "393",
+            "display": "Thoracotomy for other malignancy in chest"
+        },
+        {
+            "code": "394",
+            "display": "Thoracotomy for other reasons"
+        },
+        {
+            "code": "395",
+            "display": "Thoracotomy for pleural disease"
+        },
+        {
+            "code": "396",
+            "display": "Thoracotomy for thoracic/respiratory infection"
+        },
+        {
+            "code": "397",
+            "display": "Tracheostomy"
+        },
+        {
+            "code": "398",
+            "display": "Bone marrow transplant"
+        },
+        {
+            "code": "399",
+            "display": "Heart transplant"
+        },
+        {
+            "code": "400",
+            "display": "Heart-lung transplant"
+        },
+        {
+            "code": "401",
+            "display": "Kidney transplant"
+        },
+        {
+            "code": "402",
+            "display": "Kidney-pancreas transplant"
+        },
+        {
+            "code": "403",
+            "display": "Liver transplant"
+        },
+        {
+            "code": "404",
+            "display": "Liver-small bowel transplant"
+        },
+        {
+            "code": "405",
+            "display": "Lung transplant, bilateral"
+        },
+        {
+            "code": "406",
+            "display": "Lung transplant, single"
+        },
+        {
+            "code": "407",
+            "display": "Pancreas transplant"
+        },
+        {
+            "code": "408",
+            "display": "Small bowel transplant"
+        },
+        {
+            "code": "409",
+            "display": "Transplant, other"
+        },
+        {
+            "code": "410",
+            "display": "Abdomen only trauma, surgery for"
+        },
+        {
+            "code": "411",
+            "display": "Abdomen/extremity trauma, surgery for"
+        },
+        {
+            "code": "412",
+            "display": "Abdomen/face trauma, surgery for"
+        },
+        {
+            "code": "413",
+            "display": "Abdomen/multiple trauma, surgery for"
+        },
+        {
+            "code": "414",
+            "display": "Abdomen/pelvis trauma, surgery for"
+        },
+        {
+            "code": "415",
+            "display": "Abdomen/spinal trauma, surgery for"
+        },
+        {
+            "code": "416",
+            "display": "Chest/abdomen trauma, surgery for"
+        },
+        {
+            "code": "417",
+            "display": "Chest/extremity trauma, surgery for"
+        },
+        {
+            "code": "418",
+            "display": "Chest/face trauma, surgery for"
+        },
+        {
+            "code": "419",
+            "display": "Chest/multiple trauma, surgery for"
+        },
+        {
+            "code": "420",
+            "display": "Chest/pelvis trauma, surgery for"
+        },
+        {
+            "code": "421",
+            "display": "Chest/spinal trauma, surgery for"
+        },
+        {
+            "code": "422",
+            "display": "Chest/thorax only trauma, surgery for"
+        },
+        {
+            "code": "423",
+            "display": "Extremity only trauma, surgery for"
+        },
+        {
+            "code": "424",
+            "display": "Extremity/face trauma, surgery for"
+        },
+        {
+            "code": "425",
+            "display": "Extremity/multiple trauma, surgery for"
+        },
+        {
+            "code": "426",
+            "display": "Face only trauma, surgery for"
+        },
+        {
+            "code": "427",
+            "display": "Face/multiple trauma, surgery for"
+        },
+        {
+            "code": "428",
+            "display": "Head (CNS) only trauma, surgery for"
+        },
+        {
+            "code": "429",
+            "display": "Head/abdomen trauma, surgery for"
+        },
+        {
+            "code": "430",
+            "display": "Head/chest trauma, surgery for"
+        },
+        {
+            "code": "431",
+            "display": "Head/extremity trauma, surgery for"
+        },
+        {
+            "code": "432",
+            "display": "Head/face trauma, surgery for"
+        },
+        {
+            "code": "433",
+            "display": "Head/multiple trauma, surgery for"
+        },
+        {
+            "code": "434",
+            "display": "Head/pelvis trauma, surgery for"
+        },
+        {
+            "code": "435",
+            "display": "Head/spinal trauma, surgery for"
+        },
+        {
+            "code": "436",
+            "display": "Pelvis/extremity trauma, surgery for"
+        },
+        {
+            "code": "437",
+            "display": "Pelvis/face trauma, surgery for"
+        },
+        {
+            "code": "438",
+            "display": "Pelvis/hip only trauma,surgery for"
+        },
+        {
+            "code": "439",
+            "display": "Pelvis/multiple trauma, surgery for"
+        },
+        {
+            "code": "440",
+            "display": "Pelvis/spinal trauma, surgery for"
+        },
+        {
+            "code": "441",
+            "display": "Spinal cord only trauma, surgery for"
+        },
+        {
+            "code": "442",
+            "display": "Spinal/extremity trauma, surgery for"
+        },
+        {
+            "code": "443",
+            "display": "Spinal/face trauma, surgery for"
+        },
+        {
+            "code": "444",
+            "display": "Spinal/multiple trauma, surgery for"
+        },
+        {
+            "code": "445",
+            "display": "Trauma surgery, other"
+        },
+        {
+            "code": "446",
+            "display": "SARS-CoV2 infection"
+        },
+        {
+            "code": "447",
+            "display": "Influenza"
+        },
+        {
+            "code": "448",
+            "display": "Respiratory Syncytial Virus (RSV) infection"
+        },
+        {
+            "code": "449",
+            "display": "Cytomegalovirus (CMV) infection"
+        },
+        {
+            "code": "450",
+            "display": "Herpes simplex Virus (HSV) infection"
+        }
+    ]
+}
