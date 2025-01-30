@@ -2,7 +2,7 @@
 
 # actiegerichte-indicatoren-2025Q3
 * `isGevalideerd` is required gemaakt.
-* `beadm_modus` was een integer, maar had een code moeten zijn. Daarom is het type aangepast naar choice met een verwijzing naar nieuwe codesystem https://fhir.stichting-nice.nl/R4/ValueSet/bead-modus-2023Q3
+* `beadm_modus` was een integer, maar had een code moeten zijn. Daarom is het type aangepast naar choice met een verwijzing naar nieuwe codesystem https://fhir.stichting-nice.nl/R4/ValueSet/bead-modus-2025Q3
 * `pao2_id` is required gemaakt omdat het onderdeel is van de primary key.
 * `ery_id` is required gemaakt omdat het onderdeel is van de primary key.
 * `hb_tijd` is required gemaakt omdat het onderdeel is van de primary key.

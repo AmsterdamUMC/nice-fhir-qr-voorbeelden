@@ -1,0 +1,69 @@
+{
+	"resourceType": "ValueSet",
+	"id": "beadm-modus-2025Q3",
+	"url": "https://fhir.stichting-nice.nl/R4/ValueSet/beadm-modus-2025Q3",
+	"version": "2025Q3",
+	"status": "active",
+	"compose": {
+		"include": [
+			{
+				"system": "https://fhir.stichting-nice.nl/R4/CodeSystem/beadm-modus-2025Q3",
+				"version": "2025Q3",
+				"concept": [
+					{
+						"code": "1",
+						"display": "pressure support (PS)"
+					},
+					{
+						"code": "2",
+						"display": "airway pressure release ventilation (APRV)"
+					},
+					{
+						"code": "3",
+						"display": "biphasic positive airway pressure (BiPAP)"
+					},
+					{
+						"code": "4",
+						"display": "pressure controlled ventilation (PCV)"
+					},
+					{
+						"code": "5",
+						"display": "pressure regulated volume control (PRV)"
+					},
+					{
+						"code": "6",
+						"display": "assist-control (A/C)"
+					},
+					{
+						"code": "7",
+						"display": "adaptive servo ventilation (ASV)"
+					},
+					{
+						"code": "8",
+						"display": "continuous positive airway pressure (CPAP)"
+					},
+					{
+						"code": "9",
+						"display": "synchronised intermittent mandatory ventilation (SIMV)"
+					},
+					{
+						"code": "10",
+						"display": "anders, gecontroleerd"
+					},
+					{
+						"code": "11",
+						"display": "anders, ondersteund"
+					},
+					{
+						"code": "12",
+						"display": "auto"
+					},
+					{
+						"code": "13",
+						"display": "thuisbeademing"
+					}
+				]
+			}
+		]
+	}
+}
