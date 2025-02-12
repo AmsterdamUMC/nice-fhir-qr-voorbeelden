@@ -30,11 +30,6 @@
       "repeats": true,
       "item": [
         {
-          "linkId": "groep",
-          "type": "integer",
-          "required": true
-        },
-        {
           "linkId": "dienst",
           "type": "choice",
           "required": true,
@@ -44,6 +39,11 @@
           "linkId": "fte_verpleegk",
           "type": "decimal",
           "required": false
+        },
+        {
+          "linkId": "groep",
+          "type": "integer",
+          "required": true
         },
         {
           "linkId": "oper_bedden",

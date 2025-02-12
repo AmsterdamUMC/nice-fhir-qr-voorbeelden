@@ -139,6 +139,34 @@
             ]
         },
         {
+            "linkId": "ai_delier",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "delier_datumtijd",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "delier_id",
+                    "type": "integer",
+                    "required": true
+                },
+                {
+                    "linkId": "delier_instrument",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/delier-instrument-2025Q3"
+                },
+                {
+                    "linkId": "delier_score",
+                    "type": "integer",
+                    "required": false
+                } 
+            ]
+        },
+        {
             "linkId": "ai_erytrocyten",
             "type": "group",
             "repeats": true,

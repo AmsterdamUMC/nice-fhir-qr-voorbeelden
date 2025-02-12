@@ -1,0 +1,37 @@
+{
+    "resourceType": "ValueSet",
+    "id": "delier-instrument-2025Q3",
+    "url": "https://fhir.stichting-nice.nl/R4/ValueSet/delier-instrument-2025Q3",
+    "version": "2025Q3",
+    "status": "active",
+    "compose": {
+        "include": [
+            {
+                "system": "https://fhir.stichting-nice.nl/R4/CodeSystem/delier-instrument-2025Q3",
+                "version": "2025Q3",
+                "concept": [
+                    {
+                        "code": "0",
+                        "display": "Geen screeningsinstrument toegepast"
+                    },
+                    {
+                        "code": "1",
+                        "display": "CAM-ICU"
+                    },
+                    {
+                        "code": "2",
+                        "display": "ICDSC"
+                    },
+                    {
+                        "code": "8",
+                        "display": "Ander screeningsinstrument"
+                    },
+                    {
+                        "code": "9",
+                        "display": "Delirium kon niet worden bepaald"
+                    }   
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "resourceType": "Questionnaire",
+    "id": "product-2025Q3",
+    "url": "https://fhir.stichting-nice.nl/R4/Questionnaire/product-2025Q3",
+    "name": "Product Informatie",
+    "status": "active",
+    "item": [
+        {
+            "linkId": "admno",
+            "type": "integer",
+            "required": true
+        },
+        {
+            "linkId": "hospno",
+            "type": "integer",
+            "required": true
+        },
+        {
+            "linkId": "icno",
+            "type": "integer",
+            "required": true
+        },
+        {
+            "linkId": "productinformatie",
+            "type": "group",
+            "repeats": false,
+            "item": [
+                 {
+                     "linkId": "epd",
+                     "type": "string",
+                     "required": true
+                 },
+                 {
+                     "linkId": "producent",
+                     "type": "string",
+                     "required": true
+                 },
+                 {
+                     "linkId": "product",
+                     "type": "string",
+                     "required": true
+                 }, 
+                 {
+                     "linkId": "versie",
+                     "type": "string",
+                     "required": true
+                 }     
+            ]
+         }
+    ]
+}
