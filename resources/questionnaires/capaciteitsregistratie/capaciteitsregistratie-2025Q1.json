@@ -62,11 +62,6 @@
                     "required": false
                 },
                 {
-                    "linkId": "zz_artaccess",
-                    "type": "integer",
-                    "required": false
-                },
-                {
                     "linkId": "zz_artaccess_med",
                     "type": "boolean",
                     "required": false
@@ -108,11 +103,6 @@
                     "required": false
                 },
                 {
-                    "linkId": "zz_centvenaccess",
-                    "type": "integer",
-                    "required": false
-                },
-                {
                     "linkId": "zz_centvenaccess_pulm",
                     "type": "boolean",
                     "required": false
@@ -145,11 +135,6 @@
                 {
                     "linkId": "zz_entnutr",
                     "type": "boolean",
-                    "required": false
-                },
-                {
-                    "linkId": "zz_epilepsy",
-                    "type": "integer",
                     "required": false
                 },
                 {
