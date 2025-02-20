@@ -167,51 +167,6 @@
             ]
         },
         {
-            "linkId": "ai_erytrocyten",
-            "type": "group",
-            "repeats": true,
-            "item": [
-                {
-                    "linkId": "ery_id",
-                    "type": "text",
-                    "required": true
-                },
-                {
-                    "linkId": "ery_toed_tijd",
-                    "type": "dateTime",
-                    "required": false
-                }
-            ]
-        },
-        {
-            "linkId": "ai_hemoglobine",
-            "type": "group",
-            "repeats": true,
-            "item": [
-                {
-                    "linkId": "hb",
-                    "code": [
-                        {
-                            "system": "http://unitsofmeasure.org",
-                            "code": "mmol/L"
-                        }
-                    ],
-                    "type": "quantity",
-                    "required": false
-                },
-                {
-                    "linkId": "hb_no",
-                    "type": "integer",
-                    "required": false
-                },
-                {
-                    "linkId": "hb_tijd",
-                    "type": "dateTime",
-                    "required": true
-                }
-            ]
-        },
-        {
             "linkId": "ai_kweek",
             "type": "group",
             "repeats": true,
@@ -315,28 +270,6 @@
             ]
         },
         {
-            "linkId": "ai_plasma",
-            "type": "group",
-            "repeats": true,
-            "item": [
-                {
-                    "linkId": "plasma_ein",
-                    "type": "text",
-                    "required": false
-                },
-                {
-                    "linkId": "plasma_soort",
-                    "type": "integer",
-                    "required": false
-                },
-                {
-                    "linkId": "plasma_toed_tijd",
-                    "type": "dateTime",
-                    "required": true
-                }
-            ]
-        },
-        {
             "linkId": "ai_spiegel",
             "type": "group",
             "repeats": true,
@@ -367,56 +300,7 @@
                     "required": false
                 }
             ]
-        },
-        {
-            "linkId": "ai_transfusietrigger",
-            "type": "group",
-            "repeats": true,
-            "item": [
-                {
-                    "linkId": "trans_trig",
-                    "code": [
-                        {
-                            "system": "http://unitsofmeasure.org",
-                            "code": "mmol/L"
-                        }
-                    ],
-                    "type": "quantity",
-                    "required": false
-                },
-                {
-                    "linkId": "trans_trig_no",
-                    "type": "integer",
-                    "required": false
-                },
-                {
-                    "linkId": "trans_trig_tijd",
-                    "type": "dateTime",
-                    "required": true
-                }
-            ]
-        },
-        {
-            "linkId": "ai_trombocyten",
-            "type": "group",
-            "repeats": true,
-            "item": [
-                {
-                    "linkId": "trombo_ein",
-                    "type": "text",
-                    "required": false
-                },
-                {
-                    "linkId": "trombo_status",
-                    "type": "integer",
-                    "required": false
-                },
-                {
-                    "linkId": "trombo_uit_tijd",
-                    "type": "dateTime",
-                    "required": true
-                }
-            ]
         }
+
     ]
 }
