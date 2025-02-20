@@ -26,60 +26,6 @@
             "required": true
         },
         {
-            "linkId": "complicatie_kalenderdag",
-            "type": "group",
-            "repeats": true,
-            "item": [
-                {
-                    "linkId": "complicatie",
-                    "type": "choice",
-                    "required": false,
-                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/complicatie-2023Q3"
-                },
-                {
-                    "linkId": "complicatie_date",
-                    "type": "date",
-                    "required": false
-                },
-                {
-                    "linkId": "complicatie_day",
-                    "type": "integer",
-                    "required": true
-                },
-                {
-                    "linkId": "intubatie",
-                    "type": "boolean",
-                    "required": false
-                },
-                {
-                    "linkId": "katheter",
-                    "type": "boolean",
-                    "required": false
-                },
-                {
-                    "linkId": "lijnsepsis",
-                    "type": "boolean",
-                    "required": false
-                },
-                {
-                    "linkId": "pneumo",
-                    "type": "boolean",
-                    "required": false
-                },
-                {
-                    "linkId": "reintubatie",
-                    "code": [
-                        {
-                            "system": "http://unitsofmeasure.org",
-                            "code": "{number}"
-                        }
-                    ],
-                    "type": "quantity",
-                    "required": false
-                }
-            ]
-        },
-        {
             "linkId": "complicatie_dienst",
             "type": "group",
             "repeats": true,
@@ -119,6 +65,55 @@
                 {
                     "linkId": "screen_overig",
                     "type": "boolean",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "linkId": "complicatie_kalenderdag",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "complicatie",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/complicatie-2023Q3"
+                },
+                {
+                    "linkId": "complicatie_date",
+                    "type": "date",
+                    "required": false
+                },
+                {
+                    "linkId": "complicatie_day",
+                    "type": "integer",
+                    "required": true
+                },
+                {
+                    "linkId": "katheter",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "lijnsepsis",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "pneumo",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "reintubatie",
+                    "code": [
+                        {
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{number}"
+                        }
+                    ],
+                    "type": "quantity",
                     "required": false
                 }
             ]

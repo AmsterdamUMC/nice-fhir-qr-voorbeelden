@@ -26,6 +26,50 @@
             "required": true
         },
         {
+            "linkId": "complicatie_dienst",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "delier",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/delier-2023Q3"
+                },
+                {
+                    "linkId": "dienst",
+                    "type": "choice",
+                    "required": false,
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/dienst-2023Q3"
+                },
+                {
+                    "linkId": "kalenderdag",
+                    "type": "date",
+                    "required": false
+                },
+                {
+                    "linkId": "screen_cam",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "screen_dcs",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "screen_doss",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "linkId": "screen_overig",
+                    "type": "boolean",
+                    "required": false
+                }
+            ]
+        },
+        {
             "linkId": "complicatie_kalenderdag",
             "type": "group",
             "repeats": true,
@@ -103,50 +147,7 @@
                     "required": false
                 }
             ]
-        },
-        {
-            "linkId": "complicatie_dienst",
-            "type": "group",
-            "repeats": true,
-            "item": [
-                {
-                    "linkId": "delier",
-                    "type": "choice",
-                    "required": false,
-                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/delier-2023Q3"
-                },
-                {
-                    "linkId": "dienst",
-                    "type": "choice",
-                    "required": false,
-                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/dienst-2023Q3"
-                },
-                {
-                    "linkId": "kalenderdag",
-                    "type": "date",
-                    "required": false
-                },
-                {
-                    "linkId": "screen_cam",
-                    "type": "boolean",
-                    "required": false
-                },
-                {
-                    "linkId": "screen_dcs",
-                    "type": "boolean",
-                    "required": false
-                },
-                {
-                    "linkId": "screen_doss",
-                    "type": "boolean",
-                    "required": false
-                },
-                {
-                    "linkId": "screen_overig",
-                    "type": "boolean",
-                    "required": false
-                }
-            ]
         }
+        
     ]
 }

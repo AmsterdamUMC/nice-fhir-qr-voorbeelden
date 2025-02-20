@@ -218,11 +218,6 @@
                     "required": false
                 },
                 {
-                    "linkId": "diag_cat_weight",
-                    "type": "integer",
-                    "required": false
-                },
-                {
                     "linkId": "died",
                     "type": "boolean",
                     "required": false

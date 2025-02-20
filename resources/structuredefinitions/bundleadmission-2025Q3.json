@@ -1,0 +1,27 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "BundleAdmission-2025Q3",
+    "url": "https://fhir.stichting-nice.nl/R4/StructureDefinition/BundleAdmission-2025Q3",
+    "name": "BundleAdmission2025Q3",
+    "status": "active",
+    "fhirVersion": "4.0.1",
+    "kind": "resource",
+    "abstract": false,
+    "type": "Bundle",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Bundle",
+    "derivation": "constraint",
+    "differential": {
+        "element": [
+            {
+                "id": "Bundle.identifier",
+                "path": "Bundle.identifier",
+                "min": 1
+            },
+            {
+                "id": "Bundle.type",
+                "path": "Bundle.type",
+                "fixedCode": "collection"
+            }
+        ]
+    }
+}
