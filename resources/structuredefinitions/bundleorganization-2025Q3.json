@@ -1,6 +1,6 @@
 {
     "resourceType": "StructureDefinition",
-    "id": "BundleAdmission-2025Q3",
+    "id": "BundleOrganization-2025Q3",
     "url": "https://fhir.stichting-nice.nl/R4/StructureDefinition/BundleOrganization-2025Q3",
     "name": "BundleOrganization2025Q3",
     "status": "active",

@@ -7,10 +7,6 @@
     "content": "complete",
      "concept": [
            {
-               "code": "0",
-               "display": "Geen screeningsinstrument toegepast"
-           },
-           {
                "code": "1",
                "display": "CAM-ICU"
            },
@@ -21,11 +17,7 @@
            {
                "code": "8",
                "display": "Ander screeningsinstrument"
-           },
-           {
-               "code": "9",
-               "display": "Delirium kon niet worden bepaald"
-           }   
+           }
        ]
 }
 

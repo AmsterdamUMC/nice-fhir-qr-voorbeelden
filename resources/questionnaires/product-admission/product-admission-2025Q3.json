@@ -1,8 +1,8 @@
 {
     "resourceType": "Questionnaire",
-    "id": "product-2025Q3",
-    "url": "https://fhir.stichting-nice.nl/R4/Questionnaire/product-2025Q3",
-    "name": "Product Informatie",
+    "id": "product-admission-2025Q3",
+    "url": "https://fhir.stichting-nice.nl/R4/Questionnaire/product-admission-2025Q3",
+    "name": "Product Informatie voor opnames",
     "status": "active",
     "item": [
         {
@@ -21,7 +21,7 @@
             "required": true
         },
         {
-            "linkId": "productinformatie",
+            "linkId": "product-admission",
             "type": "group",
             "repeats": false,
             "item": [

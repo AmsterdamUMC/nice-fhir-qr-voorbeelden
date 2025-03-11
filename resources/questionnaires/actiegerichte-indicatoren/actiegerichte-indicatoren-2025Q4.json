@@ -1,7 +1,7 @@
 {
     "resourceType": "Questionnaire",
-    "id": "actiegerichte-indicatoren-2025Q3",
-    "url": "https://fhir.stichting-nice.nl/R4/Questionnaire/actiegerichte-indicatoren-2025Q3",
+    "id": "actiegerichte-indicatoren-2025Q4",
+    "url": "https://fhir.stichting-nice.nl/R4/Questionnaire/actiegerichte-indicatoren-2025Q4",
     "name": "ACTIEGERICHTE-INDICATOREN",
     "status": "active",
     "item": [
@@ -167,6 +167,53 @@
             ]
         },
         {
+            "linkId": "ai_medicatietoediening",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "stopdatumtijd",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "toediening_datumtijd",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "toediening_eenheid",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "toediening_volgnr",
+                    "type": "integer",
+                    "required": true
+                },
+                {
+                    "linkId": "toedieningsproduct",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "toedieningsproduct_naam",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "toedieningsweg",
+                    "type": "integer",
+                    "required": false
+                },
+                {
+                    "linkId": "toegediendehoeveelheid",
+                    "type": "decimal",
+                    "required": false
+                }
+            ]
+        },
+        {
             "linkId": "ai_pijn",
             "type": "group",
             "repeats": true,
@@ -199,6 +246,39 @@
                     "required": false
                 }
             ]
+        },
+        {
+            "linkId": "ai_spiegel",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "spiegel_code",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "spiegel_datumtijd",
+                    "type": "dateTime",
+                    "required": false
+                },
+                {
+                    "linkId": "spiegel_eenheid",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "linkId": "spiegel_volgnr",
+                    "type": "text",
+                    "required": true
+                },
+                {
+                    "linkId": "spiegel_waarde",
+                    "type": "decimal",
+                    "required": false
+                }
+            ]
         }
+
     ]
 }
