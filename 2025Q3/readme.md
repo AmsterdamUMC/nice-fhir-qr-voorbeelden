@@ -29,8 +29,8 @@ De aanpassingen:
 ## Productie informatie
 Graag willen we weten met welk productie de informatie is samengesteld en opgestuurd. In de dataset zit dit al in de exportinfo. 
 Voor de informatie die met FHIR wordt verstuurd, moet dit per Bundle. Dit kan met een van de twee questionnaires:
-* product-admission: bedoeld om mee te sturen met de bundle `BundleAdmission` en heeft dus ook een combinatie van hospno, icno en admno [Datadictionary](https://stichting-nice.nl/dd/#11475)
-* product-organization: bedoeld om mee te sturen met de bundle 'BundleOrganization` en heeft hospno, icno en datum. [Datadictionary](https://stichting-nice.nl/dd/#11480)
+* [product-admission](https://stichting-nice.nl/dd/#11475): bedoeld om mee te sturen met de bundle `BundleAdmission` en heeft dus ook een combinatie van hospno, icno en admno.
+* [product-organization](https://stichting-nice.nl/dd/#11480): bedoeld om mee te sturen met de bundle 'BundleOrganization` en heeft hospno, icno en datum. 
 In beide questionniares dit de volgende velden, welke beschreven staan in de datadictionary
 * [EPD](https://stichting-nice.nl/dd/#11476)
 * [Producent](https://stichting-nice.nl/dd/#11478) 
