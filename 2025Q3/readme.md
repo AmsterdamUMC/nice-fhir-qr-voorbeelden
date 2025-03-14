@@ -25,6 +25,9 @@ De aanpassingen:
 * het veld `adm_date_hosp` wordt hernoemt naar `adm_hosp`.
 * het veld `dis_date_hosp` wordt hernoemt naar `dis_hosp`.
 
+Note: zowel de oude als nieuwe veldnaam wordt geacceptaard wanneer de dat niet met FHIR maar met een msAccess of een zip met csv's 
+worden verstuurd.
+
 
 ## Productie informatie
 Graag willen we weten met welk productie de informatie is samengesteld en opgestuurd. In de dataset zit dit al in de exportinfo. 
