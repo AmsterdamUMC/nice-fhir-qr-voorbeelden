@@ -1,8 +1,25 @@
 # 2025Q3
 
+
+### 14 maart 2025
+Deze release is gemaakt en getest op de huidige FHIR server en op de nieuwe Fhir server, genaamd Chiba. Dit maakt dat als deze release
+gebruikt wordt, er geen veranderingen nodig zijn wanneer de nieuwe server in gebruikt wordt genomen. Alleen de Server URL zal dan veranderen,
+niet de inhoud (en dus ook de url's in de berichten) zullen veranderen.
+
+Ook zijn de resources in dit project opgenomen. Dit zijn de codesystemen, valuesets en de questionnaires.  Met behulp van een voorbeeld
+patient en de questionnaires zijn de voorbeeld questionnaireResponses gemaakt en vier voorbeelden van Bundles met questionnaireResponses.
+Hierbij is gecontroleerd of het voorbeeld voor elke veld een waarde heeft. Dit verzekert dat in de questionnaireReponse het veld wordt 
+opgenomen. Bijv het veld `numgraft` was null in 2025Q1, en viel daardoor weg in het voorbeeld. Dit terwijl het wel in de questionnaire
+gedefinieerd.
+
+Voor de aanpassingen in de questionnaires, kijk in de readme van de folder van de questionnaires. Bijvoorbeeld voor de questionnaire 
+van de mds: [readme.md](https://github.com/AmsterdamUMC/nice-fhir-qr-voorbeelden/blob/master/resources/questionnaires/mds/readme.md#mds-2025q3)
+
+
+
 In de 2025Q3 hebben we de volgende aanpassingen ten aanzien van 2025Q1 gemaakt.
 
-LET OP: Deze voorbeelden zijn nog niet definitief
+
 
 ## Ziekenhuisopname en ziekenhuis ontslag
 de veldnamen adm_hosp_date en dis_hosp_date zijn verwarrend geworden door de wijziging dat deze velden nu ook de tijd vastleggen. Voor de IC opname en IC ontslag is deze aanpassing al gedaan voor de FHIR (adm_icu, dis_icu). Voor het ziekenhuisopname willen we adm_hosp gebruiken en dis_hosp.  
