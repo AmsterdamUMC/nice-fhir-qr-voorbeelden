@@ -19,7 +19,12 @@ Hieronder is een overzicht gemaakt van de veranderingen in de release 2025Q3 ten
 
 
 ## Ziekenhuisopname en ziekenhuis ontslag 
-de veldnamen adm_hosp_date en dis_hosp_date zijn verwarrend geworden door de wijziging dat deze velden nu ook de tijd vastleggen. Voor de IC opname en IC ontslag is deze aanpassing al gedaan voor de FHIR (adm_icu, dis_icu). Voor het ziekenhuisopname willen we adm_hosp gebruiken en dis_hosp.  
+de veldnamen `adm_hosp_date` en `dis_hosp_date` zijn verwarrend geworden door de wijziging dat deze velden nu ook de tijd vastleggen. 
+Voor de IC opname en IC ontslag is deze aanpassing al gedaan voor de FHIR (adm_icu, dis_icu). 
+De aanpassingen:
+* het veld `adm_date_hosp` wordt hernoemt naar `adm_hosp`.
+* het veld `dis_date_hosp` wordt hernoemt naar `dis_hosp`.
+
 
 ## Productie informatie
 Graag willen we weten met welk productie de informatie is samengesteld en opgestuurd. In de dataset zit dit al in de exportinfo. 
@@ -33,19 +38,38 @@ In beide questionniares dit de volgende velden, welke beschreven staan in de dat
 * [Versie](https://stichting-nice.nl/dd/#11479)
 
 ## Delirium 
-In de actiegerichte-indicatoren questionnaire is delirium toegevoegd en kan meegestuurd worden met de BundleAdmission. Voor de delirium zijn 
+In de ***actiegerichte-indicatoren*** questionnaire is delirium toegevoegd en kan meegestuurd worden met de BundleAdmission. Voor de delirium zijn 
 de volgende velden toegevoegd: 
 * [delier_id](https://stichting-nice.nl/dd/#11465)
 * [delier_datumtijd](https://stichting-nice.nl/dd/#11462)
 * [delier_instrument](https://stichting-nice.nl/dd/#11461)
 * [delier_score](https://stichting-nice.nl/dd/#11464)
 
+## actiegerichte-indicatoren
+Naast de toevoeging van delirium, zijn er ook items verwijderd uit de questionnaire. Er wordt gewerkt aan de mogelijkheid om 
+***mediciatietoediening*** en ***labuitslag*** toe te voegen aan de questionnaire. Hiervoor moeten er nog dingen worden uitgezocht
+en daarom is besloten deze uitbreiding te verschuiven naar 2025Q4. In voorbereiding hiervan zijn de volgende aanpassingen  
+gemaakt:
+* group `ai_kweek` is verwijderd. In de volgende release zal dit als labuitslagen terugkomen.
+* group `ai_medicatietoediening` is in deze release verwijderd, en zal in 2025Q4 worden opgenomen.
+* groep `ai_spiegel` is verwijder.
 
-## Verwijderen van groepen die niet meer aangeleverd hoeven worden
-De groepen ai_sdd_sod en ai_sedatie zijn verwijderd uit de questionnaire actiegerichte-indicatoren omdat deze vervallen zijn volgens het datadictionary. 
+Verder:
+* `isGevalideerd` is required gemaakt.
+* `beadm_modus` was een integer, maar had een code moeten zijn. Daarom is het type aangepast naar choice met een verwijzing naar nieuwe codesystem https://fhir.stichting-nice.nl/R4/ValueSet/bead-modus-2025Q3
+* `pao2_id` is required gemaakt omdat het onderdeel is van de primary key.
+* `ery_id` is required gemaakt omdat het onderdeel is van de primary key.
+* `hb_tijd` is required gemaakt omdat het onderdeel is van de primary key.
+* `pijn_no` is required gemaakt omdat het onderdeel is van de primary key.
+* groep `ai_sdd_sod` is verwijderd omdat deze is vervallen volgens de datadictionary.
+* groep `ai_sedatie` is verwijderd omdat deze is vervallen volgens de datadictionary.
 
-## Veld aangepast naar een codesystem
-Het veld: bead_modus is van een integer naar een codesystem veranderd.
+## BundleOrganization
+Voor de informatie die niet direct aan een opname is gerelateerd, is de BundleOrganization gemaakt. In deze bundle kan de volgende
+informatie worden gestuurd:
+* `kiic_bezetting`
+* `zz_personeel`
+
 
 ## Velden aangepast naar verplicht omdat deze horen bij een primary of foreign key
 actiegerichte-indicatoren: mt_bead_inst, pao2_id, ery_id, kweek_id, hb_tijd, toediening_volgnr, pijn_no, plasma_toed_tijd, spiegel_volgnr, trans_trig_tijd, trombo_uit_tijd
@@ -55,4 +79,4 @@ kiic: beadem_start
 kiic-bezetting: dienst, groep
 sofa: sofa_day
 zz-personeel: groep, dienst
-Het veld isgevalideerd is nu ook in ieder questionnaire verplicht gemaakt
+Het veld `isgevalideerd` is nu ook in ieder questionnaire verplicht gemaakt
