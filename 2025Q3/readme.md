@@ -1,7 +1,7 @@
 # 2025Q3
 
 
-### 14 maart 2025
+#### 14 maart 2025
 Deze release is gemaakt en getest op de huidige FHIR server en op de nieuwe Fhir server, genaamd Chiba. Dit maakt dat als deze release
 gebruikt wordt, er geen veranderingen nodig zijn wanneer de nieuwe server in gebruikt wordt genomen. Alleen de Server URL zal dan veranderen,
 niet de inhoud (en dus ook de url's in de berichten) zullen veranderen.
@@ -15,20 +15,22 @@ gedefinieerd.
 Voor de aanpassingen in de questionnaires, kijk in de readme van de folder van de questionnaires. Bijvoorbeeld voor de questionnaire 
 van de mds: [readme.md](https://github.com/AmsterdamUMC/nice-fhir-qr-voorbeelden/blob/master/resources/questionnaires/mds/readme.md#mds-2025q3)
 
+Hieronder is een overzicht gemaakt van de veranderingen in de release 2025Q3 ten aanzien van 2025Q1.
 
 
-In de 2025Q3 hebben we de volgende aanpassingen ten aanzien van 2025Q1 gemaakt.
-
-
-
-## Ziekenhuisopname en ziekenhuis ontslag
+## Ziekenhuisopname en ziekenhuis ontslag 
 de veldnamen adm_hosp_date en dis_hosp_date zijn verwarrend geworden door de wijziging dat deze velden nu ook de tijd vastleggen. Voor de IC opname en IC ontslag is deze aanpassing al gedaan voor de FHIR (adm_icu, dis_icu). Voor het ziekenhuisopname willen we adm_hosp gebruiken en dis_hosp.  
 
 ## Productie informatie
-Graag willen we weten met welk productie de informatie is samengesteld en opgestuurd. In de dataset zit dit al in de exportinfo. Hier willen we het ook opnemen in de FHIR aanlevering. 
-* Producent (Chipsoft, Itemedical, EPIC, Philips, etc)
-* Product
-* Versie
+Graag willen we weten met welk productie de informatie is samengesteld en opgestuurd. In de dataset zit dit al in de exportinfo. 
+Voor de informatie die met FHIR wordt verstuurd, moet dit per Bundle. Dit kan met een van de twee questionnaires:
+* product-admission: bedoeld om mee te sturen met de bundle `BundleAdmission` en heeft dus ook een combinatie van hospno, icno en admno [Datadictionary](https://stichting-nice.nl/dd/#11475)
+* product-organization: bedoeld om mee te sturen met de bundle 'BundleOrganization` en heeft hospno, icno en datum. [Datadictionary](https://stichting-nice.nl/dd/#11480)
+In beide questionniares dit de volgende velden, welke beschreven staan in de datadictionary
+* [EPD](https://stichting-nice.nl/dd/#11476)
+* [Producent](https://stichting-nice.nl/dd/#11478) 
+* [Product](https://stichting-nice.nl/dd/#11477)
+* [Versie](https://stichting-nice.nl/dd/#11479)
 
 ## Delirium 
 Een nieuwe tabel\questionnaire voor het registreren van delirium
