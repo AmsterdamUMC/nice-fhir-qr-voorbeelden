@@ -32,6 +32,16 @@
    <item>
       <linkId value="sofa"></linkId>
       <item>
+         <linkId value="adre"></linkId>
+         <answer>
+            <valueQuantity>
+               <value value="34.7"></value>
+               <system value="http://unitsofmeasure.org"></system>
+               <code value="ug/kg/min"></code>
+            </valueQuantity>
+         </answer>
+      </item>
+      <item>
          <linkId value="assist"></linkId>
          <answer>
             <valueBoolean value="false"></valueBoolean>
@@ -41,6 +51,16 @@
          <linkId value="dobu"></linkId>
          <answer>
             <valueBoolean value="true"></valueBoolean>
+         </answer>
+      </item>
+      <item>
+         <linkId value="dopa"></linkId>
+         <answer>
+            <valueQuantity>
+               <value value="73.1"></value>
+               <system value="http://unitsofmeasure.org"></system>
+               <code value="ug/kg/min"></code>
+            </valueQuantity>
          </answer>
       </item>
       <item>
@@ -204,7 +224,7 @@
          <linkId value="vasopressine"></linkId>
          <answer>
             <valueQuantity>
-               <value value="1.0"></value>
+               <value value="8.2"></value>
                <system value="https://ucum.org/"></system>
                <code value="iU/min"></code>
             </valueQuantity>
@@ -213,6 +233,16 @@
    </item>
    <item>
       <linkId value="sofa"></linkId>
+      <item>
+         <linkId value="adre"></linkId>
+         <answer>
+            <valueQuantity>
+               <value value="34.7"></value>
+               <system value="http://unitsofmeasure.org"></system>
+               <code value="ug/kg/min"></code>
+            </valueQuantity>
+         </answer>
+      </item>
       <item>
          <linkId value="assist"></linkId>
          <answer>
@@ -223,6 +253,16 @@
          <linkId value="dobu"></linkId>
          <answer>
             <valueBoolean value="true"></valueBoolean>
+         </answer>
+      </item>
+      <item>
+         <linkId value="dopa"></linkId>
+         <answer>
+            <valueQuantity>
+               <value value="73.1"></value>
+               <system value="http://unitsofmeasure.org"></system>
+               <code value="ug/kg/min"></code>
+            </valueQuantity>
          </answer>
       </item>
       <item>
@@ -386,7 +426,7 @@
          <linkId value="vasopressine"></linkId>
          <answer>
             <valueQuantity>
-               <value value="1.0"></value>
+               <value value="8.2"></value>
                <system value="https://ucum.org/"></system>
                <code value="iU/min"></code>
             </valueQuantity>
@@ -395,6 +435,16 @@
    </item>
    <item>
       <linkId value="sofa"></linkId>
+      <item>
+         <linkId value="adre"></linkId>
+         <answer>
+            <valueQuantity>
+               <value value="34.7"></value>
+               <system value="http://unitsofmeasure.org"></system>
+               <code value="ug/kg/min"></code>
+            </valueQuantity>
+         </answer>
+      </item>
       <item>
          <linkId value="assist"></linkId>
          <answer>
@@ -405,6 +455,16 @@
          <linkId value="dobu"></linkId>
          <answer>
             <valueBoolean value="false"></valueBoolean>
+         </answer>
+      </item>
+      <item>
+         <linkId value="dopa"></linkId>
+         <answer>
+            <valueQuantity>
+               <value value="73.1"></value>
+               <system value="http://unitsofmeasure.org"></system>
+               <code value="ug/kg/min"></code>
+            </valueQuantity>
          </answer>
       </item>
       <item>
@@ -568,7 +628,7 @@
          <linkId value="vasopressine"></linkId>
          <answer>
             <valueQuantity>
-               <value value="1.0"></value>
+               <value value="8.2"></value>
                <system value="https://ucum.org/"></system>
                <code value="iU/min"></code>
             </valueQuantity>
@@ -577,6 +637,16 @@
    </item>
    <item>
       <linkId value="sofa"></linkId>
+      <item>
+         <linkId value="adre"></linkId>
+         <answer>
+            <valueQuantity>
+               <value value="34.7"></value>
+               <system value="http://unitsofmeasure.org"></system>
+               <code value="ug/kg/min"></code>
+            </valueQuantity>
+         </answer>
+      </item>
       <item>
          <linkId value="assist"></linkId>
          <answer>
@@ -587,6 +657,16 @@
          <linkId value="dobu"></linkId>
          <answer>
             <valueBoolean value="false"></valueBoolean>
+         </answer>
+      </item>
+      <item>
+         <linkId value="dopa"></linkId>
+         <answer>
+            <valueQuantity>
+               <value value="73.1"></value>
+               <system value="http://unitsofmeasure.org"></system>
+               <code value="ug/kg/min"></code>
+            </valueQuantity>
          </answer>
       </item>
       <item>
@@ -605,6 +685,16 @@
          <linkId value="niveau"></linkId>
          <answer>
             <valueBoolean value="true"></valueBoolean>
+         </answer>
+      </item>
+      <item>
+         <linkId value="nora"></linkId>
+         <answer>
+            <valueQuantity>
+               <value value="0.08"></value>
+               <system value="http://unitsofmeasure.org"></system>
+               <code value="ug/kg/min"></code>
+            </valueQuantity>
          </answer>
       </item>
       <item>
@@ -740,7 +830,7 @@
          <linkId value="vasopressine"></linkId>
          <answer>
             <valueQuantity>
-               <value value="1.0"></value>
+               <value value="8.2"></value>
                <system value="https://ucum.org/"></system>
                <code value="iU/min"></code>
             </valueQuantity>

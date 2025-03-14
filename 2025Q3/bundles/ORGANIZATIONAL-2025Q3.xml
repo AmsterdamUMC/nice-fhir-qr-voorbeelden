@@ -1,15 +1,154 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <meta>
-      <profile value="https://fhir.stichting-nice.nl/R4/StructureDefinition/BundleAdmission-2025Q3"></profile>
+      <profile value="https://fhir.stichting-nice.nl/R4/StructureDefinition/BundleOrganization-2025Q3"></profile>
    </meta>
    <identifier>
       <system value="https://fhir.stichting-nice.nl/R4/identifier/88/1/datum"></system>
       <value value="2024-01-28"></value>
    </identifier>
    <type value="collection"></type>
-   <timestamp value="2024-12-17T11:46:43.215+01:00"></timestamp>
+   <timestamp value="2025-03-11T10:28:50.394+01:00"></timestamp>
    <entry>
-      <fullUrl value="urn:uuid:de3cf6d7-a8f9-465f-8ec6-dbb90afcb6a4"></fullUrl>
+      <fullUrl value="urn:uuid:ec59f6b1-6692-4ceb-be79-765e65395ded"></fullUrl>
+      <resource>
+         <QuestionnaireResponse xmlns="http://hl7.org/fhir">
+            <text>
+               <status value="empty"></status>
+               <div xmlns="http://www.w3.org/1999/xhtml">QR ten behoeve van de NICE</div>
+            </text>
+            <questionnaire value="https://fhir.stichting-nice.nl/R4/Questionnaire/kiic-bezetting-2025Q3"></questionnaire>
+            <status value="completed"></status>
+            <item>
+               <linkId value="datum"></linkId>
+               <answer>
+                  <valueDate value="2024-01-27"></valueDate>
+               </answer>
+            </item>
+            <item>
+               <linkId value="hospno"></linkId>
+               <answer>
+                  <valueInteger value="88"></valueInteger>
+               </answer>
+            </item>
+            <item>
+               <linkId value="icno"></linkId>
+               <answer>
+                  <valueInteger value="1"></valueInteger>
+               </answer>
+            </item>
+            <item>
+               <linkId value="isgevalideerd"></linkId>
+               <answer>
+                  <valueBoolean value="true"></valueBoolean>
+               </answer>
+            </item>
+            <item>
+               <linkId value="kiic_bezetting"></linkId>
+               <item>
+                  <linkId value="dienst"></linkId>
+                  <answer>
+                     <valueCoding>
+                        <system value="https://fhir.stichting-nice.nl/R4/CodeSystem/dienst-2023Q3"></system>
+                        <code value="1"></code>
+                     </valueCoding>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="fte_verpleegk"></linkId>
+                  <answer>
+                     <valueDecimal value="5.0"></valueDecimal>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="groep"></linkId>
+                  <answer>
+                     <valueInteger value="1"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="oper_bedden"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="12.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="{number}"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+            </item>
+            <item>
+               <linkId value="kiic_bezetting"></linkId>
+               <item>
+                  <linkId value="dienst"></linkId>
+                  <answer>
+                     <valueCoding>
+                        <system value="https://fhir.stichting-nice.nl/R4/CodeSystem/dienst-2023Q3"></system>
+                        <code value="2"></code>
+                     </valueCoding>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="fte_verpleegk"></linkId>
+                  <answer>
+                     <valueDecimal value="5.0"></valueDecimal>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="groep"></linkId>
+                  <answer>
+                     <valueInteger value="1"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="oper_bedden"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="12.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="{number}"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+            </item>
+            <item>
+               <linkId value="kiic_bezetting"></linkId>
+               <item>
+                  <linkId value="dienst"></linkId>
+                  <answer>
+                     <valueCoding>
+                        <system value="https://fhir.stichting-nice.nl/R4/CodeSystem/dienst-2023Q3"></system>
+                        <code value="3"></code>
+                     </valueCoding>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="fte_verpleegk"></linkId>
+                  <answer>
+                     <valueDecimal value="3.0"></valueDecimal>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="groep"></linkId>
+                  <answer>
+                     <valueInteger value="1"></valueInteger>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="oper_bedden"></linkId>
+                  <answer>
+                     <valueQuantity>
+                        <value value="8.0"></value>
+                        <system value="http://unitsofmeasure.org"></system>
+                        <code value="{number}"></code>
+                     </valueQuantity>
+                  </answer>
+               </item>
+            </item>
+         </QuestionnaireResponse>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:2b85f82d-d1a1-4a23-9c67-48137c8e25e7"></fullUrl>
       <resource>
          <QuestionnaireResponse xmlns="http://hl7.org/fhir">
             <text>
@@ -39,15 +178,15 @@
             <item>
                <linkId value="scoredatum"></linkId>
                <answer>
-                  <valueDate value="2024-01-28"></valueDate>
+                  <valueDate value="2024-01-27"></valueDate>
                </answer>
             </item>
             <item>
                <linkId value="zz_personeel"></linkId>
                <item>
-                  <linkId value="groep"></linkId>
+                  <linkId value="cardiac_vpk"></linkId>
                   <answer>
-                     <valueInteger value="1"></valueInteger>
+                     <valueDecimal value="0.0"></valueDecimal>
                   </answer>
                </item>
                <item>
@@ -60,60 +199,60 @@
                   </answer>
                </item>
                <item>
-                  <linkId value="cardiac_vpk"></linkId>
+                  <linkId value="eindleerling_vpk"></linkId>
                   <answer>
-                     <valueDecimal value="3"></valueDecimal>
+                     <valueDecimal value="1.0"></valueDecimal>
                   </answer>
                </item>
                <item>
-                  <linkId value="eindleerling_vpk"></linkId>
+                  <linkId value="groep"></linkId>
                   <answer>
-                     <valueDecimal value="7"></valueDecimal>
+                     <valueInteger value="1"></valueInteger>
                   </answer>
                </item>
                <item>
                   <linkId value="ic_vpk"></linkId>
                   <answer>
-                     <valueDecimal value="2"></valueDecimal>
+                     <valueDecimal value="8.0"></valueDecimal>
                   </answer>
                </item>
                <item>
                   <linkId value="leerling_vpk"></linkId>
                   <answer>
-                     <valueDecimal value="3"></valueDecimal>
+                     <valueDecimal value="1.0"></valueDecimal>
                   </answer>
                </item>
                <item>
                   <linkId value="mc_vpk"></linkId>
                   <answer>
-                     <valueDecimal value="2"></valueDecimal>
+                     <valueDecimal value="0.0"></valueDecimal>
                   </answer>
                </item>
                <item>
                   <linkId value="ondersteunend_vpk"></linkId>
                   <answer>
-                     <valueDecimal value="1"></valueDecimal>
+                     <valueDecimal value="2.0"></valueDecimal>
                   </answer>
                </item>
                <item>
                   <linkId value="overige_vpk"></linkId>
                   <answer>
-                     <valueDecimal value="1"></valueDecimal>
+                     <valueDecimal value="1.0"></valueDecimal>
                   </answer>
                </item>
                <item>
                   <linkId value="recovery_vpk"></linkId>
                   <answer>
-                     <valueDecimal value="2"></valueDecimal>
+                     <valueDecimal value="0.0"></valueDecimal>
                   </answer>
                </item>
             </item>
             <item>
                <linkId value="zz_personeel"></linkId>
                <item>
-                  <linkId value="groep"></linkId>
+                  <linkId value="cardiac_vpk"></linkId>
                   <answer>
-                     <valueInteger value="1"></valueInteger>
+                     <valueDecimal value="1.0"></valueDecimal>
                   </answer>
                </item>
                <item>
@@ -126,51 +265,51 @@
                   </answer>
                </item>
                <item>
-                  <linkId value="cardiac_vpk"></linkId>
+                  <linkId value="eindleerling_vpk"></linkId>
                   <answer>
-                     <valueDecimal value="3"></valueDecimal>
+                     <valueDecimal value="2.0"></valueDecimal>
                   </answer>
                </item>
                <item>
-                  <linkId value="eindleerling_vpk"></linkId>
+                  <linkId value="groep"></linkId>
                   <answer>
-                     <valueDecimal value="7"></valueDecimal>
+                     <valueInteger value="1"></valueInteger>
                   </answer>
                </item>
                <item>
                   <linkId value="ic_vpk"></linkId>
                   <answer>
-                     <valueDecimal value="2"></valueDecimal>
+                     <valueDecimal value="7.0"></valueDecimal>
                   </answer>
                </item>
                <item>
                   <linkId value="leerling_vpk"></linkId>
                   <answer>
-                     <valueDecimal value="3"></valueDecimal>
+                     <valueDecimal value="0.0"></valueDecimal>
                   </answer>
                </item>
                <item>
                   <linkId value="mc_vpk"></linkId>
                   <answer>
-                     <valueDecimal value="2"></valueDecimal>
+                     <valueDecimal value="1.0"></valueDecimal>
                   </answer>
                </item>
                <item>
                   <linkId value="ondersteunend_vpk"></linkId>
                   <answer>
-                     <valueDecimal value="1"></valueDecimal>
+                     <valueDecimal value="1.0"></valueDecimal>
                   </answer>
                </item>
                <item>
                   <linkId value="overige_vpk"></linkId>
                   <answer>
-                     <valueDecimal value="1"></valueDecimal>
+                     <valueDecimal value="0.0"></valueDecimal>
                   </answer>
                </item>
                <item>
                   <linkId value="recovery_vpk"></linkId>
                   <answer>
-                     <valueDecimal value="2"></valueDecimal>
+                     <valueDecimal value="0.0"></valueDecimal>
                   </answer>
                </item>
             </item>
@@ -178,14 +317,14 @@
       </resource>
    </entry>
    <entry>
-      <fullUrl value="urn:uuid:b8550a3f-db04-47d5-bd52-e38e805feea9"></fullUrl>
+      <fullUrl value="urn:uuid:84d4800b-5759-48cc-a879-58d7ca97480b"></fullUrl>
       <resource>
          <QuestionnaireResponse xmlns="http://hl7.org/fhir">
             <text>
                <status value="empty"></status>
                <div xmlns="http://www.w3.org/1999/xhtml">QR ten behoeve van de NICE</div>
             </text>
-            <questionnaire value="https://fhir.stichting-nice.nl/R4/Questionnaire/kiic-bezetting-2025Q3"></questionnaire>
+            <questionnaire value="https://fhir.stichting-nice.nl/R4/Questionnaire/product-organization-2025Q3"></questionnaire>
             <status value="completed"></status>
             <item>
                <linkId value="datum"></linkId>
@@ -206,76 +345,29 @@
                </answer>
             </item>
             <item>
-               <linkId value="isgevalideerd"></linkId>
-               <answer>
-                  <valueBoolean value="true"></valueBoolean>
-               </answer>
-            </item>
-            <item>
-               <linkId value="kiic_bezetting"></linkId>
+               <linkId value="product-organization"></linkId>
                <item>
-                  <linkId value="groep"></linkId>
+                  <linkId value="epd"></linkId>
                   <answer>
-                     <valueInteger value="1"></valueInteger>
+                     <valueString value="EPIC, Chipsoft, Nexus, etc"></valueString>
                   </answer>
                </item>
                <item>
-                  <linkId value="dienst"></linkId>
+                  <linkId value="producent"></linkId>
                   <answer>
-                     <valueCoding>
-                        <system value="https://fhir.stichting-nice.nl/R4/CodeSystem/dienst-2023Q3"></system>
-                        <code value="1"></code>
-                     </valueCoding>
+                     <valueString value="epic,  chipsoft, itemedical, philips, zelfbouw, etc"></valueString>
                   </answer>
                </item>
                <item>
-                  <linkId value="fte_verpleegk"></linkId>
+                  <linkId value="product"></linkId>
                   <answer>
-                     <valueDecimal value="3"></valueDecimal>
+                     <valueString value="hix, mediscore, etc"></valueString>
                   </answer>
                </item>
                <item>
-                  <linkId value="oper_bedden"></linkId>
+                  <linkId value="versie"></linkId>
                   <answer>
-                     <valueQuantity>
-                        <value value="9.0"></value>
-                        <system value="http://unitsofmeasure.org"></system>
-                        <code value="{number}"></code>
-                     </valueQuantity>
-                  </answer>
-               </item>
-            </item>
-            <item>
-               <linkId value="kiic_bezetting"></linkId>
-               <item>
-                  <linkId value="groep"></linkId>
-                  <answer>
-                     <valueInteger value="1"></valueInteger>
-                  </answer>
-               </item>
-               <item>
-                  <linkId value="dienst"></linkId>
-                  <answer>
-                     <valueCoding>
-                        <system value="https://fhir.stichting-nice.nl/R4/CodeSystem/dienst-2023Q3"></system>
-                        <code value="2"></code>
-                     </valueCoding>
-                  </answer>
-               </item>
-               <item>
-                  <linkId value="fte_verpleegk"></linkId>
-                  <answer>
-                     <valueDecimal value="4"></valueDecimal>
-                  </answer>
-               </item>
-               <item>
-                  <linkId value="oper_bedden"></linkId>
-                  <answer>
-                     <valueQuantity>
-                        <value value="10.0"></value>
-                        <system value="http://unitsofmeasure.org"></system>
-                        <code value="{number}"></code>
-                     </valueQuantity>
+                     <valueString value="9.2"></valueString>
                   </answer>
                </item>
             </item>

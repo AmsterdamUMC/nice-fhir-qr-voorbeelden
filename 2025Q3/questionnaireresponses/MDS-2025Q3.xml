@@ -48,7 +48,7 @@
          </answer>
       </item>
       <item>
-         <linkId value="adm_date_hosp"></linkId>
+         <linkId value="adm_hosp"></linkId>
          <answer>
             <valueDateTime value="2024-01-26T00:00:00+01:00"></valueDateTime>
          </answer>
@@ -244,7 +244,7 @@
          </answer>
       </item>
       <item>
-         <linkId value="dis_date_hosp"></linkId>
+         <linkId value="dis_hosp"></linkId>
          <answer>
             <valueDateTime value="2024-02-02T00:00:00+01:00"></valueDateTime>
          </answer>
@@ -268,7 +268,7 @@
          <linkId value="ejfract"></linkId>
          <answer>
             <valueQuantity>
-               <value value="10.0"></value>
+               <value value="34.7"></value>
                <system value="http://unitsofmeasure.org"></system>
                <code value="%"></code>
             </valueQuantity>
@@ -498,6 +498,12 @@
          <linkId value="neoplasm"></linkId>
          <answer>
             <valueBoolean value="true"></valueBoolean>
+         </answer>
+      </item>
+      <item>
+         <linkId value="numgraft"></linkId>
+         <answer>
+            <valueInteger value="7"></valueInteger>
          </answer>
       </item>
       <item>

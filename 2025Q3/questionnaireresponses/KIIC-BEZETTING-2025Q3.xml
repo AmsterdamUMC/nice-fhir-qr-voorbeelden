@@ -8,7 +8,7 @@
    <item>
       <linkId value="datum"></linkId>
       <answer>
-         <valueDate value="2024-01-28"></valueDate>
+         <valueDate value="2024-01-27"></valueDate>
       </answer>
    </item>
    <item>
@@ -32,12 +32,6 @@
    <item>
       <linkId value="kiic_bezetting"></linkId>
       <item>
-         <linkId value="groep"></linkId>
-         <answer>
-            <valueInteger value="1"></valueInteger>
-         </answer>
-      </item>
-      <item>
          <linkId value="dienst"></linkId>
          <answer>
             <valueCoding>
@@ -49,14 +43,20 @@
       <item>
          <linkId value="fte_verpleegk"></linkId>
          <answer>
-            <valueDecimal value="3"></valueDecimal>
+            <valueDecimal value="5.0"></valueDecimal>
+         </answer>
+      </item>
+      <item>
+         <linkId value="groep"></linkId>
+         <answer>
+            <valueInteger value="1"></valueInteger>
          </answer>
       </item>
       <item>
          <linkId value="oper_bedden"></linkId>
          <answer>
             <valueQuantity>
-               <value value="9.0"></value>
+               <value value="12.0"></value>
                <system value="http://unitsofmeasure.org"></system>
                <code value="{number}"></code>
             </valueQuantity>
@@ -65,12 +65,6 @@
    </item>
    <item>
       <linkId value="kiic_bezetting"></linkId>
-      <item>
-         <linkId value="groep"></linkId>
-         <answer>
-            <valueInteger value="1"></valueInteger>
-         </answer>
-      </item>
       <item>
          <linkId value="dienst"></linkId>
          <answer>
@@ -83,14 +77,54 @@
       <item>
          <linkId value="fte_verpleegk"></linkId>
          <answer>
-            <valueDecimal value="4"></valueDecimal>
+            <valueDecimal value="5.0"></valueDecimal>
+         </answer>
+      </item>
+      <item>
+         <linkId value="groep"></linkId>
+         <answer>
+            <valueInteger value="1"></valueInteger>
          </answer>
       </item>
       <item>
          <linkId value="oper_bedden"></linkId>
          <answer>
             <valueQuantity>
-               <value value="10.0"></value>
+               <value value="12.0"></value>
+               <system value="http://unitsofmeasure.org"></system>
+               <code value="{number}"></code>
+            </valueQuantity>
+         </answer>
+      </item>
+   </item>
+   <item>
+      <linkId value="kiic_bezetting"></linkId>
+      <item>
+         <linkId value="dienst"></linkId>
+         <answer>
+            <valueCoding>
+               <system value="https://fhir.stichting-nice.nl/R4/CodeSystem/dienst-2023Q3"></system>
+               <code value="3"></code>
+            </valueCoding>
+         </answer>
+      </item>
+      <item>
+         <linkId value="fte_verpleegk"></linkId>
+         <answer>
+            <valueDecimal value="3.0"></valueDecimal>
+         </answer>
+      </item>
+      <item>
+         <linkId value="groep"></linkId>
+         <answer>
+            <valueInteger value="1"></valueInteger>
+         </answer>
+      </item>
+      <item>
+         <linkId value="oper_bedden"></linkId>
+         <answer>
+            <valueQuantity>
+               <value value="8.0"></value>
                <system value="http://unitsofmeasure.org"></system>
                <code value="{number}"></code>
             </valueQuantity>

@@ -44,7 +44,7 @@
          <linkId value="bead_modus"></linkId>
          <answer>
             <valueCoding>
-               <system value="https://fhir.stichting-nice.nl/R4/CodeSystem/bead-modus-2023Q3"></system>
+               <system value="https://fhir.stichting-nice.nl/R4/CodeSystem/bead-modus-2025Q3"></system>
                <code value="1"></code>
             </valueCoding>
          </answer>
@@ -121,7 +121,7 @@
          <linkId value="bead_modus"></linkId>
          <answer>
             <valueCoding>
-               <system value="https://fhir.stichting-nice.nl/R4/CodeSystem/bead-modus-2023Q3"></system>
+               <system value="https://fhir.stichting-nice.nl/R4/CodeSystem/bead-modus-2025Q3"></system>
                <code value="1"></code>
             </valueCoding>
          </answer>
@@ -198,7 +198,7 @@
          <linkId value="bead_modus"></linkId>
          <answer>
             <valueCoding>
-               <system value="https://fhir.stichting-nice.nl/R4/CodeSystem/bead-modus-2023Q3"></system>
+               <system value="https://fhir.stichting-nice.nl/R4/CodeSystem/bead-modus-2025Q3"></system>
                <code value="1"></code>
             </valueCoding>
          </answer>
@@ -499,146 +499,32 @@
       </item>
    </item>
    <item>
-      <linkId value="ai_kweek"></linkId>
+      <linkId value="ai_delier"></linkId>
       <item>
-         <linkId value="kweek_code"></linkId>
+         <linkId value="delier_datumtijd"></linkId>
          <answer>
-            <valueInteger value="446131002"></valueInteger>
+            <valueDateTime value="2024-01-27T19:19:00+01:00"></valueDateTime>
          </answer>
       </item>
       <item>
-         <linkId value="kweek_datumtijd"></linkId>
+         <linkId value="delier_id"></linkId>
          <answer>
-            <valueDateTime value="2024-01-28T14:15:00+01:00"></valueDateTime>
+            <valueInteger value="1"></valueInteger>
          </answer>
       </item>
       <item>
-         <linkId value="kweek_id"></linkId>
+         <linkId value="delier_instrument"></linkId>
          <answer>
-            <valueString value="100001"></valueString>
-         </answer>
-      </item>
-   </item>
-   <item>
-      <linkId value="ai_kweek"></linkId>
-      <item>
-         <linkId value="kweek_code"></linkId>
-         <answer>
-            <valueInteger value="42729000"></valueInteger>
+            <valueCoding>
+               <system value="https://fhir.stichting-nice.nl/R4/CodeSystem/delier-instrument-2025Q3"></system>
+               <code value="2"></code>
+            </valueCoding>
          </answer>
       </item>
       <item>
-         <linkId value="kweek_datumtijd"></linkId>
+         <linkId value="delier_score"></linkId>
          <answer>
-            <valueDateTime value="2024-01-28T15:27:00+01:00"></valueDateTime>
-         </answer>
-      </item>
-      <item>
-         <linkId value="kweek_id"></linkId>
-         <answer>
-            <valueString value="100002"></valueString>
-         </answer>
-      </item>
-   </item>
-   <item>
-      <linkId value="ai_medicatietoediening"></linkId>
-      <item>
-         <linkId value="stopdatumtijd"></linkId>
-         <answer>
-            <valueDateTime value="2024-01-30T00:53:00+01:00"></valueDateTime>
-         </answer>
-      </item>
-      <item>
-         <linkId value="toediening_datumtijd"></linkId>
-         <answer>
-            <valueDateTime value="2024-01-27T21:04:00+01:00"></valueDateTime>
-         </answer>
-      </item>
-      <item>
-         <linkId value="toediening_eenheid"></linkId>
-         <answer>
-            <valueString value="mg"></valueString>
-         </answer>
-      </item>
-      <item>
-         <linkId value="toediening_volgnr"></linkId>
-         <answer>
-            <valueInteger value="30001"></valueInteger>
-         </answer>
-      </item>
-      <item>
-         <linkId value="toedieningsproduct"></linkId>
-         <answer>
-            <valueString value="J01GB03"></valueString>
-         </answer>
-      </item>
-      <item>
-         <linkId value="toedieningsproduct_naam"></linkId>
-         <answer>
-            <valueString value="gentamycine"></valueString>
-         </answer>
-      </item>
-      <item>
-         <linkId value="toedieningsweg"></linkId>
-         <answer>
-            <valueInteger value="75"></valueInteger>
-         </answer>
-      </item>
-      <item>
-         <linkId value="toegediendehoeveelheid"></linkId>
-         <answer>
-            <valueDecimal value="200"></valueDecimal>
-         </answer>
-      </item>
-   </item>
-   <item>
-      <linkId value="ai_medicatietoediening"></linkId>
-      <item>
-         <linkId value="stopdatumtijd"></linkId>
-         <answer>
-            <valueDateTime value="2024-01-30T00:53:00+01:00"></valueDateTime>
-         </answer>
-      </item>
-      <item>
-         <linkId value="toediening_datumtijd"></linkId>
-         <answer>
-            <valueDateTime value="2024-01-28T03:00:00+01:00"></valueDateTime>
-         </answer>
-      </item>
-      <item>
-         <linkId value="toediening_eenheid"></linkId>
-         <answer>
-            <valueString value="mg"></valueString>
-         </answer>
-      </item>
-      <item>
-         <linkId value="toediening_volgnr"></linkId>
-         <answer>
-            <valueInteger value="30002"></valueInteger>
-         </answer>
-      </item>
-      <item>
-         <linkId value="toedieningsproduct"></linkId>
-         <answer>
-            <valueString value="J01GB03"></valueString>
-         </answer>
-      </item>
-      <item>
-         <linkId value="toedieningsproduct_naam"></linkId>
-         <answer>
-            <valueString value="gentamycine"></valueString>
-         </answer>
-      </item>
-      <item>
-         <linkId value="toedieningsweg"></linkId>
-         <answer>
-            <valueInteger value="75"></valueInteger>
-         </answer>
-      </item>
-      <item>
-         <linkId value="toegediendehoeveelheid"></linkId>
-         <answer>
-            <valueDecimal value="150"></valueDecimal>
+            <valueInteger value="9"></valueInteger>
          </answer>
       </item>
    </item>
@@ -809,39 +695,6 @@
                <system value="http://unitsofmeasure.org"></system>
                <code value="{score}"></code>
             </valueQuantity>
-         </answer>
-      </item>
-   </item>
-   <item>
-      <linkId value="ai_spiegel"></linkId>
-      <item>
-         <linkId value="spiegel_code"></linkId>
-         <answer>
-            <valueString value="4092-3"></valueString>
-         </answer>
-      </item>
-      <item>
-         <linkId value="spiegel_datumtijd"></linkId>
-         <answer>
-            <valueDateTime value="2024-01-27T17:32:00+01:00"></valueDateTime>
-         </answer>
-      </item>
-      <item>
-         <linkId value="spiegel_eenheid"></linkId>
-         <answer>
-            <valueString value="mg/ml"></valueString>
-         </answer>
-      </item>
-      <item>
-         <linkId value="spiegel_volgnr"></linkId>
-         <answer>
-            <valueString value="200001"></valueString>
-         </answer>
-      </item>
-      <item>
-         <linkId value="spiegel_waarde"></linkId>
-         <answer>
-            <valueDecimal value="15"></valueDecimal>
          </answer>
       </item>
    </item>

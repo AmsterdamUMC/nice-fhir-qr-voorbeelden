@@ -26,15 +26,15 @@
    <item>
       <linkId value="scoredatum"></linkId>
       <answer>
-         <valueDate value="2024-01-28"></valueDate>
+         <valueDate value="2024-01-27"></valueDate>
       </answer>
    </item>
    <item>
       <linkId value="zz_personeel"></linkId>
       <item>
-         <linkId value="groep"></linkId>
+         <linkId value="cardiac_vpk"></linkId>
          <answer>
-            <valueInteger value="1"></valueInteger>
+            <valueDecimal value="0.0"></valueDecimal>
          </answer>
       </item>
       <item>
@@ -47,60 +47,60 @@
          </answer>
       </item>
       <item>
-         <linkId value="cardiac_vpk"></linkId>
+         <linkId value="eindleerling_vpk"></linkId>
          <answer>
-            <valueDecimal value="3"></valueDecimal>
+            <valueDecimal value="1.0"></valueDecimal>
          </answer>
       </item>
       <item>
-         <linkId value="eindleerling_vpk"></linkId>
+         <linkId value="groep"></linkId>
          <answer>
-            <valueDecimal value="7"></valueDecimal>
+            <valueInteger value="1"></valueInteger>
          </answer>
       </item>
       <item>
          <linkId value="ic_vpk"></linkId>
          <answer>
-            <valueDecimal value="2"></valueDecimal>
+            <valueDecimal value="8.0"></valueDecimal>
          </answer>
       </item>
       <item>
          <linkId value="leerling_vpk"></linkId>
          <answer>
-            <valueDecimal value="3"></valueDecimal>
+            <valueDecimal value="1.0"></valueDecimal>
          </answer>
       </item>
       <item>
          <linkId value="mc_vpk"></linkId>
          <answer>
-            <valueDecimal value="2"></valueDecimal>
+            <valueDecimal value="0.0"></valueDecimal>
          </answer>
       </item>
       <item>
          <linkId value="ondersteunend_vpk"></linkId>
          <answer>
-            <valueDecimal value="1"></valueDecimal>
+            <valueDecimal value="2.0"></valueDecimal>
          </answer>
       </item>
       <item>
          <linkId value="overige_vpk"></linkId>
          <answer>
-            <valueDecimal value="1"></valueDecimal>
+            <valueDecimal value="1.0"></valueDecimal>
          </answer>
       </item>
       <item>
          <linkId value="recovery_vpk"></linkId>
          <answer>
-            <valueDecimal value="2"></valueDecimal>
+            <valueDecimal value="0.0"></valueDecimal>
          </answer>
       </item>
    </item>
    <item>
       <linkId value="zz_personeel"></linkId>
       <item>
-         <linkId value="groep"></linkId>
+         <linkId value="cardiac_vpk"></linkId>
          <answer>
-            <valueInteger value="1"></valueInteger>
+            <valueDecimal value="1.0"></valueDecimal>
          </answer>
       </item>
       <item>
@@ -113,51 +113,51 @@
          </answer>
       </item>
       <item>
-         <linkId value="cardiac_vpk"></linkId>
+         <linkId value="eindleerling_vpk"></linkId>
          <answer>
-            <valueDecimal value="3"></valueDecimal>
+            <valueDecimal value="2.0"></valueDecimal>
          </answer>
       </item>
       <item>
-         <linkId value="eindleerling_vpk"></linkId>
+         <linkId value="groep"></linkId>
          <answer>
-            <valueDecimal value="7"></valueDecimal>
+            <valueInteger value="1"></valueInteger>
          </answer>
       </item>
       <item>
          <linkId value="ic_vpk"></linkId>
          <answer>
-            <valueDecimal value="2"></valueDecimal>
+            <valueDecimal value="7.0"></valueDecimal>
          </answer>
       </item>
       <item>
          <linkId value="leerling_vpk"></linkId>
          <answer>
-            <valueDecimal value="3"></valueDecimal>
+            <valueDecimal value="0.0"></valueDecimal>
          </answer>
       </item>
       <item>
          <linkId value="mc_vpk"></linkId>
          <answer>
-            <valueDecimal value="2"></valueDecimal>
+            <valueDecimal value="1.0"></valueDecimal>
          </answer>
       </item>
       <item>
          <linkId value="ondersteunend_vpk"></linkId>
          <answer>
-            <valueDecimal value="1"></valueDecimal>
+            <valueDecimal value="1.0"></valueDecimal>
          </answer>
       </item>
       <item>
          <linkId value="overige_vpk"></linkId>
          <answer>
-            <valueDecimal value="1"></valueDecimal>
+            <valueDecimal value="0.0"></valueDecimal>
          </answer>
       </item>
       <item>
          <linkId value="recovery_vpk"></linkId>
          <answer>
-            <valueDecimal value="2"></valueDecimal>
+            <valueDecimal value="0.0"></valueDecimal>
          </answer>
       </item>
    </item>

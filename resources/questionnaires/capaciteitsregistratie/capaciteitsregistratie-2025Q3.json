@@ -250,11 +250,6 @@
                     "required": false
                 },
                 {
-                    "linkId": "zz_rhythm",
-                    "type": "integer",
-                    "required": false
-                },
-                {
                     "linkId": "zz_rhythm_aritmica",
                     "type": "boolean",
                     "required": false

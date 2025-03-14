@@ -1,0 +1,53 @@
+<QuestionnaireResponse xmlns="http://hl7.org/fhir">
+   <text>
+      <status value="empty"></status>
+      <div xmlns="http://www.w3.org/1999/xhtml">QR ten behoeve van de NICE</div>
+   </text>
+   <questionnaire value="https://fhir.stichting-nice.nl/R4/Questionnaire/product-admission-2025Q3"></questionnaire>
+   <status value="completed"></status>
+   <item>
+      <linkId value="admno"></linkId>
+      <answer>
+         <valueInteger value="24221"></valueInteger>
+      </answer>
+   </item>
+   <item>
+      <linkId value="hospno"></linkId>
+      <answer>
+         <valueInteger value="88"></valueInteger>
+      </answer>
+   </item>
+   <item>
+      <linkId value="icno"></linkId>
+      <answer>
+         <valueInteger value="1"></valueInteger>
+      </answer>
+   </item>
+   <item>
+      <linkId value="product-admission"></linkId>
+      <item>
+         <linkId value="epd"></linkId>
+         <answer>
+            <valueString value="EPIC, Chipsoft, Nexus, etc"></valueString>
+         </answer>
+      </item>
+      <item>
+         <linkId value="producent"></linkId>
+         <answer>
+            <valueString value="epic,  chipsoft, itemedical, philips, zelfbouw, etc"></valueString>
+         </answer>
+      </item>
+      <item>
+         <linkId value="product"></linkId>
+         <answer>
+            <valueString value="hix, mediscore, etc"></valueString>
+         </answer>
+      </item>
+      <item>
+         <linkId value="versie"></linkId>
+         <answer>
+            <valueString value="9.2"></valueString>
+         </answer>
+      </item>
+   </item>
+</QuestionnaireResponse>

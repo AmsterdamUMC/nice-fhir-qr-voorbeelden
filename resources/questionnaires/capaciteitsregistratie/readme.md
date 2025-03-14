@@ -1,3 +1,5 @@
+# capaciteitsregistratie-2025Q4
+Twee velden worden samengevoegd tot een nieuw veld.
 
 # capaciteitsregistratie-2025Q3
 * `isGevalideerd` is required gemaakt.

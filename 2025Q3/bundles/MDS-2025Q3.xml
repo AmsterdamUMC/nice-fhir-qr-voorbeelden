@@ -7,9 +7,9 @@
       <value value="24221"></value>
    </identifier>
    <type value="collection"></type>
-   <timestamp value="2024-12-17T11:46:42.912+01:00"></timestamp>
+   <timestamp value="2025-03-11T10:28:50.333+01:00"></timestamp>
    <entry>
-      <fullUrl value="urn:uuid:19593b6b-3fbb-43a5-8e65-097e8cbb8bd6"></fullUrl>
+      <fullUrl value="urn:uuid:5f4e59d5-600e-48fb-9c00-70376a57bb54"></fullUrl>
       <resource>
          <QuestionnaireResponse xmlns="http://hl7.org/fhir">
             <text>
@@ -61,7 +61,7 @@
                   </answer>
                </item>
                <item>
-                  <linkId value="adm_date_hosp"></linkId>
+                  <linkId value="adm_hosp"></linkId>
                   <answer>
                      <valueDateTime value="2024-01-26T00:00:00+01:00"></valueDateTime>
                   </answer>
@@ -257,7 +257,7 @@
                   </answer>
                </item>
                <item>
-                  <linkId value="dis_date_hosp"></linkId>
+                  <linkId value="dis_hosp"></linkId>
                   <answer>
                      <valueDateTime value="2024-02-02T00:00:00+01:00"></valueDateTime>
                   </answer>
@@ -281,7 +281,7 @@
                   <linkId value="ejfract"></linkId>
                   <answer>
                      <valueQuantity>
-                        <value value="10.0"></value>
+                        <value value="34.7"></value>
                         <system value="http://unitsofmeasure.org"></system>
                         <code value="%"></code>
                      </valueQuantity>
@@ -511,6 +511,12 @@
                   <linkId value="neoplasm"></linkId>
                   <answer>
                      <valueBoolean value="true"></valueBoolean>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="numgraft"></linkId>
+                  <answer>
+                     <valueInteger value="7"></valueInteger>
                   </answer>
                </item>
                <item>
@@ -780,6 +786,64 @@
                         <system value="http://unitsofmeasure.org"></system>
                         <code value="kg"></code>
                      </valueQuantity>
+                  </answer>
+               </item>
+            </item>
+         </QuestionnaireResponse>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:8107eb8c-454b-48b2-bbaf-7a435a3ecd19"></fullUrl>
+      <resource>
+         <QuestionnaireResponse xmlns="http://hl7.org/fhir">
+            <text>
+               <status value="empty"></status>
+               <div xmlns="http://www.w3.org/1999/xhtml">QR ten behoeve van de NICE</div>
+            </text>
+            <questionnaire value="https://fhir.stichting-nice.nl/R4/Questionnaire/product-admission-2025Q3"></questionnaire>
+            <status value="completed"></status>
+            <item>
+               <linkId value="admno"></linkId>
+               <answer>
+                  <valueInteger value="24221"></valueInteger>
+               </answer>
+            </item>
+            <item>
+               <linkId value="hospno"></linkId>
+               <answer>
+                  <valueInteger value="88"></valueInteger>
+               </answer>
+            </item>
+            <item>
+               <linkId value="icno"></linkId>
+               <answer>
+                  <valueInteger value="1"></valueInteger>
+               </answer>
+            </item>
+            <item>
+               <linkId value="product-admission"></linkId>
+               <item>
+                  <linkId value="epd"></linkId>
+                  <answer>
+                     <valueString value="EPIC, Chipsoft, Nexus, etc"></valueString>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="producent"></linkId>
+                  <answer>
+                     <valueString value="epic,  chipsoft, itemedical, philips, zelfbouw, etc"></valueString>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="product"></linkId>
+                  <answer>
+                     <valueString value="hix, mediscore, etc"></valueString>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="versie"></linkId>
+                  <answer>
+                     <valueString value="9.2"></valueString>
                   </answer>
                </item>
             </item>
