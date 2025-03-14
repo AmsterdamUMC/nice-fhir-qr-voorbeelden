@@ -33,8 +33,12 @@ In beide questionniares dit de volgende velden, welke beschreven staan in de dat
 * [Versie](https://stichting-nice.nl/dd/#11479)
 
 ## Delirium 
-Een nieuwe tabel\questionnaire voor het registreren van delirium
-
+In de actiegerichte-indicatoren questionnaire is delirium toegevoegd en kan meegestuurd worden met de BundleAdmission. Voor de delirium zijn 
+de volgende velden toegevoegd: 
+* [delier_id](https://stichting-nice.nl/dd/#11465)
+* [delier_datumtijd](https://stichting-nice.nl/dd/#11462)
+* [delier_instrument](https://stichting-nice.nl/dd/#11461)
+* [delier_score](https://stichting-nice.nl/dd/#11464)
 
 
 ## Verwijderen van groepen die niet meer aangeleverd hoeven worden
