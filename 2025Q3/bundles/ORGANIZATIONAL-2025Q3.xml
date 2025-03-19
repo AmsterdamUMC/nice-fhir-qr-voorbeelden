@@ -345,7 +345,7 @@
                </answer>
             </item>
             <item>
-               <linkId value="product-organization"></linkId>
+               <linkId value="product_organization"></linkId>
                <item>
                   <linkId value="epd"></linkId>
                   <answer>

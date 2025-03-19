@@ -21,7 +21,7 @@
             "required": true
         },
         {
-            "linkId": "product-admission",
+            "linkId": "product_admission",
             "type": "group",
             "repeats": false,
             "item": [

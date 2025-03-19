@@ -40,6 +40,10 @@ In beide questionniares dit de volgende velden, welke beschreven staan in de dat
 * [Product](https://stichting-nice.nl/dd/#11477)
 * [Versie](https://stichting-nice.nl/dd/#11479)
 
+> De linkId van de product informatie was een geschreven met een min-teken. Dit gaf echter problemen, vandaar dat
+> deze zijn vervangen door underscore. 
+
+
 ## Delirium 
 In de ***actiegerichte-indicatoren*** questionnaire is delirium toegevoegd en kan meegestuurd worden met de BundleAdmission. Voor de delirium zijn 
 de volgende velden toegevoegd: 

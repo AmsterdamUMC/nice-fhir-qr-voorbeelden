@@ -4068,7 +4068,7 @@
                </answer>
             </item>
             <item>
-               <linkId value="product-admission"></linkId>
+               <linkId value="product_admission"></linkId>
                <item>
                   <linkId value="epd"></linkId>
                   <answer>
