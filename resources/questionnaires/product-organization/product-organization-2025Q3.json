@@ -21,7 +21,7 @@
             "required": true
         },
         {
-            "linkId": "product-organization",
+            "linkId": "product_organization",
             "type": "group",
             "repeats": false,
             "item": [
