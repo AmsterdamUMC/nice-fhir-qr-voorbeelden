@@ -1,7 +1,7 @@
 {
     "resourceType": "Questionnaire",
-    "id": "actiegerichte-indicatoren-2025Q4",
-    "url": "https://fhir.stichting-nice.nl/R4/Questionnaire/actiegerichte-indicatoren-2025Q4",
+    "id": "actiegerichte-indicatoren-2025Q3",
+    "url": "https://fhir.stichting-nice.nl/R4/Questionnaire/actiegerichte-indicatoren-2025Q3",
     "name": "ACTIEGERICHTE-INDICATOREN",
     "status": "active",
     "item": [
@@ -163,7 +163,58 @@
                     "linkId": "delier_score",
                     "type": "integer",
                     "required": false
-                } 
+                }
+            ]
+        },
+        {
+            "linkId": "ai_farmaceutischproduct",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "farmaceutisch_id",
+                    "type": "string"
+                },
+                {
+                    "linkId": "ingredientCode",
+                    "type": "string"
+                },
+                {
+                    "linkId": "ingredientCodeSystem",
+                    "type": "string"
+                },
+                {
+                    "linkId": "ingredientHoeveelheid",
+                    "type": "decimal"
+                },
+                {
+                    "linkId": "ingredientHoeveelheid_eenheid",
+                    "type": "string"
+                },
+                {
+                    "linkId": "productcode",
+                    "type": "string"
+                },
+                {
+                    "linkId": "productCodeSystem",
+                    "type": "string"
+                },
+                {
+                    "linkId": "productnaam",
+                    "type": "string"
+                },
+                {
+                    "linkId": "ProductHoeveelheid",
+                    "type": "decimal"
+                },
+                {
+                    "linkId": "ProductHoeveelheid_eenheid",
+                    "type": "string"
+                },
+                {
+                    "linkId": "toedienings_id",
+                    "type": "string"
+                }
             ]
         },
         {
@@ -172,44 +223,38 @@
             "repeats": true,
             "item": [
                 {
-                    "linkId": "stopdatumtijd",
-                    "type": "dateTime",
-                    "required": false
+                    "linkId": "medicatietoedieningRedenVanAfwijken",
+                    "type": "choice",
+                    "answerValueSet": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.2.9.13.3"
                 },
                 {
-                    "linkId": "toediening_datumtijd",
-                    "type": "dateTime",
-                    "required": false
+                    "linkId": "medicatietoedieningRedenVanAfwijken_omschrijving",
+                    "type": "string"
                 },
                 {
-                    "linkId": "toediening_eenheid",
-                    "type": "text",
-                    "required": false
+                    "linkId": "toedieningsDatumTijd",
+                    "type": "dateTime"
                 },
                 {
-                    "linkId": "toediening_volgnr",
-                    "type": "integer",
-                    "required": true
-                },
-                {
-                    "linkId": "toedieningsproduct",
-                    "type": "text",
-                    "required": false
-                },
-                {
-                    "linkId": "toedieningsproduct_naam",
-                    "type": "text",
-                    "required": false
-                },
-                {
-                    "linkId": "toedieningsweg",
-                    "type": "integer",
-                    "required": false
+                    "linkId": "toedieningsStopDatumTijd",
+                    "type": "dateTime"
                 },
                 {
                     "linkId": "toegediendehoeveelheid",
-                    "type": "decimal",
-                    "required": false
+                    "type": "quantity"
+                },
+                {
+                    "linkId": "toedieningssnelheid",
+                    "type": "quantity"
+                },
+                {
+                    "linkId": "toedieningsweg",
+                    "type": "choice",
+                    "answerValueSet": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.2.9.13.2"
+                },
+                {
+                    "linkId": "toedieningsweg_omschrijving",
+                    "type": "string"
                 }
             ]
         },
@@ -246,39 +291,6 @@
                     "required": false
                 }
             ]
-        },
-        {
-            "linkId": "ai_spiegel",
-            "type": "group",
-            "repeats": true,
-            "item": [
-                {
-                    "linkId": "spiegel_code",
-                    "type": "text",
-                    "required": false
-                },
-                {
-                    "linkId": "spiegel_datumtijd",
-                    "type": "dateTime",
-                    "required": false
-                },
-                {
-                    "linkId": "spiegel_eenheid",
-                    "type": "text",
-                    "required": false
-                },
-                {
-                    "linkId": "spiegel_volgnr",
-                    "type": "text",
-                    "required": true
-                },
-                {
-                    "linkId": "spiegel_waarde",
-                    "type": "decimal",
-                    "required": false
-                }
-            ]
         }
-
     ]
 }

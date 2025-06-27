@@ -1,7 +1,7 @@
 {
     "resourceType": "Questionnaire",
-    "id": "actiegerichte-indicatoren-2025Q3",
-    "url": "https://fhir.stichting-nice.nl/R4/Questionnaire/actiegerichte-indicatoren-2025Q3",
+    "id": "actiegerichte-indicatoren-2026Q1",
+    "url": "https://fhir.stichting-nice.nl/R4/Questionnaire/actiegerichte-indicatoren-2026Q1",
     "name": "ACTIEGERICHTE-INDICATOREN",
     "status": "active",
     "item": [
@@ -164,6 +164,97 @@
                     "type": "integer",
                     "required": false
                 } 
+            ]
+        },
+        {
+            "linkId": "ai_labuitslagen",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                  "linkId": "monstervolgnummer",
+                  "type": "integer", 
+                  "required" : true
+                }, 
+                {
+                  "linkId": "labtestcode",
+                  "type": "choice", 
+                  "answerValueSet" : "//", 
+                  "required": false
+                },
+            ]
+        },          
+        {
+            "linkId": "ai_medicatietoedoening",
+            "type": "group",
+            "repeats": true,
+            "item": [
+               {
+                  "linkId": "toediening_volgnr",
+                  "type": "integer", 
+                  "required" : true
+               }, 
+               {
+                  "linkId": "atccode",
+                  "type": "choice", 
+                  "answerValueSet": "http://hl7.org/fhir/uv/ips/ValueSet/whoatc-uv-ips",
+                  "required" : false
+               }, 
+               {
+                  "linkId": "medicatietoedieningredenvanafwijken",
+                  "type": "choice", 
+                  "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/medicatietoedieningredenvanafwijken-2026Q1",
+                  "required" : false
+               }, 
+               {
+                  "linkId": "toedieningsdatumtijd",
+                  "type": "dateTime", 
+                  "required" : false
+               }, 
+               {
+                  "linkId": "toedieningsproduct",
+                  "type": "dateTime", 
+                  "required" : false
+               }, 
+               {
+                  "linkId": "toedieningssneldheid",
+                  "text": "toedieningssnelheid inclusief eenheid",
+                  "code": [
+                        {
+                            "system": "http://unitsofmeasure.org"
+                        }
+                    ],
+                  "type": "Quantity", 
+                  "required" : false
+               },
+               {
+                  "linkId": "toedieningsstopdatumtijd",
+                  "type": "DateTime", 
+                  "required" : false
+               },
+               {
+                  "linkId": "toedieningsweg",
+                  "text": "g-standaard, valueset nodig",
+                  "type": "choice", 
+                  "required" : false
+               },
+               {
+                  "linkId": "toedieningsweg_omschr",
+                  "text": "Indien er geen g-standaard code is",
+                  "type": "String", 
+                  "required" : false
+               },
+               {
+                  "linkId": "toedieningshoeveelheid",
+                  "text": "hoeveelheid inclusief eenheid",
+                  "code": [
+                        {
+                            "system": "http://unitsofmeasure.org"
+                        }
+                    ],
+                  "type": "Quantity", 
+                  "required" : false
+               }
             ]
         },
         {

@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ingredientcode-2026Q1",
+  "url": "https://fhir.stichting-nice.nl/R4/ValueSet/ingredientcode-2026Q1",
+  "version": "2026Q1",
+  "name": "Ingredientcode2026Q1",
+  "title": "Ingredientcode 2026Q1",
+  "status": "active",
+  "date": "2025-06-27",
+  "publisher": "Stichting NICE",
+  "description": "ValueSet for ingredientcode, version 2026Q1.",
+  "compose": {
+    "include": [
+      { "system": "http://www.gstandaard.nl/codesystem/atk" },
+      { "system": "http://www.gstandaard.nl/codesystem/gpk" },
+      { "system": "http://www.gstandaard.nl/codesystem/hpk" },
+      { "system": "http://www.gstandaard.nl/codesystem/prk" },
+      { "system": "http://www.gstandaard.nl/codesystem/snk" },
+      { "system": "http://www.gstandaard.nl/codesystem/ssk" },
+      { "system": "http://www.gs1.org/gtin" },
+      { "system": "http://www.whocc.no/atc" },
+      { "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor" }
+    ]
+  }
+}

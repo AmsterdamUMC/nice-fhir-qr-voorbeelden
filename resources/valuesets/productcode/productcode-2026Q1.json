@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "id": "productcode-2026Q1",
+  "url": "https://fhir.stichting-nice.nl/R4/ValueSet/productcode-2026Q1",
+  "version": "2026Q1",
+  "name": "Productcode2026Q1",
+  "title": "Productcode 2026Q1",
+  "status": "active",
+  "date": "2025-06-27",
+  "publisher": "Stichting NICE",
+  "description": "ValueSet for productcode, version 2026Q1.",
+  "compose": {
+    "include": [
+      { "system": "http://www.gstandaard.nl/codesystem/atk" },
+      { "system": "http://www.gstandaard.nl/codesystem/gpk" },
+      { "system": "http://www.gstandaard.nl/codesystem/hpk" },
+      { "system": "http://www.gstandaard.nl/codesystem/prk" },
+      { "system": "http://www.gstandaard.nl/codesystem/snk" },
+      { "system": "http://www.gstandaard.nl/codesystem/ssk" },
+      { "system": "http://www.gs1.org/gtin" },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "concept": [
+          { "code": "OTH", "display": "other (specify)" }
+        ]
+      },
+      { "system": "http://www.whocc.no/atc" },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "373873005"
+          }
+        ]
+      }
+    ]
+  }
+}
