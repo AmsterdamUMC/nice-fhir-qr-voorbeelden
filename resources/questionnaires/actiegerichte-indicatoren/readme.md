@@ -1,9 +1,22 @@
 
+# actiegerichte-indicatoren-2026Q1
+## Medicatietoediening
+> 2025-06-27: Let op: er worden nog details uitgezocht, verwachting is dat het niet meer veranderd.
+> De valusets en de questionnaire zijn gemaakt maar het voorbeeld nog niet. 
 
-# actiegerigchte-indicatoren-2025Q4
+Graag willen we alle medicatie ontvangen van de IC opnames. Om dit zo breed mogelijk op te zetten, is er uit gegaan
+van de zibs `Farmaceuthisch Product` en `Medicatie Toediening`. De toediening bepaalt o.a. hoeveel, wanneer en de snelheid
+terwijl het farmaceuthisch product het wat aangeeft, door dan wel een productcode aan te gegeven of wanneer het om 
+een samengesteld product gaat waardoor er geen productcode bestaat, dan kan worden de ingredienten opgegeven inclusief
+sterkte. 
+
+## Lab
+- moet nog uitgewerkt worden.
+
+
+# actiegerichte-indicatoren-2025Q4
 In deze release zal medicatietoediening en labuitslagen worden toegevoegd. 
-
-
+> Het toevoegen van medicatietoediening is complexer dat aangenomen, daarom zal deze uitbreiding naar 2026Q1 gaan.
 
 
 # actiegerichte-indicatoren-2025Q3

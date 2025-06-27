@@ -177,27 +177,17 @@
                 },
                 {
                     "linkId": "ingredientCode",
-                    "type": "string"
-                },
-                {
-                    "linkId": "ingredientCodeSystem",
-                    "type": "string"
+                    "type": "choice",
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/ingredientcode-2026Q1"
                 },
                 {
                     "linkId": "ingredientHoeveelheid",
-                    "type": "decimal"
-                },
-                {
-                    "linkId": "ingredientHoeveelheid_eenheid",
-                    "type": "string"
+                    "type": "quantity"
                 },
                 {
                     "linkId": "productcode",
-                    "type": "string"
-                },
-                {
-                    "linkId": "productCodeSystem",
-                    "type": "string"
+                    "type": "choice",
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/productcode-2026Q1"
                 },
                 {
                     "linkId": "productnaam",
@@ -205,11 +195,7 @@
                 },
                 {
                     "linkId": "ProductHoeveelheid",
-                    "type": "decimal"
-                },
-                {
-                    "linkId": "ProductHoeveelheid_eenheid",
-                    "type": "string"
+                    "type": "quantity"
                 },
                 {
                     "linkId": "toedienings_id",
