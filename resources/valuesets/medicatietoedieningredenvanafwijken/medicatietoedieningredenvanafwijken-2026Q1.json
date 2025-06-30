@@ -1,25 +1,36 @@
 {
-    "resourceType": "ValueSet",
-    "id": "medicatietoedieningredenvanafwijken-2026Q1",
-    "url": "https://fhir.stichting-nice.nl/R4/ValueSet/medicatietoedieningredenvanafwijken-2026Q1",
-    "version": "2026Q1",
-    "status": "active",
-    "compose": {
-        "include": [
-            {
-               "system": "http://snomed.info/sct",
-               "concept": [
-                   { "code": "705046008", "display": "Onvoldoende medicatie op voorraad" },
-                   { "code": "274512008", "display": "Behandeling met geneesmiddel stopgezet" },
-                   { "code": "152741000146103", "display": "Medicatie uitgespuugd door patiënt" },
-                   { "code": "153221000146105", "display": "Zorgverlener niet beschikbaar om medicatie toe te dienen" },
-                   { "code": "153211000146100", "display": "Zorgverlener vergeten medicatie toe te dienen" },
-                   { "code": "408366001", "display": "Niet in staat om medicatie te gebruiken" },
-                   { "code": "406149000", "display": "Toediening van medicatie geweigerd" },
-                   { "code": "153241000146104", "display": "Zorgafnemer niet beschikbaar om medicatie in ontvangst te nemen" },
-                   { "code": "159691000146109", "display": "Foutieve registratie van medicatie" }
-               ]
-            }
+  "resourceType": "ValueSet",
+  "id": "medicatietoedieningredenvanafwijken-2026Q1",
+  "url": "https://fhir.stichting-nice.nl/R4/ValueSet/medicatietoedieningredenvanafwijken-2026Q1",
+  "version": "2026Q1",
+  "name": "Medicatietoedieningredenvanafwijken2026Q1",
+  "title": "Reden van afwijken medicatietoediening 2026Q1",
+  "status": "active",
+  "date": "2025-06-30",
+  "publisher": "Stichting NICE",
+  "description": "ValueSet met redenen van afwijken van medicatietoediening voor 2026Q1. Bevat SNOMED CT codes en de NullFlavor 'OTH'.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          { "code": "705046008", "display": "Product niet meer leverbaar" },
+          { "code": "274512008", "display": "Medicatieafspraak is gestopt" },
+          { "code": "152741000146103", "display": "Uitgespuugd door patiënt" },
+          { "code": "153221000146105", "display": "Toediener niet aanwezig" },
+          { "code": "153211000146100", "display": "Vergeten toe te dienen" },
+          { "code": "408366001", "display": "Toediening volgens voorschrift niet mogelijk" },
+          { "code": "406149000", "display": "Patiënt heeft geweigerd" },
+          { "code": "153241000146104", "display": "Patiënt niet beschikbaar" },
+          { "code": "159691000146109", "display": "Foutieve registratie van medicatie" }
         ]
-    }
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "concept": [
+          { "code": "OTH", "display": "other (specify)" }
+        ]
+      }
+    ]
+  }
 }
