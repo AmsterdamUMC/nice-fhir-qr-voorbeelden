@@ -173,15 +173,16 @@
             "item": [
                 {
                     "linkId": "farmaceutisch_id",
-                    "type": "string"
+                    "type": "string",
+                    "required": true
                 },
                 {
-                    "linkId": "ingredientCode",
+                    "linkId": "ingredientcode",
                     "type": "choice",
                     "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/ingredientcode-2026Q1"
                 },
                 {
-                    "linkId": "ingredientHoeveelheid",
+                    "linkId": "ingredienthoeveelheid",
                     "type": "quantity"
                 },
                 {
@@ -194,7 +195,7 @@
                     "type": "string"
                 },
                 {
-                    "linkId": "ProductHoeveelheid",
+                    "linkId": "producthoeveelheid",
                     "type": "quantity"
                 },
                 {
@@ -204,30 +205,52 @@
             ]
         },
         {
+            "linkId": "ai_labuitslagen",
+            "type": "group",
+            "repeats": true,
+            "item": [
+                {
+                    "linkId": "monstermateriaal",
+                    "type": "choice",
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/monstermateriaal-2026Q1"
+                },
+                {
+                    "linkId": "monstermateriaal_omschrijving",
+                    "type": "String"
+                }
+            ]
+        },
+        {
             "linkId": "ai_medicatietoediening",
             "type": "group",
             "repeats": true,
             "item": [
                 {
-                    "linkId": "medicatietoedieningRedenVanAfwijken",
-                    "type": "choice",
-                    "answerValueSet": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.2.9.13.3"
+                    "linkId": "medicatieafspraak_id",
+                    "type": "string",
+                    "required": true
                 },
                 {
-                    "linkId": "medicatietoedieningRedenVanAfwijken_omschrijving",
+                    "linkId": "medicatietoedieningredenvanafwijken",
+                    "type": "choice",
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/medicatietoedieningredenvanafwijken-2026Q1"
+                },
+                {
+                    "linkId": "medicatietoedieningredenvanafwijken_omschrijving",
                     "type": "string"
                 },
                 {
-                    "linkId": "toedieningsDatumTijd",
+                    "linkId": "toedieningsdatumtijd",
                     "type": "dateTime"
                 },
                 {
-                    "linkId": "toedieningsStopDatumTijd",
+                    "linkId": "toedieningsstopdatumtijd",
                     "type": "dateTime"
                 },
                 {
-                    "linkId": "toegediendehoeveelheid",
-                    "type": "quantity"
+                    "linkId": "toedienings_id",
+                    "type": "string",
+                    "required": true
                 },
                 {
                     "linkId": "toedieningssnelheid",
@@ -236,11 +259,15 @@
                 {
                     "linkId": "toedieningsweg",
                     "type": "choice",
-                    "answerValueSet": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.2.9.13.2"
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/medicatietoedieningsweg-2026Q1"
                 },
                 {
                     "linkId": "toedieningsweg_omschrijving",
                     "type": "string"
+                },
+                {
+                    "linkId": "toegediendehoeveelheid",
+                    "type": "quantity"
                 }
             ]
         },

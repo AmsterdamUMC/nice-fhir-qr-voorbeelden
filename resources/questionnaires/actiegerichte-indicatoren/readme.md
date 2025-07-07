@@ -10,6 +10,19 @@ terwijl het farmaceuthisch product het wat aangeeft, door dan wel een productcod
 een samengesteld product gaat waardoor er geen productcode bestaat, dan kan worden de ingredienten opgegeven inclusief
 sterkte. 
 
+Wanneer medicatie aan een patient wordt gegeven, spreken we van een medicatietoediening. Hier wordt vastgelegd wanneer
+dit is gebeurt, hoeveel is toegediend, via welke weg en indien van toepassing, de snelheid van toediening. Teven 
+wordt hier verwezen naar een medicatieafspraak (of medicatie opdracht). Hiet is mogelijk dat er in een opdracht meerdere
+medicaties worden opgenomen. In dat geval krijgen de records dezelfde medicatieafspraak_id, maar wel een eigen toedienings_id. 
+Hier is wel de verwachting dat 1 medicatie opdracht met meerdere producten dezelfde toedieningsdatumtijd krijgen. Met andere
+woorden dat de medicatie gelijktijdig wordt gegeven.
+
+In het farmaceutisch product wordt opgegeven welke medicatie is gebruikt. Wanneer een enkelvoudig middel is gebruikt, 
+kan hier eenvoudig code uit het prk systeem worden opgegeven. Wanneer het om een samengesteld product gaat, dan blijft
+de product_code leeg, maar wordt het ingredient opgegven, inclusief de sterkte. 
+Net als in de medicatietoediening wordt hier de medicatieafspraak_id opgenomen; indien er meerdere ingredienten nodig 
+zijn, dan kunnen we aan de hand van de medicatieafspraak_id zien dat het een samengesteld product is.
+
 ## Lab
 - moet nog uitgewerkt worden.
 

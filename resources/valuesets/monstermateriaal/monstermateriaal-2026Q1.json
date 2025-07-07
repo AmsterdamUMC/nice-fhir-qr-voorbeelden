@@ -1,0 +1,42 @@
+{
+  "resourceType": "ValueSet",
+  "id": "monstermateriaal-2026Q1",
+  "url": "https://fhir.stichting-nice.nl/R4/ValueSet/monstermateriaal-2026Q1",
+  "version": "2026Q1",
+  "name": "Monstermateriaal2026Q1",
+  "title": "Monstermateriaal 2026Q1",
+  "status": "active",
+  "date": "2025-07-01",
+  "publisher": "Stichting NICE",
+  "description": "ValueSet met alle substanties en monsters uit SNOMED CT en de NullFlavor 'OTH' voor 2026Q1.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "105590001"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "123038009"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "concept": [
+          { "code": "OTH", "display": "other (specify)" }
+        ]
+      }
+    ]
+  }
+}
