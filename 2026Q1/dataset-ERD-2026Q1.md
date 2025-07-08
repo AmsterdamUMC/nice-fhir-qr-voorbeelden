@@ -1,3 +1,5 @@
+
+~~~mermaid
 erDiagram
     exportinfo {
         INTEGER hospno
@@ -267,3 +269,5 @@ erDiagram
     zz_personeel ||--o{ exportinfo : "hospno"
     ai_pijn ||--o{ exportinfo : "hospno"
     AI_Bloedgas ||--o{ exportinfo : "hospno"
+
+~~~
