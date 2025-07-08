@@ -1,0 +1,28 @@
+{
+  "resourceType": "ValueSet",
+  "id": "medicatietoedieningsweg-2026Q1",
+  "url": "https://fhir.stichting-nice.nl/R4/ValueSet/medicatietoedieningsweg-2026Q1",
+  "version": "2026Q1",
+  "name": "Medicatietoedieningsweg2026Q1",
+  "title": "Medicatietoedieningsweg 2026Q1",
+  "status": "active",
+  "date": "2025-07-08",
+  "publisher": "Stichting NICE",
+  "description": "ValueSet for medicatietoedieningsweg, version 2026Q1. All values from G-Standaard Toedieningswegen (URI: http://www.gstandaard.nl/codesystem/toedieningsweg) and NullFlavor OTH are allowed.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.gstandaard.nl/codesystem/toedieningsweg"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "concept": [
+          {
+            "code": "OTH",
+            "display": "other (specify)"
+          }
+        ]
+      }
+    ]
+  }
+}
