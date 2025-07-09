@@ -1,8 +1,7 @@
 
 # actiegerichte-indicatoren-2026Q1
 ## Medicatietoediening
-> 2025-06-27: Let op: er worden nog details uitgezocht, verwachting is dat het niet meer veranderd.
-> De valusets en de questionnaire zijn gemaakt maar het voorbeeld nog niet. 
+> 2025-07-2709: De valusets en de questionnaires zijn gemaakt maar het voorbeeld nog niet. 
 
 Graag willen we alle medicatie ontvangen van de IC opnames. Om dit zo breed mogelijk op te zetten, is er uit gegaan
 van de zibs `Farmaceuthisch Product` en `Medicatie Toediening`. De toediening bepaalt o.a. hoeveel, wanneer en de snelheid
