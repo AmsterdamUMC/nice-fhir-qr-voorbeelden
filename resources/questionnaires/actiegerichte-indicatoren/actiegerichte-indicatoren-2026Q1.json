@@ -210,13 +210,57 @@
             "repeats": true,
             "item": [
                 {
+                    "linkId": "labtest_code",
+                    "type": "choice",
+                    "text": "Labtest code",
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/labtest-2026Q1"
+                },
+                {
+                    "linkId": "labtest_omschrijving",
+                    "type": "string",
+                    "text": "Labtest omschrijving"
+                },
+                {
+                    "linkId": "labtest_system",
+                    "type": "string",
+                    "text": "Labtest system"
+                },
+                {
+                    "linkId": "labtestdatumtijd",
+                    "type": "dateTime",
+                    "text": "Labtest datum/tijd"
+                },
+                {
+                    "linkId": "labtestuitslag_a",
+                    "type": "quantity",
+                    "text": "Labtestuitslag A indien er de uitslag een waarde met een eenheid is."
+                },
+                {
+                    "linkId": "labtestuitslag_b",
+                    "type": "choice",
+                    "text": "Labtestuitslag B indien er een uitslag met een code is",
+                    "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/labtestuitslag-2026Q1"
+                },
+                {
+                    "linkId": "labtestuitslag_id",
+                    "type": "string",
+                    "text": "Labtestuitslag ID"
+                },
+                {
+                    "linkId": "labtestuitslag_omschrijving",
+                    "type": "string",
+                    "text": "Labtestuitslag omschrijving indien uitslag A of B niet gebruikt kan worden"
+                },
+                {
                     "linkId": "monstermateriaal",
                     "type": "choice",
+                    "text": "Monstermateriaal",
                     "answerValueSet": "https://fhir.stichting-nice.nl/R4/ValueSet/monstermateriaal-2026Q1"
                 },
                 {
                     "linkId": "monstermateriaal_omschrijving",
-                    "type": "String"
+                    "type": "string",
+                    "text": "Monstermateriaal omschrijving"
                 }
             ]
         },

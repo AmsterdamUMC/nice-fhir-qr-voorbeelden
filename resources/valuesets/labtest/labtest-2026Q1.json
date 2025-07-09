@@ -1,0 +1,28 @@
+{
+  "resourceType": "ValueSet",
+  "id": "labtest-2026Q1",
+  "url": "https://fhir.stichting-nice.nl/R4/ValueSet/labtest-2026Q1",
+  "version": "2026Q1",
+  "name": "Labtest2026Q1",
+  "title": "Labtest 2026Q1",
+  "status": "active",
+  "date": "2025-07-09",
+  "publisher": "Stichting NICE",
+  "description": "ValueSet for labtest, version 2026Q1. All concepts from NHG tabel 45 (URI: https://www.nhg.org/tabel/nhg-tabel-45) and NullFlavor OTH are included.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://www.nhg.org/tabel/nhg-tabel-45"
+      },
+      {
+        "system": "http://loinc.org"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "concept": [
+          { "code": "OTH", "display": "other (specify)" }
+        ]
+      }
+    ]
+  }
+}

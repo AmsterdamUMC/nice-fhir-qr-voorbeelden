@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "id": "labtestuitslag-2026Q1",
+  "url": "https://fhir.stichting-nice.nl/R4/ValueSet/labtestuitslag-2026Q1",
+  "version": "2026Q1",
+  "name": "Labtestuitslag2026Q1",
+  "title": "Labtestuitslag 2026Q1",
+  "status": "active",
+  "date": "2025-07-09",
+  "publisher": "Stichting NICE",
+  "description": "ValueSet for labtestuitslag, version 2026Q1. Includes several SNOMED CT reference sets and NullFlavor OTH.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          { "property": "refset", "op": "=", "value": "2581000146104" }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          { "property": "refset", "op": "=", "value": "46231000146109" }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          { "property": "refset", "op": "=", "value": "97801000146108" }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          { "property": "refset", "op": "=", "value": "140301000146101" }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          { "property": "refset", "op": "=", "value": "145871000146106" }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "concept": [
+          { "code": "OTH", "display": "other (specify)" }
+        ]
+      }
+    ]
+  }
+}

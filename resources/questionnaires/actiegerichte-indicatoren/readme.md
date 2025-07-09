@@ -23,8 +23,27 @@ de product_code leeg, maar wordt het ingredient opgegven, inclusief de sterkte.
 Net als in de medicatietoediening wordt hier de medicatieafspraak_id opgenomen; indien er meerdere ingredienten nodig 
 zijn, dan kunnen we aan de hand van de medicatieafspraak_id zien dat het een samengesteld product is.
 
-## Lab
-- moet nog uitgewerkt worden.
+## Labuitslagen
+Tevens wordt gevraagd om alle labuitslagen op te sturen. Hier is de uitdaging dat sommige labuitslagen worden uitgedrukt 
+in een hoeveelheid, maar andere kunnen gebruik maken van een keuzelijst bijv 'uitslag positief of negatief'.
+Om beide mogelijk te maken worden er twee seperate uitslag velden in een record opgenomen:
+
+* uitslag A - te gebruiken indien de uitslag bestaat uit een gemeten eenheid.
+* uitslag B - te gebruiken indien de uitslag uit een code / keuze bestaat.
+
+Per record mag dus alleen A of B zijn ingevuld. 
+
+Uitslag A:
+- labtestuitslag_a_value - decimal: de gemete waarde
+- labtestuitslag_a_code - de code om de eenheid aan te geven
+- labtestuitslag_a_system - het systeem waaruit de code voor de eenheid is bepaald.
+
+uitslag B
+- labtestuitslag_b_code - de code dat het resultaat aangeeft, bijv positief
+- labtestuitslag_b_system - het systeem waaruit het concept (code) is gehaald.
+
+Het extra veld `labtestuitslag_omschrijving` is een vrij tekst veld welke kan gebruikt worden indien het niet mogelijk
+is om A of B te kunnen gebruiken.
 
 
 # actiegerichte-indicatoren-2025Q4
