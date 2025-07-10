@@ -172,7 +172,7 @@
             "repeats": true,
             "item": [
                 {
-                    "linkId": "farmaceutisch_id",
+                    "linkId": "farma_id",
                     "type": "string",
                     "required": true
                 },
@@ -195,7 +195,7 @@
                     "type": "quantity"
                 },
                 {
-                    "linkId": "productnaam",
+                    "linkId": "product_omschrijving",
                     "type": "string"
                 },
                 {
