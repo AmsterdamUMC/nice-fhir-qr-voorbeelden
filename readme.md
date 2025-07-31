@@ -54,8 +54,8 @@ worden.
 # FAQ
 * Welke endpoint moet ik nu gebruiken om echte data aan te leveren: https://fhir.stichting-nice.nl/R4
 * Welke endpoint kan ik gebruiken om de bundles te controlleren (valideren): 
-   * >= 2025Q3 : bijvoorkeur de https:/fhir-edge.stichting-nice.nl/beta/R4, dit geeft de meeste informatie of de bundles correct 
+   * Vanaf 2025Q3 : bijvoorkeur de https:/fhir-edge.stichting-nice.nl/beta/R4, dit geeft de meeste informatie of de bundles correct 
    zijn. https://beta.stichting-nice.nl kan ook gebruikt worden vooral voor het verwerken van de data. Deze laatste is dezelfde software
    als die we voor https://fhir.stichting-nice.nl/R4 gebruiken
-   * <  2025Q3 : https://beta.stichting-nice.nl/R4 (de nieuwe server vindt deze bundles niet geheel volgens de FHIR regels.
+   * ouder dan 2025Q3 : https://beta.stichting-nice.nl/R4 (de nieuwe server vindt deze bundles niet geheel volgens de FHIR regels.
 
