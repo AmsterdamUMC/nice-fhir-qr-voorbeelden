@@ -1,5 +1,13 @@
 
 # actiegerichte-indicatoren-2026Q1
+
+#### 27 okt 2025
+In de questionnaire voor de medicatietoedieningen kwam het id genaamd `toedienings_id` twee keer voor. Dit is logisch
+data-technisch gezien als een verwijzing naar elkaar, maar de FHIR standaard staat niet toe dat een linkId twee keer 
+voorkomt in een questionnaire. Daartoe wordt in het `toedienings_id` in het farmaceutisch product aangepast naar 
+`toedienings_id_ref`. Hierdoor worden de linkid's weer uniek. De betekenis van beide velden blijven onveranderd.
+
+
 ## Medicatietoediening
 > 2025-07-2709: De valusets en de questionnaires zijn gemaakt maar het voorbeeld nog niet. 
 

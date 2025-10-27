@@ -199,7 +199,7 @@
                     "type": "quantity"
                 },
                 {
-                    "linkId": "toedienings_id",
+                    "linkId": "toedienings_id_ref",
                     "type": "string"
                 }
             ]
