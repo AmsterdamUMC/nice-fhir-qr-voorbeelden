@@ -1,7 +1,7 @@
 {
 	"resourceType": "CodeSystem",
-	"id": "beadm-modus-2025Q3",
-	"url": "https://fhir.stichting-nice.nl/R4/CodeSystem/beadm-modus-2025Q3",
+	"id": "bead-modus-2025Q3",
+	"url": "https://fhir.stichting-nice.nl/R4/CodeSystem/bead-modus-2025Q3",
 	"version": "2025Q3",
 	"status": "active",
 	"content": "complete",
