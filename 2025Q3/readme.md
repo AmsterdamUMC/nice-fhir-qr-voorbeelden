@@ -1,5 +1,7 @@
 # 2025Q3
 
+#### 6 jan 2026
+Het codesystem voor beademings modus was `https://fhir.stichting-nice.nl/R4/CodeSystem/beadm-modus-2025Q3` terwijl in de valuset en de voorbeelden een url `https://fhir.stichting-nice.nl/R4/CodeSystem/bead-modus-2025Q3` wordt gebruikt. De url van het codesystem is daarom aangepast. De valueset en de voorbeelden zijn ongewijzigd. 
 
 #### 14 maart 2025
 Deze release is gemaakt en getest op de huidige FHIR server en op de nieuwe Fhir server, genaamd Chiba. Dit maakt dat als deze release
