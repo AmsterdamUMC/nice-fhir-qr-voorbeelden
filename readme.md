@@ -6,6 +6,26 @@ Met het NICE FHIR QR verzamelt NICE haar data op basis van FHIR R4 met behulp va
 De NICE-FHIR documentatie kan hier worden gevonden:
 [https://edge.stichting-nice.nl/fhir-doc](https://edge.stichting-nice.nl/fhir-doc/voorbeelden/index.html)
 
+# Conditonal updates en Identifiers
+
+
+# Bundle-Profiles
+In een bundle moet in de meta een profile worden meegestuurd. Dit wordt gebruikt om de bundle te valideren
+en om deze op de juiste maneer verder te verwerken. Een bundle krijgt een nieuwe profile wanneer een of
+meer entrys (o.a. de questionnaires) een nieuwe profile krijgen. De versies van de questionaires moeten 
+dus overeenkomen met de definitie van de bundle.
+
+Hieronder een tabel met daarin de bundle-profielen en de ondersteunde questionnaireResponses.
+https://fhir.stichting-nice.nl/R4/StructureDefinition/<id>
+
+|Id | Questionnaire | Questionnaire  | Questionnaire |
+|---|---|---|---|
+| BundleOrganization-2026Q1 | zz-personeel-2026Q1 | kiic-bezetting-2025Q3 | product-organization-2025Q3
+
+
+
+
+
 
 # FHIR-Endpoints
 2025-07-31
