@@ -22,9 +22,35 @@ https://fhir.stichting-nice.nl/R4/StructureDefinition/<id>
 |---|---|---|---|
 | BundleOrganization-2026Q1 | zz-personeel-2026Q1 | kiic-bezetting-2025Q3 | product-organization-2025Q3
 
+Uitleg: Indien er een bundle wordt verstuurd met profile https://fhir.stichting-nice.nl/R4/StructureDefinition/BundleOrganization-2026Q1,
+dan mag er een questionnaireResponse inzitten met een reference naar https://fhir.stichting-nice.nl/R4/Questionnaire/zz-personeel-2026Q1. 
+Bijv. 
 
-
-
+~~~diff
+<Bundle xmlns="http://hl7.org/fhir">
+  <meta>
++    <profile value="https://fhir.stichting-nice.nl/R4/StructureDefinition/BundleOrganization-206Q1" />
+  </meta>
+  <identifier>
+    <system value="https://fhir.stichting-nice.nl/R4/identifier/1/1/dienst" />
+    <value value="2026-08-05" />
+  </identifier>
+  <type value="collection" />
+  <timestamp value="2026-08-05T16:08:45+02:00" />
+  <entry>
+    <fullUrl value="urn:uuid:ec59f6b1-6692-4ceb-be79-765e65395ded" />
+    <resource>
+      <QuestionnaireResponse xmlns="http://hl7.org/fhir">
+        <text>
+          <status value="empty" />
+          <div xmlns="http://www.w3.org/1999/xhtml">Update2 - QR ten behoeve van de NICE</div>
+        </text>
++        <questionnaire value="https://fhir.stichting-nice.nl/R4/Questionnaire/kiic-bezetting-2025Q3" />
+        <status value="completed" />
+        <item>
+  ... de rest is weggelaten ...
+  
+~~~
 
 
 # FHIR-Endpoints
