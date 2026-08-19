@@ -1,3 +1,6 @@
+# kiic-2026Q3
+`bead_iv_niv` is verhuisd van ai_beademinginstellingen naar van de kiic_beademd.
+
 # kiic-2025Q3
 `beadem_start` is nu required omdat het onderdeel is van de primary key.
 

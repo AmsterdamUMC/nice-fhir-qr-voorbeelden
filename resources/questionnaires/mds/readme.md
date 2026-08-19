@@ -1,4 +1,6 @@
-
+# mds-2026Q3
+De eenheid van een aantal variabelen is aangepast naar de nationale standaard voor internationale eenheden (UCUM – Unified Code for Units of Measure), dit is met name van belang voor data aanlevering via FHIR. Het betreft de volgende variabelen:
+MDS: heartrate_max, heartrate_min, ht_max, ht_min, pao2_fio2, resprate_max, resprate_min
 
 # mds-2025Q3
 `adm_hosp` vervangt de linkId `adm_date_hosp` dit vooral ivm het datatype wijziging van datum (Date) naar DateTime. Voor de datasets in access of csv geldt dat beide velden geaccepteerd worden. Maar in FHIR niet. 

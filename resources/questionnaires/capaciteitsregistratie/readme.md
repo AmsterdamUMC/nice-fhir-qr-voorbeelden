@@ -1,3 +1,8 @@
+# capaciteitsregistratie-2026Q3
+* Wijzingen in de ucum code in `zz_blood_other`, `zz_ffp`, `zz_prc`, `zz_thrombo`
+* `bead_iv_niv` hier verwijdered. Dit veld zit nu in de kiic, kiic_beademd.
+
+
 # capaciteitsregistratie-2025Q4
 Twee velden worden samengevoegd tot een nieuw veld.
 

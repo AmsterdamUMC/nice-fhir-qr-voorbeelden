@@ -27,7 +27,7 @@ https://fhir.stichting-nice.nl/R4/StructureDefinition/<id>
 | BundleAdmission-2024Q1 | mds-2024Q1 | kiic-2024Q1 | sofa-2024Q1 | actiegerichte-indicatoren-2024Q1 | capaciteitsregistratie-2024Q1 | complicatie-2024Q1 | - |
 | BundleAdmission-2025Q1 | mds-2025Q1 | kiic-2025Q1 | sofa-2025Q1 | actiegerichte-indicatoren-2025Q1 | capaciteitsregistratie-2025Q1 | complicatie-2025Q1 | - |
 | BundleAdmission-2025Q3 | mds-2025Q3 | kiic-2025Q3 | sofa-2025Q3 | actiegerichte-indicatoren-2025Q3 | capaciteitsregistratie-2025Q3 | complicatie-2025Q3 | product-admission-2025Q3 |
-| BundleAdmission-2026Q1 | mds-2025Q3 | kiic-2025Q3 | sofa-2025Q3 | actiegerichte-indicatoren-2025Q3 | capaciteitsregistratie-2026Q1 | complicatie-2025Q3 | product-admission-2025Q3 |
+| BundleAdmission-2026Q1 | mds-2025Q3 | kiic-2025Q3 | sofa-2025Q3 | actiegerichte-indicatoren-2026Q1 | capaciteitsregistratie-2025Q3 | complicatie-2025Q3 | product-admission-2025Q3 |
 
 ## Voor de organisatorische data:
 

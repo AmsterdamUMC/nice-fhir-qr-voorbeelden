@@ -1,11 +1,24 @@
 
+# actiegerichte-indicatoren-2026Q3
+`resp_spont`, `resp_totaal` en `pijnscore` hebben een andere ucum code gekregen zodat deze geaccepteerd worden door de FHIR validatie.
+
 # actiegerichte-indicatoren-2026Q1
+
+
 
 #### 27 okt 2025
 In de questionnaire voor de medicatietoedieningen kwam het id genaamd `toedienings_id` twee keer voor. Dit is logisch
 data-technisch gezien als een verwijzing naar elkaar, maar de FHIR standaard staat niet toe dat een linkId twee keer 
 voorkomt in een questionnaire. Daartoe wordt in het `toedienings_id` in het farmaceutisch product aangepast naar 
 `toedienings_id_ref`. Hierdoor worden de linkid's weer uniek. De betekenis van beide velden blijven onveranderd.
+
+## medicatie-voorbeeld
+Er zijn twee medicatie voorbeelden,
+- 1: Paracetamol
+- 2: NaCl 0,9% met kaliumchloride, een samengesteld product.
+
+Bij 2: omdat er twee records verwijzen naar dezelfde toediening, weten we dat dit een samengesteld product moet zijn.
+In de toediening worden daadwerkelijk aangegeven hoeveel de patient heeft gehad, en in dit geval met welke snelheid en over welke periode.
 
 
 ## Medicatietoediening

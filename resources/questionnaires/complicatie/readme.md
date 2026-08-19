@@ -1,3 +1,7 @@
+# complicatieregistratie-2026Q3
+* `reintubatie` heeft een wijziging in de ucum code.
+
+
 
 # complicatieregistratie-2025Q3
 * `isGevalideerd` is required gemaakt.

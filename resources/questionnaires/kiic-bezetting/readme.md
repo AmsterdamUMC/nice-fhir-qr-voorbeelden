@@ -1,3 +1,6 @@
+# kiic-bezetting-2026Q3
+`oper_bedden` heeft een andere ucum code ivm de FHIR validatie.
+
 # kiic-bezetting-2025Q3
 * `isGevalideerd` is op required gezet.
 
