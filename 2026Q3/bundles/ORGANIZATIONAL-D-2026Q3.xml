@@ -1,0 +1,237 @@
+<Bundle xmlns="http://hl7.org/fhir">
+   <meta>
+      <profile value="https://fhir.stichting-nice.nl/R4/StructureDefinition/BundleOrganization-d-2026Q3"/>
+   </meta>
+   <identifier>
+      <system value="https://fhir.stichting-nice.nl/R4/identifier/88/1/dienst"/>
+      <value value="2024-01-27-d1"/>
+   </identifier>
+   <type value="collection"/>
+   <timestamp value="2026-08-20T13:29:02.442+02:00"/>
+   <entry>
+      <fullUrl value="urn:uuid:b86bfdc6-74ab-492c-a28f-0dce3f8d09b3"/>
+      <resource>
+         <QuestionnaireResponse xmlns="http://hl7.org/fhir">
+            <text>
+               <status value="empty"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">QR ten behoeve van de NICE</div>
+            </text>
+            <questionnaire value="https://fhir.stichting-nice.nl/R4/Questionnaire/kiic-bezetting-2026Q3"/>
+            <status value="completed"/>
+            <item>
+               <linkId value="datum"/>
+               <answer>
+                  <valueDate value="2024-01-27"/>
+               </answer>
+            </item>
+            <item>
+               <linkId value="hospno"/>
+               <answer>
+                  <valueInteger value="88"/>
+               </answer>
+            </item>
+            <item>
+               <linkId value="icno"/>
+               <answer>
+                  <valueInteger value="1"/>
+               </answer>
+            </item>
+            <item>
+               <linkId value="isgevalideerd"/>
+               <answer>
+                  <valueBoolean value="true"/>
+               </answer>
+            </item>
+            <item>
+               <linkId value="kiic_bezetting"/>
+               <item>
+                  <linkId value="dienst"/>
+                  <answer>
+                     <valueCoding>
+                        <system value="https://fhir.stichting-nice.nl/R4/CodeSystem/dienst-2023Q3"/>
+                        <code value="1"/>
+                     </valueCoding>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="fte_verpleegk"/>
+                  <answer>
+                     <valueDecimal value="5.0"/>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="groep"/>
+                  <answer>
+                     <valueInteger value="1"/>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="oper_bedden"/>
+                  <answer>
+                     <valueQuantity>
+                        <value value="12.0"/>
+                        <system value="http://unitsofmeasure.org"/>
+                        <code value="1"/>
+                     </valueQuantity>
+                  </answer>
+               </item>
+            </item>
+         </QuestionnaireResponse>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:c83576cd-2280-4937-804b-edf4928767ea"/>
+      <resource>
+         <QuestionnaireResponse xmlns="http://hl7.org/fhir">
+            <text>
+               <status value="empty"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">QR ten behoeve van de NICE</div>
+            </text>
+            <questionnaire value="https://fhir.stichting-nice.nl/R4/Questionnaire/zz-personeel-2026Q1"/>
+            <status value="completed"/>
+            <item>
+               <linkId value="hospno"/>
+               <answer>
+                  <valueInteger value="88"/>
+               </answer>
+            </item>
+            <item>
+               <linkId value="icno"/>
+               <answer>
+                  <valueInteger value="1"/>
+               </answer>
+            </item>
+            <item>
+               <linkId value="isgevalideerd"/>
+               <answer>
+                  <valueBoolean value="true"/>
+               </answer>
+            </item>
+            <item>
+               <linkId value="scoredatum"/>
+               <answer>
+                  <valueDate value="2024-01-27"/>
+               </answer>
+            </item>
+            <item>
+               <linkId value="zz_personeel"/>
+               <item>
+                  <linkId value="cardiac_vpk"/>
+                  <answer>
+                     <valueDecimal value="0.0"/>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="dienst"/>
+                  <answer>
+                     <valueCoding>
+                        <system value="https://fhir.stichting-nice.nl/R4/CodeSystem/dienst-2023Q3"/>
+                        <code value="1"/>
+                     </valueCoding>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="groep"/>
+                  <answer>
+                     <valueInteger value="1"/>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="ic_vpk"/>
+                  <answer>
+                     <valueDecimal value="8.0"/>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="mc_vpk"/>
+                  <answer>
+                     <valueDecimal value="0.0"/>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="ondersteunend_vpk"/>
+                  <answer>
+                     <valueDecimal value="2.0"/>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="overige_vpk"/>
+                  <answer>
+                     <valueDecimal value="1.0"/>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="recovery_vpk"/>
+                  <answer>
+                     <valueDecimal value="0.0"/>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="totaal_leerling_vpk"/>
+                  <answer>
+                     <valueDecimal value="3.0"/>
+                  </answer>
+               </item>
+            </item>
+         </QuestionnaireResponse>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:6059e8c2-82b1-46ce-9ceb-6520481b8b20"/>
+      <resource>
+         <QuestionnaireResponse xmlns="http://hl7.org/fhir">
+            <text>
+               <status value="empty"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">QR ten behoeve van de NICE</div>
+            </text>
+            <questionnaire value="https://fhir.stichting-nice.nl/R4/Questionnaire/product-organization-2025Q3"/>
+            <status value="completed"/>
+            <item>
+               <linkId value="datum"/>
+               <answer>
+                  <valueDate value="2024-01-28"/>
+               </answer>
+            </item>
+            <item>
+               <linkId value="hospno"/>
+               <answer>
+                  <valueInteger value="88"/>
+               </answer>
+            </item>
+            <item>
+               <linkId value="icno"/>
+               <answer>
+                  <valueInteger value="1"/>
+               </answer>
+            </item>
+            <item>
+               <linkId value="product_organization"/>
+               <item>
+                  <linkId value="epd"/>
+                  <answer>
+                     <valueString value="EPIC, Chipsoft, Nexus, etc"/>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="producent"/>
+                  <answer>
+                     <valueString value="epic,  chipsoft, itemedical, philips, zelfbouw, etc"/>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="product"/>
+                  <answer>
+                     <valueString value="hix, mediscore, etc"/>
+                  </answer>
+               </item>
+               <item>
+                  <linkId value="versie"/>
+                  <answer>
+                     <valueString value="9.2"/>
+                  </answer>
+               </item>
+            </item>
+         </QuestionnaireResponse>
+      </resource>
+   </entry>
+</Bundle>
