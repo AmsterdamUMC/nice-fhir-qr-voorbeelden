@@ -1,3 +1,6 @@
+# mds-2026Q4
+• MDS: De velden “Bewezen infectie (confirm_infection)” en “Bewezen SARS-CoV2 (sars_cov2)” zullen komen te vervallen.
+
 # mds-2026Q3
 De eenheid van een aantal variabelen is aangepast naar de nationale standaard voor internationale eenheden (UCUM – Unified Code for Units of Measure), dit is met name van belang voor data aanlevering via FHIR. Het betreft de volgende variabelen:
 MDS: heartrate_max, heartrate_min, ht_max, ht_min, pao2_fio2, resprate_max, resprate_min
