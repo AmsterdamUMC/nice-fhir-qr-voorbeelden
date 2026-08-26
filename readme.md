@@ -6,7 +6,9 @@ Met het NICE FHIR QR verzamelt NICE haar data op basis van FHIR R4 met behulp va
 De NICE-FHIR documentatie kan hier worden gevonden:
 [https://edge.stichting-nice.nl/fhir-doc](https://edge.stichting-nice.nl/fhir-doc/voorbeelden/index.html)
 
-# Conditonal updates en Identifiers
+# Updaten van releases.
+Om te helpen met het updaten, zijn er in de folder `updaten` verschillende bestanden geplaatst met een diff. Hiermee 
+moet het duidelijker zijn welke veranderingen nodig zijn tussen releases.
 
 
 # Bundle-Profiles
