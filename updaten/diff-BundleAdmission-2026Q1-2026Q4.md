@@ -2,18 +2,18 @@
  <Bundle xmlns="http://hl7.org/fhir">
     <meta>
 -      <profile value="https://fhir.stichting-nice.nl/R4/StructureDefinition/BundleAdmission-2026Q1"/>
-+      <profile value="https://fhir.stichting-nice.nl/R4/StructureDefinition/BundleAdmission-2026Q3"/>
++      <profile value="https://fhir.stichting-nice.nl/R4/StructureDefinition/BundleAdmission-2026Q4"/>
     </meta>
     <identifier>
        <system value="https://fhir.stichting-nice.nl/R4/identifier/88/1/admission"/>
        <value value="24221"/>
     </identifier>
     <type value="collection"/>
--   <timestamp value="2026-08-26T10:28:51.837+02:00"/>
-+   <timestamp value="2026-08-26T10:28:52.022+02:00"/>
+-   <timestamp value="2026-08-26T10:44:02.873+02:00"/>
++   <timestamp value="2026-08-26T10:44:02.958+02:00"/>
     <entry>
--      <fullUrl value="urn:uuid:a906e997-6fb0-44c4-95db-11100776020e"/>
-+      <fullUrl value="urn:uuid:daba12e3-94fb-47e8-bad3-d609bad4664b"/>
+-      <fullUrl value="urn:uuid:ba4fc54e-cb3f-4c2e-a228-d5f5dc3b0083"/>
++      <fullUrl value="urn:uuid:c546141a-6409-4a49-bbaf-4a8102ab4a0a"/>
        <resource>
           <QuestionnaireResponse xmlns="http://hl7.org/fhir">
              <text>
@@ -21,7 +21,7 @@
                 <div xmlns="http://www.w3.org/1999/xhtml">QR ten behoeve van de NICE</div>
              </text>
 -            <questionnaire value="https://fhir.stichting-nice.nl/R4/Questionnaire/mds-2025Q3"/>
-+            <questionnaire value="https://fhir.stichting-nice.nl/R4/Questionnaire/mds-2026Q3"/>
++            <questionnaire value="https://fhir.stichting-nice.nl/R4/Questionnaire/mds-2026Q4"/>
              <status value="completed"/>
              <item>
                 <linkId value="admno"/>
@@ -200,12 +200,12 @@
                    </answer>
                 </item>
                 <item>
-                   <linkId value="confirm_infection"/>
-                   <answer>
-                      <valueBoolean value="true"/>
-                   </answer>
-                </item>
-                <item>
+-                  <linkId value="confirm_infection"/>
+-                  <answer>
+-                     <valueBoolean value="true"/>
+-                  </answer>
+-               </item>
+-               <item>
                    <linkId value="copd"/>
                    <answer>
                       <valueBoolean value="false"/>
@@ -654,12 +654,12 @@
                    </answer>
                 </item>
                 <item>
-                   <linkId value="sars_cov2"/>
-                   <answer>
-                      <valueBoolean value="false"/>
-                   </answer>
-                </item>
-                <item>
+-                  <linkId value="sars_cov2"/>
+-                  <answer>
+-                     <valueBoolean value="false"/>
+-                  </answer>
+-               </item>
+-               <item>
                    <linkId value="sodium_max"/>
                    <answer>
                       <valueQuantity>
@@ -805,8 +805,8 @@
        </resource>
     </entry>
     <entry>
--      <fullUrl value="urn:uuid:b54a02dd-24f1-4320-b16e-83cab03a67e5"/>
-+      <fullUrl value="urn:uuid:57fc6826-8a46-4c1b-b240-822f5598c922"/>
+-      <fullUrl value="urn:uuid:dcde8e0e-23c7-4e15-aa76-3cdf8a2c1061"/>
++      <fullUrl value="urn:uuid:803ea994-5a54-42f2-a4ce-dfd5e3933270"/>
        <resource>
           <QuestionnaireResponse xmlns="http://hl7.org/fhir">
              <text>
@@ -1651,8 +1651,8 @@
        </resource>
     </entry>
     <entry>
--      <fullUrl value="urn:uuid:5810a34a-4f2f-4097-8fdd-c249419b8a72"/>
-+      <fullUrl value="urn:uuid:f0ffb912-de31-4865-abb3-67eae1392bad"/>
+-      <fullUrl value="urn:uuid:c949ac90-2a42-4731-b837-5c2a9e7cb015"/>
++      <fullUrl value="urn:uuid:33a18b76-031f-4fe5-848b-c5b27fc2a2cb"/>
        <resource>
           <QuestionnaireResponse xmlns="http://hl7.org/fhir">
              <text>
@@ -1708,8 +1708,8 @@
        </resource>
     </entry>
     <entry>
--      <fullUrl value="urn:uuid:a3b936eb-f397-4623-b047-f89cc2eaf3ba"/>
-+      <fullUrl value="urn:uuid:c333cb96-4b0a-45ec-98d4-f51e926471e6"/>
+-      <fullUrl value="urn:uuid:fb73a771-d08f-4f09-857b-13a822ddea5b"/>
++      <fullUrl value="urn:uuid:c8efda51-17bd-4890-83ba-05fc80173dfb"/>
        <resource>
           <QuestionnaireResponse xmlns="http://hl7.org/fhir">
              <text>
@@ -2265,8 +2265,8 @@
        </resource>
     </entry>
     <entry>
--      <fullUrl value="urn:uuid:576d6e4b-14b1-401c-aa54-01b501263209"/>
-+      <fullUrl value="urn:uuid:e7b76cce-1464-4efa-8895-89e8f3ca451a"/>
+-      <fullUrl value="urn:uuid:bd42c2ae-ae3c-4014-b669-5a4fc210eb25"/>
++      <fullUrl value="urn:uuid:b094b404-5eee-43e4-96e1-1347c9f9960e"/>
        <resource>
           <QuestionnaireResponse xmlns="http://hl7.org/fhir">
              <text>
@@ -3372,8 +3372,8 @@
        </resource>
     </entry>
     <entry>
--      <fullUrl value="urn:uuid:1a75f9d0-537c-449c-bf72-29378ce3a384"/>
-+      <fullUrl value="urn:uuid:7bb806de-bf15-4191-a056-00178da4d293"/>
+-      <fullUrl value="urn:uuid:95064c90-76de-4808-9b3e-6b13f7711d8a"/>
++      <fullUrl value="urn:uuid:b86167f0-06a7-462d-bb22-fc2e126603a1"/>
        <resource>
           <QuestionnaireResponse xmlns="http://hl7.org/fhir">
              <text>
@@ -4514,8 +4514,8 @@
        </resource>
     </entry>
     <entry>
--      <fullUrl value="urn:uuid:fdc13666-e4c7-49f7-acd8-8d19d47a8e0c"/>
-+      <fullUrl value="urn:uuid:5d9def3e-9462-42b4-9e6c-fd010b943908"/>
+-      <fullUrl value="urn:uuid:28e28ad8-6e00-42fa-a27c-a55d89e42736"/>
++      <fullUrl value="urn:uuid:e5a2a5c6-2216-406a-95b7-29544673b13f"/>
        <resource>
           <QuestionnaireResponse xmlns="http://hl7.org/fhir">
              <text>
